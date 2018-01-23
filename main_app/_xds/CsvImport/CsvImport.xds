@@ -1,0 +1,49 @@
+{
+    "name": "CsvImport",
+    "settings": {
+        "cmd": {
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
+        },
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "http://localhost/CsvUpload/",
+        "exportPath": "./../../",
+        "buildShouldOverwriteIndex": false,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "projectHasEnabledWebServer": true,
+        "lockUrlPrefix": true,
+        "generateArchitectVersion": false,
+        "installStatus": "Not Installed",
+        "displayfield-ExtBox1-1118-inputEl": "a new version of the framework is available"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1851,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "181c32a0-6a11-44ee-9670-63cb6143414b"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "4f05bed1-651f-4435-b791-550d2da1e3f1"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

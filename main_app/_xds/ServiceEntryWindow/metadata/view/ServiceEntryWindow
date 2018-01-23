@@ -1,0 +1,575 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "componentCls": "window-maximize",
+        "container|align": "stretch",
+        "designer|initialView": true,
+        "designer|userAlias": "serviceEntryWindow",
+        "designer|userClassName": "ServiceEntryWindow",
+        "height": null,
+        "iconCls": "yig-supply-entry-s-w",
+        "id": null,
+        "itemId": null,
+        "layout": "vbox",
+        "padding": null,
+        "title": "Service Entry Window",
+        "width": null
+    },
+    "designerId": "ad338149-0633-4619-b575-ca15d1172092",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "componentCls": "btn-container",
+                "container|align": "stretch",
+                "itemId": "actionBtnContainer",
+                "layout": "hbox",
+                "layout|flex": null,
+                "padding": 5
+            },
+            "name": "MyContainer",
+            "designerId": "5ba97ccb-cd5d-4e6c-a887-bd1e59e40bac",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": true,
+                        "itemId": "topMainCnt",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "c03fb6b9-f4ad-497e-8382-771dc2e67fb6"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": null,
+                        "designer|uiInterfaceName": "newbtn-ui-small",
+                        "hidden": true,
+                        "iconCls": "yig-comment-s-w",
+                        "itemId": "btnAddComment",
+                        "layout|flex": null,
+                        "margin": "5 5 0 5",
+                        "text": "Comment",
+                        "textAlign": "left",
+                        "ui": "newbtn-ui",
+                        "width": null
+                    },
+                    "name": "MyButton8",
+                    "designerId": "9ab6bb39-3b86-4ad8-b138-d908fc7acf84"
+                },
+                {
+                    "type": "Ext.Component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "latest-comment-cmp",
+                        "itemId": "latestCommentCmp",
+                        "layout|flex": 1,
+                        "margin": "5 5 0 5"
+                    },
+                    "name": "MyComponent2",
+                    "designerId": "66377b46-9d61-4fa3-b277-e701f64da855"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "itemId": "respMsgCnt",
+                        "layout": "vbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer2",
+                    "designerId": "209ccbb6-a9a7-47a7-9289-03821e850ba3",
+                    "cn": [
+                        {
+                            "type": "Ext.Component",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "msgCmp",
+                                "layout|flex": 1
+                            },
+                            "name": "MyComponent",
+                            "designerId": "44619cde-d98a-48ab-bdba-43be088ad35b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Checkbox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "boxLabel": "Auto Save",
+                        "componentCls": "autoSaveCmpCls",
+                        "fieldLabel": null,
+                        "hidden": true,
+                        "inputValue": "1",
+                        "itemId": "autoSaveChkbox",
+                        "layout|flex": null,
+                        "layout|margins": null,
+                        "margin": "5 5 0 0 ",
+                        "uncheckedValue": "0"
+                    },
+                    "name": "MyCheckbox",
+                    "designerId": "911711b4-5342-41e6-a020-2987f07a1fa0"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": null,
+                        "designer|uiInterfaceName": "newbtn-ui-small",
+                        "hidden": true,
+                        "iconCls": "yig-add-s-w",
+                        "itemId": "btnNew",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "New",
+                        "textAlign": "left",
+                        "ui": "newbtn-ui",
+                        "width": null
+                    },
+                    "name": "MyButton",
+                    "designerId": "d8ab32d3-349d-4b34-8f51-edd2d1a6627a"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "savebtn-ui-small",
+                        "iconCls": "yig-save-s-w",
+                        "itemId": "btnSave",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "Save",
+                        "textAlign": "left",
+                        "ui": "savebtn-ui",
+                        "width": null
+                    },
+                    "name": "MyButton1",
+                    "designerId": "aa24277d-a843-4767-a079-22dbf235ae12"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "semi-action-small-small",
+                        "iconCls": "yig-add-s-w",
+                        "itemId": "btnNewOrderEntry",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "New Order Entry",
+                        "textAlign": "left",
+                        "ui": "semi-action-small",
+                        "width": null
+                    },
+                    "name": "MyButton10",
+                    "designerId": "6ff4b6a1-9fdd-4a17-b1f0-ae03b64a4a82"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "semi-action-small-small",
+                        "hidden": true,
+                        "iconCls": "yig-clone-s-w",
+                        "itemId": "btnClone",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "Clone",
+                        "textAlign": "left",
+                        "ui": "semi-action-small",
+                        "width": null
+                    },
+                    "name": "MyButton4",
+                    "designerId": "3f4664ea-2d3d-498e-a648-d490255eb4f2"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "semi-action-small-small",
+                        "hidden": true,
+                        "iconCls": "yig-bill-s-w",
+                        "itemId": "btnConvertToOrder",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "Create Order",
+                        "textAlign": "left",
+                        "ui": "semi-action-small",
+                        "width": null
+                    },
+                    "name": "MyButton9",
+                    "designerId": "934b683a-5d59-4890-a202-e9b1eb1cf016"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "semi-action-small-small",
+                        "hidden": true,
+                        "iconCls": "yig-ordernew-s-w",
+                        "itemId": "btnCreateBill",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "Creeate Bill",
+                        "textAlign": "left",
+                        "ui": "semi-action-small",
+                        "width": null
+                    },
+                    "name": "MyButton5",
+                    "designerId": "ae2fa7f3-be10-42b9-9529-167a2ec00355"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "semi-action-small-small",
+                        "hidden": true,
+                        "iconCls": "yig-mail-s-w",
+                        "itemId": "btnSendMail",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "Send Mail",
+                        "textAlign": "left",
+                        "ui": "semi-action-small",
+                        "width": null
+                    },
+                    "name": "MyButton6",
+                    "designerId": "cc686d15-e4f7-4d39-9654-a78e95f74c13"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "semi-action-small-small",
+                        "hidden": true,
+                        "iconCls": "yig-print-ico",
+                        "itemId": "btnPrint",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "Print",
+                        "textAlign": "left",
+                        "ui": "semi-action-small",
+                        "width": null
+                    },
+                    "name": "MyButton7",
+                    "designerId": "67b47871-d770-4064-abd9-64d7ad14d813",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Menu",
+                            "reference": {
+                                "name": "menu",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 120
+                            },
+                            "name": "MyMenu",
+                            "designerId": "6936de0c-8c93-4973-aca9-957038a3d715",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "hidden": true,
+                                        "itemId": "menuItemPrintJson",
+                                        "text": "order print json"
+                                    },
+                                    "name": "MyMenuItem",
+                                    "designerId": "e142ae89-5e05-4cc0-95d9-4dae3e58474d"
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "hidden": true,
+                                        "itemId": "menuItemPrintCsv",
+                                        "text": "client print csv"
+                                    },
+                                    "name": "MyMenuItem1",
+                                    "designerId": "611211b1-274a-474f-8e91-1b61b5907c28"
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "hidden": true,
+                                        "itemId": "menuItemOrderPrint",
+                                        "text": "client print csv"
+                                    },
+                                    "name": "MyMenuItem2",
+                                    "designerId": "10401fd6-82a5-4615-acda-d2ce38ef9142"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "delbtn-ui-small",
+                        "hidden": true,
+                        "iconCls": "yig-cancel-s-w",
+                        "itemId": "btnDelete",
+                        "layout|flex": null,
+                        "margin": "5 5 0 0",
+                        "text": "Delete",
+                        "textAlign": "left",
+                        "ui": "delbtn-ui",
+                        "width": null
+                    },
+                    "name": "MyButton3",
+                    "designerId": "58e9a986-8e1f-49a0-88fb-5cb9984f41ef"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "btnproduct",
+                        "designer|uiInterfaceName": "custom-ui-small",
+                        "iconCls": "yig-cancel-s-w",
+                        "itemId": "btnCancel",
+                        "layout|flex": null,
+                        "margin": "5 0 0 0",
+                        "text": "Cancel",
+                        "textAlign": "left",
+                        "ui": "custom-ui",
+                        "width": null
+                    },
+                    "name": "MyButton2",
+                    "designerId": "7e8ad76a-1a44-4dba-bb6b-5c79b94a245c"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "height": null,
+                "itemId": "entryFormContainer",
+                "layout": "hbox",
+                "layout|flex": 1
+            },
+            "name": "MyContainer1",
+            "designerId": "beecf68f-d6f0-4970-b760-2782d107f2f8",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "autoScroll": true,
+                        "bodyPadding": 10,
+                        "container|align": "stretch",
+                        "itemId": "entryFormPanel",
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "title": null
+                    },
+                    "name": "MyForm",
+                    "designerId": "52330b7a-907f-4aee-9a7c-54736a191950",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Hidden",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "itemId": "id",
+                                "layout|flex": null,
+                                "name": "id"
+                            },
+                            "name": "MyHiddenField",
+                            "designerId": "56011948-ba32-425c-8c91-9725af579b99"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "itemId": "top_screen_container",
+                                "layout": "vbox",
+                                "layout|flex": null,
+                                "minHeight": null
+                            },
+                            "name": "MyContainer7",
+                            "designerId": "86f1bf97-ced1-43f5-a52b-9649468420df"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": null,
+                                "height": null,
+                                "hidden": true,
+                                "itemId": "tabContainer",
+                                "layout": "fit",
+                                "layout|flex": null
+                            },
+                            "name": "MyContainer6",
+                            "designerId": "5287de7a-6b01-462a-b29d-95417b516c43"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "hidden": true,
+                                "itemId": "bottom_screen_container",
+                                "layout": "vbox",
+                                "layout|flex": null,
+                                "minHeight": null
+                            },
+                            "name": "MyContainer3",
+                            "designerId": "cf121e50-ac57-47db-b756-210b016a4d55"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": "resize-icon",
+                "itemId": "resizeTool",
+                "margin": "0 4 0 0",
+                "type": "maximize"
+            },
+            "name": "MyTool",
+            "designerId": "06a67ba2-7a25-497c-9c2e-f45d087d60e2",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "margin",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "designer|userClassName": "PanelNameStore",
+        "model": "PanelNameModel",
+        "storeId": "PanelNameStore"
+    },
+    "designerId": "10ee54a4-f261-4760-ac36-7c9232d5ba2e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "bizlayer/datagridTemplate/getPanelForCombo"
+            },
+            "name": "MyAjaxProxy2",
+            "designerId": "38cb828f-5c4a-431f-bae5-bfcfcdd40c17",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader2",
+                    "designerId": "88acf3a2-1ed3-4db9-9fa7-94f7258342a7"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,405 @@
+{
+    "type": "Ext.container.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": null,
+        "container|align": "stretch",
+        "container|padding": null,
+        "designer|uiInterfaceName": "addredui",
+        "designer|userAlias": "msgTabCnt",
+        "designer|userClassName": "MsgTabCnt",
+        "id": null,
+        "itemId": "MsgTabCnt",
+        "layout": "vbox",
+        "padding": null,
+        "ui": "addredui"
+    },
+    "designerId": "57e108b4-f072-410d-b782-420276272628",
+    "cn": [
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "activeTab": 0,
+                "collapseDirection": null,
+                "collapseFirst": false,
+                "collapsed": false,
+                "collapsedCls": null,
+                "componentCls": null,
+                "iconCls": null,
+                "itemId": "msgTabPanel",
+                "layout|flex": 1,
+                "tabBar": [
+                    "{",
+                    "    items:[",
+                    "    {",
+                    "        xtype: 'tbspacer',",
+                    "        flex: 1",
+                    "    },",
+                    "",
+                    "    {",
+                    "        xtype: 'component',",
+                    "        itemId: 'commentCollapseCmp',",
+                    "        height: 30,",
+                    "        width: 30,",
+                    "        componentCls: 'comment-collapse-cmp',",
+                    "        html: '<span class=\"x-tab-newTab-open-btn\"></span><span class=\"collapse-left\"></span>'",
+                    "   }]",
+                    "}"
+                ],
+                "width": null
+            },
+            "name": "MyTabPanel",
+            "configAlternates": {
+                "tabBar": "object"
+            },
+            "designerId": "12d95c09-6889-49d8-b367-811006855b38",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "tabBar",
+                    "type": "string"
+                }
+            ],
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "collapseFirst": false,
+                        "container|align": "stretch",
+                        "itemId": "commentTab",
+                        "layout": "vbox",
+                        "title": "Comment"
+                    },
+                    "name": "MyPanel2",
+                    "designerId": "f13d562c-fa4d-4047-8194-23ffa3bf1ca7",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "commentTabCnt",
+                                "layout": "fit",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer7",
+                            "designerId": "a7ba88e3-cbaf-4b3f-a4f4-5b53e35c3f1e"
+                        },
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "componentCls": "no-collapse",
+                                "itemId": "commentTabConfig"
+                            },
+                            "name": "TabConfig",
+                            "designerId": "c5c05e7e-5b02-4ff7-a15c-6012d5c1e301"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "collapseFirst": false,
+                        "container|align": "stretch",
+                        "itemId": "horensoTab",
+                        "layout": "vbox",
+                        "title": "Horenso"
+                    },
+                    "name": "MyPanel3",
+                    "designerId": "941efd5b-b456-4db5-af14-da1f42692cc9",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "height": 40,
+                                "itemId": "horensoTabTopCnt",
+                                "layout": "hbox",
+                                "layout|flex": null
+                            },
+                            "name": "MyContainer13",
+                            "designerId": "99988816-a694-4176-8fbb-03d91a026da4",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "union",
+                                        "fieldLabel": "",
+                                        "itemId": "msgUnionCheckbox",
+                                        "layout|flex": null,
+                                        "margin": "2 5 2 5"
+                                    },
+                                    "name": "MyCheckbox1",
+                                    "designerId": "3f9d443f-598f-4d8f-b789-0a6d6849705a"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "horensoTabCnt",
+                                "layout": "fit",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer10",
+                            "designerId": "4dfe2eb7-34c8-4236-8b06-39d0def3e3e9"
+                        },
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "componentCls": "no-collapse",
+                                "itemId": "horensoTabConfig"
+                            },
+                            "name": "TabConfig1",
+                            "designerId": "4209d423-c378-45b9-a4a9-f9e597020aaf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.resizer.Splitter",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MySplitter2",
+            "designerId": "dcb97f2b-41d7-43fd-9853-7c785fdb3e48"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "animCollapse": false,
+                "collapseDirection": "bottom",
+                "collapseFirst": false,
+                "collapsed": false,
+                "collapsedCls": "collapsed collapsed_cls",
+                "collapsible": true,
+                "componentCls": null,
+                "container|align": "stretch",
+                "height": 140,
+                "itemId": "bottomMsgPanel",
+                "layout": "vbox",
+                "layout|flex": null,
+                "title": "",
+                "titleCollapse": true
+            },
+            "name": "MyPanel5",
+            "configAlternates": {
+                "tabBar": "object"
+            },
+            "designerId": "be748f18-173a-4e40-8262-8c7a291969c8",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "height": 30,
+                        "itemId": "bottomMsgCnt",
+                        "layout": "hbox"
+                    },
+                    "name": "MyContainer9",
+                    "designerId": "a77bd2d3-0f45-430a-b7f7-46acfb8fec6c",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": null,
+                                "displayField": "code",
+                                "editable": false,
+                                "fieldLabel": "",
+                                "itemId": "optMsgCombo",
+                                "layout|flex": null,
+                                "margin": "2 2 2 5",
+                                "queryMode": "local",
+                                "valueField": "code",
+                                "width": 80
+                            },
+                            "name": "MyComboBox",
+                            "designerId": "4e7d7305-02ac-413f-b860-87a3d7e8cee5"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "statusComboCnt",
+                                "layout": "fit",
+                                "layout|flex": null,
+                                "margin": "0 2 0 2"
+                            },
+                            "name": "MyContainer12",
+                            "designerId": "1ff0b2f6-e7ab-40b4-a3a7-8fb1bff148d2"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "doubleRecord",
+                                "fieldLabel": "",
+                                "hidden": true,
+                                "itemId": "dblRecCheckbox",
+                                "layout|flex": null,
+                                "margin": "0 0 0 2"
+                            },
+                            "name": "MyCheckbox",
+                            "designerId": "a47cf6ef-7107-4282-9ee0-8ce2a1d75a27"
+                        },
+                        {
+                            "type": "Ext.toolbar.Spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1
+                            },
+                            "name": "MySpacer",
+                            "designerId": "8a8b874b-96cc-4625-b48d-125d39c1418b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "height": 60,
+                        "itemId": "msgTabFormPanel",
+                        "layout": "fit",
+                        "layout|flex": 1,
+                        "margin": null,
+                        "title": ""
+                    },
+                    "name": "MyForm",
+                    "designerId": "db8a4fed-44a5-49ab-917c-57745023461f",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Hidden",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "itemId": "ref_record_id",
+                                "name": "ref_record_id"
+                            },
+                            "name": "MyHiddenField",
+                            "designerId": "3dcf1282-0b91-4124-91b7-73f33ee1d195"
+                        },
+                        {
+                            "type": "Ext.form.field.Hidden",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "itemId": "table_id",
+                                "name": "table_id"
+                            },
+                            "name": "MyHiddenField1",
+                            "designerId": "66e77414-b533-4323-b6b9-1e960cdae6f5"
+                        },
+                        {
+                            "type": "Ext.form.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "enableKeyEvents": true,
+                                "enterIsSpecial": true,
+                                "fieldLabel": "",
+                                "id": null,
+                                "itemId": "msgTextarea",
+                                "name": "comment"
+                            },
+                            "name": "MyTextArea",
+                            "designerId": "1070929e-913e-40ec-9110-415873646298"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userAlias": "dashBoardEditWindow",
+        "designer|userClassName": "DashBoardEditWindow",
+        "frame": true,
+        "height": 578,
+        "html": null,
+        "itemId": "DashBoardEditWindow",
+        "layout": "vbox",
+        "modal": true,
+        "title": null,
+        "width": 400
+    },
+    "designerId": "b8d6a596-11df-4498-bb15-23c19b3eba29",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "container|align": "stretch",
+                "itemId": "DashBoardEditForm",
+                "layout": "vbox",
+                "layout|flex": 1,
+                "title": null
+            },
+            "name": "MyForm1",
+            "designerId": "b3b8d3af-5403-47b7-825f-9a821882da47",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "minHeight": 240
+                    },
+                    "name": "MyContainer8",
+                    "designerId": "b0892bfb-0a6a-407d-9458-ec2130a02c2e",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.HtmlEditor",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "enableAlignments": false,
+                                "enableColors": false,
+                                "fieldLabel": null,
+                                "frame": null,
+                                "height": null,
+                                "layout|flex": 1,
+                                "name": "message"
+                            },
+                            "name": "MyHtmlEditor",
+                            "designerId": "b4208c7c-666c-4c17-8148-706a1a025987"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "container|pack": "center",
+                        "layout": "hbox",
+                        "margin": "5 0 0 0"
+                    },
+                    "name": "MyContainer9",
+                    "designerId": "3768aded-e0cd-4301-a1ca-84254c0331e5",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "componentCls": "btnproduct",
+                                "designer|uiInterfaceName": "savebtn-ui-small",
+                                "icon": null,
+                                "iconCls": "yig-save-s-w",
+                                "id": "btnDBSave",
+                                "itemId": "btnDBEditSave",
+                                "text": "Save",
+                                "ui": "savebtn-ui"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "3907396a-7ea1-476d-9ecb-edc074363a74"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "custom-ui-small",
+                                "icon": null,
+                                "iconCls": "yig-cancel-s-w",
+                                "id": "btnDBCancel",
+                                "itemId": "btnDBCancel",
+                                "layout|flex": null,
+                                "margin": "0 0 0 10",
+                                "text": "Cancel",
+                                "ui": "custom-ui"
+                            },
+                            "name": "MyButton4",
+                            "designerId": "978775d0-2fde-4430-8bb3-bd49556be305"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-plus{
+	background: url($image_path+'tree/elbow-minus.gif'+$cache_svn) no-repeat;
+}
+.x-tree-lines .x-tree-elbow-plus {
+background-image: url($image_path+'tree/elbow-plus.gif'+$cache_svn) ;
+}
+
+.x-tree-lines .x-tree-elbow {
+background-image: url($image_path+'tree/elbow.gif'+$cache_svn); 
+}
+
+.x-grid-tree-node-expanded .x-tree-icon-parent {
+background-image: url($image_path+'tree/folder-open.gif'+$cache_svn) ;
+}
+.x-tree-icon-leaf {
+background-image: url($image_path+'tree/leaf.gif'+$cache_svn);
+}
+
+.x-tree-lines .x-tree-elbow-line {
+background-image: url($image_path+'tree/elbow-line.gif'+$cache_svn);
+}
+
+.x-tree-lines .x-tree-elbow-end {
+background-image: url($image_path+'tree/elbow-end.gif'+$cache_svn);
+}
+
+.x-tree-icon-parent {
+background-image: url($image_path+'tree/folder.gif'+$cache_svn);
+}
+
+.station-tree-win .folder .x-tree-checkbox {
+display:none!important;
+}

@@ -1,0 +1,19 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "name": "YBase",
+        "views": [
+            "CsvImportWindow",
+            "EcSiteExportPanel",
+            "ImportExportCsvWindow",
+            "AddCsvWindow"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

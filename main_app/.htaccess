@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine on
+RewriteRule ^popupWindow(.*)$ bizlayer/index_popupSelection.php
+RewriteRule ^comment(.*)$ bizlayer/index_popupSelection.php
+RewriteRule ^index\.php$ bizlayer/index [PT]
+RewriteRule ^mailSystem(.*)$ bizlayer/index_mailSystem.php
+
+RewriteRule ^mailSystem(.*)$ bizlayer/index_mailSystem.php

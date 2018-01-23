@@ -1,0 +1,133 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "addCsvWindow",
+        "designer|userClassName": "AddCsvWindow",
+        "height": 440,
+        "itemId": "AddCsvWindow",
+        "layout": "fit",
+        "modal": true,
+        "resizable": false,
+        "title": "AddCsvWindow",
+        "width": 400,
+        "x": null,
+        "y": null
+    },
+    "name": "ImportExportCsvWindow1",
+    "configAlternates": {
+        "resizable": "boolean"
+    },
+    "designerId": "1b1fae6a-33ca-479c-991c-e0e241696a7e",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "itemId": "",
+                "layout": "vbox"
+            },
+            "name": "MyContainer5",
+            "designerId": "ca0b220d-579a-4354-a2bb-a8bac13d659e",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": null,
+                        "layout": "fit",
+                        "layout|flex": 1,
+                        "layout|margins": null
+                    },
+                    "name": "MyContainer6",
+                    "designerId": "7cbfeaf8-205a-4c8a-b190-74e027b14d2a",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "",
+                                "itemId": "csvFieldTextArea",
+                                "margin": "10 5 0 5"
+                            },
+                            "name": "MyTextArea",
+                            "designerId": "65daec30-6526-40ad-a84c-dec11226eae0"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "center",
+                        "height": 50,
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "layout|margins": null
+                    },
+                    "name": "MyContainer7",
+                    "designerId": "434f3f72-3f97-42ea-85bf-484c8d1c7df7",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "icon": null,
+                                "iconCls": "yig-save-s-w",
+                                "itemId": "btnSave",
+                                "layout|margins": "5 5 0 0",
+                                "padding": null,
+                                "text": "Save"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "8b36ca53-2ced-46d0-b51f-e9ead7cb08bc"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "icon": "",
+                                "iconCls": "yig-cancel-s-w",
+                                "itemId": "btnCancel",
+                                "layout|margins": "5 0 0 5",
+                                "text": "Cancel"
+                            },
+                            "name": "MyButton4",
+                            "designerId": "f0c807c8-a95e-4965-93ed-d58cdf76ad40"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,577 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.login {
+    background: #fff;
+}
+.hideme {
+    display: none;
+}
+h1 {
+    font-size: 24px;
+}
+ .loginboxinner {
+    position: relative;
+    float: left;
+    /*width: 284px;*/
+    width: 680px;
+    font: normal 13px/17px ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+}
+.left_yofile {
+    float:left;
+    line-height: 50px;
+    margin-left : 10px;
+    color: #fff;
+}
+.left_yofile a {
+    color : #fff;
+}
+.ryt_yonefu {
+    float:right;
+    line-height: 50px;
+    margin-right : 10px;
+    color: #fff;
+}
+.ryt_yonefu a {
+    color: #fff;
+    font-family: : ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+}
+/*
+body:before {
+    background: #727272;
+    content:"";
+    height: 50px;
+    width: 100%;
+    min-width: 960px;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+}
+*/
+.loginheader {
+    height: 40px;
+}
+.loginbox h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #555;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.logo img {
+    height:60px;
+    width:60px;
+}
+ .loginbox input.inputbox {
+    border: 0;
+    padding: 8px 10px 8px 45px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 100%;
+    /*width: 85%;*/
+    border:1px solid #a7aab4;
+    box-sizing: border-box;
+    /*border-radius: 15px;*/
+}
+.loginbox .client_login {
+    background: #669933;
+    padding: 5px;
+    font-size: 12px;
+    border: 0;
+    color: #333;
+    width: 75px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.loginbox .client_login span {
+    float: left;
+    color: #fff;
+}
+.loginbox .client_login span.login-icon {
+    background: url(../../../images/login.png) no-repeat;
+    float: left;
+    margin-right: 5px;
+    text-indent: -99999px;
+    width: 16px;
+    height: 16px;
+}
+.loginerror {
+    color: #990000;
+    background: #fbe3e3;
+    padding: 0 10px;
+    overflow: hidden;
+    display: none;
+}
+.loginerror {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.loginerror p {
+    margin: 10px 0;
+}
+.login-container {
+    float: left;
+    width: 284px;
+    background: url(../../../images/oms_logo.png) no-repeat;
+    height: 81px;
+}
+.ui-tooltip {
+    padding: 5px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px;
+    border-radius: 3px;
+}
+.title-cls {
+    font-size: 14px;
+    color: #DB161A;
+    text-align: center;
+    margin-top: 10px;
+}
+.login_button .client_login {
+    margin-top: 20px;
+}
+.confirmon-content {
+    background: #fff;
+    padding: 10px
+}
+.message-icons {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background: url(../../../images/icon-error.png) no-repeat;
+    margin: 10px 0 5px 0px;
+}
+.message {
+    font-size: 13px;
+    width: auto;
+    margin: 10px 15px;
+    float: left;
+}
+@media screen and (max-width: 430px) {
+    body {
+        font-size: 11px;
+    }
+    button, input, select, textarea {
+        font-size: 11px;
+    }
+    .loginbox {
+        width: auto;
+        margin: 10px;
+    }
+    .loginbox input {
+        width: 95%;
+    }
+    .loginbox button {
+        width: 100%;
+    }
+}
+.redbg {
+    border: 1px solid red !important;
+}
+.custom_dialog .ui-dialog-title {
+    _width: 100%;
+    _background: #669933;
+    _padding:5px;
+    _margin: -1px 0 0 -1px;
+}
+.custom_dialog .ui-dialog-titlebar {
+    _padding: 0;
+}
+.custom_dialog .ui-dialog-buttonset {
+    _margin: 0px 0 0 50px!important;
+}
+.custom_dialog .ui-button-text {
+    *text-indent: 0;
+}
+.custom_dialog .ui-button-icon-primary {
+    *margin-left: -2px;
+}
+#loadingScreen {
+    /*background: url(../images/loading.gif) no-repeat 5px 8px;*/
+    padding: 1.3em 1.3em !important;
+}
+.noclose .ui-dialog-titlebar-close, .noclose .ui-dialog-titlebar {
+    display:none;
+}
+.noclose .ui-dialog-titlebar {
+    padding:0;
+}
+/*css for relogin page*/
+ .relogin {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.relogin-heading {
+    padding: 65px 10px;
+    color: #6A9A39;
+}
+.close-window {
+    float: right;
+    width: 43%;
+    text-align: center;
+    cursor: pointer;
+}
+.relogin a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px 5px 35px;
+    background: #6A9A39 url(../../../images/icons/relogin.png) no-repeat 12px 6px;
+}
+.close-window span {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 32px;
+    border:1px solid #6A9A39;
+    background:url(../../../images/icons/login-close.png) no-repeat 10px 7px;
+}
+h1 {
+    font-size: 24px;
+}
+ .top-header {
+    height: 410px;
+    background: rgb(53, 151, 211);
+}
+.company_logo_container {
+   width: 310px;
+   float: left;
+   position: relative;
+   text-align: right;
+   margin: 14px 10px;
+}
+.company_logo_container img {
+    width: 100%;
+}
+.adernas_logo {
+    width: 190px;
+    float: left;
+    margin: 14px 15px 0 40px;
+}
+.and_icon {
+    width: 40px;
+    float: left;
+    margin: 4px 10px 0 0;
+}
+.fortune_wigs_logo {
+    width: 45px;
+    float: left;
+    margin-top: 5px;
+}
+p.login-input {
+    position:relative;
+    display: inline-block;
+    margin: 10px 0;
+    width: 100%;
+}
+.loginboxinner {
+    position: relative;
+    float: left;
+    width: 700px;
+    border-radius:7px;
+    font: normal 13px/17px ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+}
+.loginheader {
+    height: 40px;
+}
+.loginform {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px #a7a7a7;
+}
+.client_login {
+    width: 85px;
+}
+.loginbox h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #555;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.logo img {
+    height:60px;
+    width:60px;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+.loginbox .client_login {
+    font-family: ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    background: #233040;
+    /*border: 1px solid #4e6d94;*/
+    text-align: center;
+    padding: 8px;
+    width: 90px;
+    float: right;
+}
+.loginbox .client_login:hover {
+    background: #7f8081;
+    /*border: 1px solid #7f8081;*/
+}
+.rememberMelbl {
+    color: #349800;
+}
+.loginbox .client_login span {
+    float: none;
+    color: #fff;
+    text-align: center;
+}
+.loginbox .client_login span.login-icon {
+    background: url(../../../images/login.png<?php echo $cache_svn?>) no-repeat;
+    float: left;
+    margin-right: 5px;
+    text-indent: -99999px;
+    width: 16px;
+    height: 16px;
+}
+.loginerror {
+    color: #990000;
+    background: #fbe3e3;
+    padding: 0 10px;
+    overflow: hidden;
+    display: none;
+}
+.loginerror {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.loginerror p {
+    margin: 10px 0;
+}
+.login-form-container {
+    width: 680px;
+    float: left;
+    padding: 10px;
+}
+.login-container {
+    float: left;
+    width: 210px;
+    background: url(../../../images/LoginLOGO.png<?php echo $cache_svn?>) no-repeat;
+    height: 220px;
+}
+.ui-tooltip {
+    padding: 5px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px;
+    border-radius: 3px;
+}
+.title-cls {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}
+.ui-widget-content {
+    border:0 !important;
+}
+.ui-front {
+    border: 6px solid #8c8c8c !important;
+    background: #f5f5f5 !important;
+    color: #222222 !important;
+    padding: 0px !important;
+    border-radius:4px !important;
+}
+.ui-widget-header {
+    background: #8c8c8c !important;
+    border:0px !important;
+}
+.ui-button {
+    background: #8c8c8c !important;
+}
+.dialog-message {
+    /*margin-left: 25px;*/
+}
+.dialog-message, .ui-dialog-buttonpane {
+    border:0px !important;
+}
+.ui-widget-overlay {
+    border:none !important;
+}
+.redbg {
+    border: 2px solid #E70E0E!important;
+}
+.message-icons {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background: url(../../../images/icon-error.png<?php echo $cache_svn?>) no-repeat;
+    margin: 10px 0 5px 0px;
+}
+.message {
+    font-size: 13px;
+    width: auto;
+    margin: 10px 15px;
+    float: left;
+}
+@media screen and (max-width: 430px) {
+    body {
+        font-size: 11px;
+    }
+    button, input, select, textarea {
+        font-size: 11px;
+    }
+    .loginbox {
+        width: auto;
+        margin: 10px;
+    }
+    .loginbox input {
+        width: 95%;
+    }
+    .loginbox button {
+        width: 100%;
+    }
+}
+.hideme {
+    display: none;
+}
+.custom_dialog .ui-dialog-title {
+    _width: 100%;
+    _background: #f8759d;
+    _padding:5px;
+    _margin: -1px 0 0 -1px;
+}
+.custom_dialog .ui-dialog-titlebar {
+    _padding: 0;
+}
+.custom_dialog .ui-dialog-buttonset {
+    _margin: 0px 0 0 50px!important;
+}
+.custom_dialog .ui-button-text {
+    *text-indent: 0;
+}
+.custom_dialog .ui-button-icon-primary {
+    *margin-left: -2px;
+}
+#loadingScreen {
+    /*background: url(../images/loading.gif<?php echo $cache_svn?>) no-repeat 5px 8px;*/
+    padding: 1.3em 1.3em !important;
+}
+.noclose .ui-dialog-titlebar-close, .noclose .ui-dialog-titlebar {
+    display:none;
+}
+.noclose .ui-dialog-titlebar {
+    padding:0;
+}
+.checkbox_radio {
+    width:86%;
+    margin:0 auto !important;
+    padding-top:5px;
+}
+.checkbox_radio span, .checkbox_radio input{
+    float: left;
+    margin-right: 5px;
+}
+.checkbox_radio span {
+    margin-top: 3px;
+}
+.top-box-bg {
+    width: 100%;
+    position: absolute;
+    height: 250px;
+    background: #fff ;
+}
+.black-box-bg {
+    width: 100%;
+    position: absolute;
+    height: 250px;
+    top: 250px;
+    background: #233040;
+}
+.header-bar {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 12;
+    bottom: 0;
+    background-color: #333;
+}
+.loginbox {
+        top: 150px !important;
+    }
+@media only screen and (min-width: 1367px) {
+    .top-box-bg {
+        height: 350px;
+    }
+    .black-box-bg  {
+        top: 350px;
+        height: 350px;
+    }
+    .loginbox {
+        top: 245px !important;
+    }
+   /* .company_logo_container {
+        margin-top: 190px;
+    }
+    .company_logo_container img {
+        top: -20px;
+    }*/
+}
+.label-text {
+    font-weight: bold;
+    padding-left: 35px;
+    margin-right: 10px;
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    height: 30px;
+    line-height: 35px;
+    color: #333;
+    position: absolute;
+    border-right: 1px solid #bfbfbf;
+    top: 4px;
+    padding-right: 5px;
+}
+.main_logo{
+    text-align: center;
+    margin: 5px 0 10px;
+    width: 100%;
+}
+.username-ico {
+    background: url(images/login-ico.png) no-repeat 5px center;
+    float: left;
+    /*margin-top: 10px;*/
+}
+.password-ico {
+    background: url(images/password_icon.png) no-repeat 5px center;
+    float: left
+    /*margin-top: 20px;*/
+}
+.btn {
+    clear: both;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.yonefu-logo-top{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 5px;
+}
+.error_msg {
+    width: 300px;
+    clear: both;
+    float: left;
+}
+#headerLoginFail .message {
+    color: #F30818;
+    line-height: 19px;
+    font-weight: bold;
+    margin: 10px 7px;
+}
+#headerLoginFail .message-icons {
+    width: 18px;
+    height: 18px;
+    background-size: 100%;
+}

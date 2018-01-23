@@ -1,0 +1,114 @@
+.printReport{
+	background: url(../../images/common_images/icon_print.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	/*position: absolute;*/
+	top: 5px;
+	left: 10px;
+	padding-left: 20px;
+	text-indent: -9999px;
+	position: fixed;
+}
+.pdfdownload{
+	background: url(../../images/common_images/icon_pdf_dl.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 35px;
+	padding-left: 20px;
+	text-indent: -9999px
+}
+.htmldownload{
+	background: url(../../images/common_images/icon_html.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 60px;
+	padding-left: 20px;
+	text-indent: -9999px
+}
+.loading_div{
+	position: absolute;
+	top: 30px;
+	left: 5px;
+}
+.email{
+	background: url(../../images/common_images/icon_email.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 85px;
+	padding-left: 20px;
+	text-indent: -9999px
+}
+.required{
+	color: #E04545;
+}
+.emailform p{
+	margin-bottom: 10px;
+}
+.emailform p label.error{
+	display: block;
+	color: #E04545;
+	width: 70%;
+	margin-left: 70px;
+	float: left;
+	font-size: 10px;
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+.emailform p .submit{
+	border: none;
+	outline: none;
+	background-color: #2980b9;
+	border-color: #2574A9;
+	color: #FFFFFF;
+	cursor: pointer;
+	width: auto;
+	margin-left: 45%;
+	padding: 6px 15px;
+	height: 30px;
+	font-size: 12px;
+}
+.emailform p label{
+	width: 90px;
+	float: left;
+}
+.emailform p input{
+	float: left;
+	display: block;
+	margin-bottom: 10px;
+	width: 275px;
+	height: 20px;
+}
+.emailform p input.submit:hover{
+	background-color: #3B9BDA;
+}
+.emailform p textarea{
+	width: 278px;
+	height: 60px;
+}
+#email_form_div fieldset{
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	border: 0 none;
+}
+.no-close{
+	width: 400px !important;
+	padding: 10px 10px 0 10px !important;
+}
+.no-close .ui-widget-header {
+	background: #2980b9 url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x !important;
+	color: #fff !important;
+}
+#email_form_div{
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+.sbase_email_modal #email_form_div fieldset{
+	padding-top: 12px;
+}

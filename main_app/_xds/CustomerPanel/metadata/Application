@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "appFolder": null,
+        "name": "YBase"
+    },
+    "name": "Application",
+    "designerId": "application"
+}

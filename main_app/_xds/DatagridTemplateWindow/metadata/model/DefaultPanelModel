@@ -1,0 +1,79 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DefaultPanelModel"
+    },
+    "designerId": "34ec430a-d72a-48b4-b67b-698c068dca80",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "table_field_id"
+            },
+            "name": "MyField",
+            "designerId": "d70d2d84-d48c-4f2b-808c-af0d5896cc05"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "display_order"
+            },
+            "name": "MyField1",
+            "designerId": "0b284600-fc4f-4195-945d-b95407aa7eb7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "field_label"
+            },
+            "name": "MyField2",
+            "designerId": "32ee3b31-3ff5-49e3-b936-708b99cbeb7b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "hidden"
+            },
+            "name": "MyField12",
+            "designerId": "4a333202-3d63-4335-a994-a33d8251cd7a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "system_field_flg"
+            },
+            "name": "MyField13",
+            "designerId": "5d672edf-74aa-49cb-808d-44f8da67ae4b"
+        }
+    ]
+}

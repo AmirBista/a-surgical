@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+p{
+	font-size:12px;
+	padding: 3px;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	margin:10px 0 0 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+
+table.table1, table.table1 td ,.delivary_date_table, .delivary_date_table td, .footer_bill, .footer_bill td{
+	border: none;
+}
+.delivary_date_table label{
+	/*margin-right: 60px*/
+}
+.tdheight{
+	/*text-align: center;*/
+}
+.tdheight span{
+	font-size: 18px;
+}
+.table1 h2{
+	font-size: 12px;
+}
+.delivary_date, .delivary_time{
+	/*font-size: 18px*/
+}
+.tdheight span{
+	font-size: 12px;
+}
+table th {
+	padding:5px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #e0e0e0;
+	background: #ccffff;
+	/*border:1px solid #ccc;*/
+	font-weight: bold;
+	font-size:14px;
+}
+table tr{
+	
+	padding-left:20px;
+}
+
+table.bill_table tr td {
+	padding:1px 5px!important;
+	border: 1px solid#ccc;
+	text-align:left;
+	vertical-align: top;
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+.tdheight p{
+	padding:0px;
+}
+
+

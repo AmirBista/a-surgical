@@ -1,0 +1,42 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DatagridTemplateModel"
+    },
+    "designerId": "29e01ed1-71d9-4001-b92c-caf45cd054f3",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "datagrid_template_id",
+                "type": "string"
+            },
+            "name": "MyField9",
+            "designerId": "ef84ce14-e361-413e-a21b-44489927e2c6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "template_name",
+                "type": "string"
+            },
+            "name": "MyField10",
+            "designerId": "160b6c00-9c10-44c9-97a5-786b839e427b"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "HelpTextStore",
+        "model": "HelpTextModel",
+        "storeId": "HelpTextStore"
+    },
+    "name": "MyJsonStore",
+    "designerId": "708b2a69-9e87-4cd2-b0ce-b3cea87ab40f",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "bizlayer/helpText/getHelpList"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "2758c813-d2ff-44c7-8628-fd851f6b0524",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "4ea8a874-88aa-454c-8a35-48be5d488931"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+<?php
+
+//rendered by Yii

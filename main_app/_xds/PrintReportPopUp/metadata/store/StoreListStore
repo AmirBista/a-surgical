@@ -1,0 +1,45 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "StoreListStore",
+        "model": "StoreLIstModel",
+        "storeId": "StoreListStore"
+    },
+    "name": "MyJsonStore",
+    "designerId": "1c8f3ecd-643e-4779-a1f6-e94f5ab024e5",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "bizlayer/department/getCompanyDepartmentList"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "67862aee-2c3e-4a2b-ab7f-d8c8b74e25a6",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "2980c20b-6c47-4ab4-b6f6-c48d6d9214bd"
+                }
+            ]
+        }
+    ]
+}

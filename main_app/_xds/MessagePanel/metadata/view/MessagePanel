@@ -1,0 +1,570 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": null,
+        "container|align": "stretch",
+        "container|padding": null,
+        "designer|uiInterfaceName": "addredui",
+        "designer|userAlias": "messagePanel",
+        "designer|userClassName": "MessagePanel",
+        "iconCls": "yig-message-s-w",
+        "id": null,
+        "itemId": "MessagePanel",
+        "layout": "hbox",
+        "padding": null,
+        "title": "MessagePanel",
+        "ui": "addredui"
+    },
+    "designerId": "57e108b4-f072-410d-b782-420276272628",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "itemId": "mainCnt",
+                "layout": "vbox",
+                "layout|flex": 1
+            },
+            "name": "MyContainer5",
+            "designerId": "56fada4f-2f2a-4d83-8534-cf86d79d845d",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "autoScroll": null,
+                        "border": null,
+                        "cls": null,
+                        "componentCls": "middle-menu",
+                        "container|align": "middle",
+                        "container|padding": null,
+                        "height": 40,
+                        "hidden": true,
+                        "id": "",
+                        "itemId": "topMainCnt",
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "margin": null,
+                        "style": null
+                    },
+                    "name": "MyContainer",
+                    "designerId": "975a54fe-8e3f-4dd4-b071-e893df9f00cc",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "itemId": "topHelpCnt",
+                                "layout": "hbox",
+                                "layout|flex": 1,
+                                "width": 125
+                            },
+                            "name": "MyContainer2",
+                            "designerId": "86e630fd-41aa-4772-9670-562cfec73330",
+                            "cn": [
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "middle",
+                                        "itemId": "topMdlCnt",
+                                        "layout": "hbox",
+                                        "layout|flex": 1,
+                                        "width": null
+                                    },
+                                    "name": "MyContainer6",
+                                    "designerId": "8376b0ec-f0d2-43d3-85a3-761dfc15376a"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|pack": "end",
+                                "id": null,
+                                "itemId": "topBtnCnt",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": null
+                            },
+                            "name": "MyContainer4",
+                            "designerId": "f995748c-7c9c-45bb-9126-cab9b724730f",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|uiInterfaceName": "newbtn-ui-small",
+                                        "iconCls": "yig-add-s-w",
+                                        "itemId": "btnNewEntry",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "scale": null,
+                                        "shortcutKey": "N",
+                                        "text": "New Entry",
+                                        "ui": "newbtn-ui-small"
+                                    },
+                                    "name": "MyButton5",
+                                    "designerId": "cde77472-0120-44c3-a3ae-7a1d952f23da",
+                                    "customConfigs": [
+                                        {
+                                            "group": "(Custom Properties)",
+                                            "name": "shortcutKey",
+                                            "type": "string"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|uiInterfaceName": "semi-action-small",
+                                        "iconCls": "yig-popup-win-cls ",
+                                        "itemId": "btnEditPopupEntry",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "scale": null,
+                                        "shortcutKey": "N",
+                                        "text": "Edit Popup Entry",
+                                        "ui": "semi-action-small"
+                                    },
+                                    "name": "MyButton6",
+                                    "designerId": "97bd7979-3bc8-4560-b2e7-f84faeef6be3",
+                                    "customConfigs": [
+                                        {
+                                            "group": "(Custom Properties)",
+                                            "name": "shortcutKey",
+                                            "type": "string"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|uiInterfaceName": "newbtn-ui-small",
+                                        "iconCls": "yig-add-s-w",
+                                        "itemId": "btnAdd",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "scale": null,
+                                        "shortcutKey": "N",
+                                        "text": "Add",
+                                        "ui": "newbtn-ui-small"
+                                    },
+                                    "name": "MyButton",
+                                    "designerId": "3876c3c2-5c94-49ba-a1e8-71ea7a05d0ea",
+                                    "customConfigs": [
+                                        {
+                                            "group": "(Custom Properties)",
+                                            "name": "shortcutKey",
+                                            "type": "string"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|uiInterfaceName": "savebtn-ui-small",
+                                        "hidden": true,
+                                        "iconCls": "yig-save-s-w",
+                                        "itemId": "btnSave",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "scale": null,
+                                        "shortcutKey": "S",
+                                        "text": "Save",
+                                        "ui": "savebtn-ui-small"
+                                    },
+                                    "name": "MyButton1",
+                                    "designerId": "80df42fb-c925-4bbd-8219-02f71b5afea9",
+                                    "customConfigs": [
+                                        {
+                                            "group": "(Custom Properties)",
+                                            "name": "shortcutKey",
+                                            "type": "string"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|uiInterfaceName": "delbtn-ui-small",
+                                        "iconCls": "yig-cancel-s-w",
+                                        "itemId": "btnDelete",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "scale": null,
+                                        "shortcutKey": "D",
+                                        "text": "Delete",
+                                        "ui": "delbtn-ui-small"
+                                    },
+                                    "name": "MyButton2",
+                                    "designerId": "3a868462-a381-40b8-b70f-f7fb3d43ea56",
+                                    "customConfigs": [
+                                        {
+                                            "group": "(Custom Properties)",
+                                            "name": "shortcutKey",
+                                            "type": "string"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|uiInterfaceName": "semi-action-small",
+                                        "iconCls": "yig-download-s-w",
+                                        "itemId": "btnCsvDwnld",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "scale": null,
+                                        "text": "Csv Dwnld",
+                                        "ui": "semi-action-small"
+                                    },
+                                    "name": "MyButton3",
+                                    "designerId": "27dfe30d-db07-4cdf-a88d-619ca74528cb",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Menu",
+                                            "reference": {
+                                                "name": "menu",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "itemId": "mnuCsv",
+                                                "width": 160
+                                            },
+                                            "name": "MyMenu",
+                                            "designerId": "dc5ed03c-edd2-41b7-a823-ba53f202092c",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "yig-selected-s-b",
+                                                        "itemId": "menuSelectedCsv",
+                                                        "text": "Selected Csv"
+                                                    },
+                                                    "name": "MyMenuItem",
+                                                    "designerId": "a0df112a-0b66-4f78-ac2e-8eef6c1bb9ed"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "yig-selectall-s-b",
+                                                        "itemId": "menuAllCsv",
+                                                        "text": "All Csv"
+                                                    },
+                                                    "name": "MyMenuItem1",
+                                                    "designerId": "bcbb353f-7b84-4534-92be-dee56d3a45b1"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|uiInterfaceName": "semi-action-small",
+                                        "hidden": true,
+                                        "iconCls": "yig-print-ico",
+                                        "itemId": "btnPrint",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "scale": null,
+                                        "text": "Print",
+                                        "ui": "semi-action-small"
+                                    },
+                                    "name": "MyButton4",
+                                    "designerId": "b1cebc2a-7d39-4512-b4b4-74fe04820669",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Menu",
+                                            "reference": {
+                                                "name": "menu",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "itemId": "menuPrint",
+                                                "width": 160
+                                            },
+                                            "name": "MyMenu1",
+                                            "designerId": "3ce8d9ae-f7c4-4045-89e2-72b8a0dc8e56",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "yig-selected-print-s-b",
+                                                        "itemId": "menuSelectedTemp91Print",
+                                                        "text": "Temp91"
+                                                    },
+                                                    "name": "MyMenuItem2",
+                                                    "designerId": "c46728ff-0288-4663-b10f-8094227ab5cf"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "yig-selectall-print-s-b",
+                                                        "itemId": "menuSelectedTemp92Print",
+                                                        "text": "Temp92"
+                                                    },
+                                                    "name": "MyMenuItem3",
+                                                    "designerId": "ca0923f8-7096-45be-bee4-0cef22a9b158"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "yig-selectall-print-s-b",
+                                                        "itemId": "menuSelectedTemp93Print",
+                                                        "text": "Temp92"
+                                                    },
+                                                    "name": "MyMenuItem5",
+                                                    "designerId": "40f1f0a5-c0bd-4eae-a84e-c4375aba22e2"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "yig-selectall-print-s-b",
+                                                        "itemId": "menuSelectedDataPrint",
+                                                        "text": "DataPrint"
+                                                    },
+                                                    "name": "MyMenuItem4",
+                                                    "designerId": "3bee94bd-16d9-417e-bd31-1c23d5290b19"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "iconCls": "yig-selectall-print-s-b",
+                                                        "itemId": "menuSelectedTemp95Print",
+                                                        "text": "DataPrint"
+                                                    },
+                                                    "name": "MyMenuItem6",
+                                                    "designerId": "1e9c773c-f22a-4e13-83ec-9b47ef229626"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "itemId": "bodyCnt",
+                        "layout": "hbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer1",
+                    "designerId": "58a7127a-a7e4-4398-948b-abe67547b9c5",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "animCollapse": false,
+                                "collapseDirection": "left",
+                                "collapsedCls": "collapsed collapsed_cls",
+                                "collapsible": true,
+                                "componentCls": null,
+                                "itemId": "customerPanel",
+                                "layout": "fit",
+                                "layout|flex": null,
+                                "margin": null,
+                                "title": "Client",
+                                "titleCollapse": true,
+                                "width": 300
+                            },
+                            "name": "MyPanel",
+                            "designerId": "d8ccc7df-077d-4479-94ae-8855a6c4a9d9",
+                            "cn": [
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "itemId": "customerGridCnt",
+                                        "layout": "fit",
+                                        "margin": null
+                                    },
+                                    "name": "MyContainer8",
+                                    "designerId": "80d78838-1fb9-4dfc-a86f-331c566ca183"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.resizer.Splitter",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "name": "MySplitter1",
+                            "designerId": "82321209-73f6-40e8-9054-67a7f3331486"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "orderGridCnt",
+                                "layout": "fit",
+                                "layout|flex": 1,
+                                "margin": null
+                            },
+                            "name": "MyContainer3",
+                            "designerId": "1b32f1d2-45fe-433c-87ef-037c2eea0faf"
+                        },
+                        {
+                            "type": "Ext.resizer.Splitter",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "name": "MySplitter",
+                            "designerId": "db3bf9c8-95ee-4b6f-be00-4d8ef6ec133a"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "animCollapse": false,
+                                "collapseDirection": "right",
+                                "collapsed": false,
+                                "collapsedCls": "collapsed bulk-right  collapsed_cls",
+                                "collapsible": true,
+                                "componentCls": null,
+                                "itemId": "commentPanel",
+                                "layout": "fit",
+                                "layout|flex": null,
+                                "title": "",
+                                "width": 450
+                            },
+                            "name": "MyPanel1",
+                            "designerId": "cb662d33-2731-4862-84ec-1342c4aabcd0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

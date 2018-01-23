@@ -1,0 +1,54 @@
+{
+    "name": "csv_map",
+    "settings": {
+        "cmd": {
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
+        },
+        "urlPrefix": "http://localhost/wBase/setting-master",
+        "spacesToIndent": 4,
+        "exportPath": "./../../",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "displayfield-ExtBox1-1338-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1538-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1638-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1688-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1738-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1287-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1943,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext41",
+    "viewOrderMap": {
+        "view": [
+            "a829ae28-5e1b-4ec2-ac50-32183fd75df4",
+            "38e617a7-6d56-471a-b352-11adcd2131d6",
+            "1b1fae6a-33ca-479c-991c-e0e241696a7e"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "4e1ca020-0e5e-48f2-8ff6-6e02a164a901"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

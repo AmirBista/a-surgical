@@ -1,0 +1,80 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "HelpTextModel"
+    },
+    "name": "MyModel",
+    "designerId": "ad923f97-62ac-4cd3-adee-e3f670a66b50",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "help_id"
+            },
+            "name": "MyField",
+            "designerId": "1837ccdd-3126-412f-be50-7c3f109e38bf"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "help_code"
+            },
+            "name": "MyField1",
+            "designerId": "48a05798-b4cc-4598-b18c-8686007e13b6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "help_name"
+            },
+            "name": "MyField2",
+            "designerId": "327c0f76-ff40-41f4-88a4-ec89a69abf37"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "help_text"
+            },
+            "name": "MyField3",
+            "designerId": "60a3490f-ba19-4985-87e8-4a59adc1aaba"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "delete_flg"
+            },
+            "name": "MyField4",
+            "designerId": "5ca76be0-951d-4092-939f-6308610f00b8"
+        }
+    ]
+}

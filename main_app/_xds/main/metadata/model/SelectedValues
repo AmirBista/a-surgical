@@ -1,0 +1,41 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SelectedValues"
+    },
+    "name": "MyModel",
+    "designerId": "ebf887f6-f7e0-4107-a5e6-7c046f4823d3",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "FieldSelectedValue"
+            },
+            "name": "MyField12",
+            "designerId": "f8bc0d64-53ed-4ca7-ba64-a83b289c2a94"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ReplaceValue"
+            },
+            "name": "MyField13",
+            "designerId": "90b68a29-3d46-424b-8078-63afa8d163f3"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine on
+RewriteRule ^index\.php$ bizlayer/index [PT]
+
+RewriteRule ^mailSystem(.*)$ bizlayer/index_mailSystem.php

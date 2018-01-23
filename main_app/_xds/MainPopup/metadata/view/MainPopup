@@ -1,0 +1,198 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "container|padding": null,
+        "designer|userAlias": "mainPopup",
+        "designer|userClassName": "MainPopup",
+        "id": "mainPopup",
+        "itemId": "mainPopup",
+        "layout": "vbox",
+        "padding": null
+    },
+    "designerId": "57e108b4-f072-410d-b782-420276272628",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "autoScroll": null,
+                "border": 0,
+                "cls": null,
+                "componentCls": "header-container",
+                "container|align": "stretch",
+                "container|padding": "0 0 0 10",
+                "height": 50,
+                "id": "topContainer",
+                "itemId": "topContainer",
+                "layout": "hbox",
+                "layout|flex": null,
+                "margin": null,
+                "style": null
+            },
+            "name": "MyContainer",
+            "designerId": "975a54fe-8e3f-4dd4-b071-e893df9f00cc",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "main-logo-box",
+                        "container|align": "stretch",
+                        "container|padding": "5 0 0 0",
+                        "designer|displayName": "main-logobox",
+                        "height": 35,
+                        "html": [
+                            "<a href='#dashboard'><img src=\"images/ybase-logo.png\" style=\"margin-top:6px;\"></a>"
+                        ],
+                        "itemId": "main-logobox",
+                        "layout": "vbox",
+                        "layout|flex": 0,
+                        "margin": "0 10 0 0",
+                        "width": 125
+                    },
+                    "name": "MyContainer2",
+                    "designerId": "7342c545-f4c5-4ccb-9623-f96be7840e7c"
+                },
+                {
+                    "type": "Ext.toolbar.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "name": "MySpacer2",
+                    "designerId": "92a31eae-644d-4461-9f6a-1991a4598307"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "middle",
+                "itemId": "orderInfoCnt",
+                "layout": "hbox",
+                "layout|flex": null
+            },
+            "name": "MyContainer1",
+            "designerId": "f00b744e-c340-4987-8134-17bf9531a663",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Display",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "x-fld-bold-cls",
+                        "fieldLabel": "Entry Code",
+                        "itemId": "entryCodeDisplayFld",
+                        "value": null
+                    },
+                    "name": "MyDisplayField",
+                    "designerId": "769c7e8e-ca7f-40d7-bbc4-31c2c58797e3"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "codeCnt",
+                        "layout": "fit",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer3",
+                    "designerId": "73497213-abf6-4e1a-a648-69a1c5d92d77"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "componentCls": "control",
+                "container|align": "stretch",
+                "container|padding": null,
+                "hidden": null,
+                "id": "controlContainer",
+                "itemId": "controlContainer",
+                "layout": "hbox",
+                "layout|flex": 1,
+                "padding": null
+            },
+            "name": "MyContainer9",
+            "designerId": "45ade1cf-0d2c-41b1-883d-4d230f710edb",
+            "cn": [
+                {
+                    "type": "Ext.tab.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyBorder": true,
+                        "bodyCls": [
+                            "middletab"
+                        ],
+                        "bodyPadding": null,
+                        "closable": null,
+                        "designer|uiInterfaceName": "orange",
+                        "header": false,
+                        "id": "bodyTab",
+                        "itemId": "bodyTab",
+                        "layout|flex": 1,
+                        "padding": null,
+                        "tabBar": [
+                            "{hidden : true}",
+                            ""
+                        ],
+                        "tabPosition": null,
+                        "ui": "orange"
+                    },
+                    "name": "MyTabPanel",
+                    "configAlternates": {
+                        "tabBar": "object"
+                    },
+                    "designerId": "ccb7c0a6-6f8f-4a7a-9111-b8d6c8f108de",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "tabBar",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

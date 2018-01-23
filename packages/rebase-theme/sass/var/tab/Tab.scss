@@ -1,0 +1,13 @@
+$tab-border-radius : 0px !default;
+$tab-base-color-active: #fff !default;
+$tab-base-color : #586374 !default;
+$tab-color-active : #000 !default;
+$tab-color : #fff !default;
+//$tab-margin : 5px 0 5px 2px !default;
+$tabbar-padding : 5px 0 0 5px !default;
+$ui-tab2: orange;
+$ui-tab3: blue;
+$orange: mix(red, yellow);
+$ui-tab2-background-color: mix(#fff, $orange, 20%);
+$ui-tab2-background-color-over: $orange;
+$tab-base-color-over : #868686 !default;

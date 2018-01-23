@@ -1,0 +1,156 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+	line-height: 150%;
+	font-size: 14px;
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+	/*margin-bottom:10px;*/
+}
+table, tr, td, th {
+	/*border: 1px solid #000;*/
+	vertical-align: top;
+	/*line-height: 22px;*/
+}
+table td, table th {
+	padding: 2px 5px;
+	;
+	vertical-align: middle;
+}
+table th{
+	background:#EDEDED;
+	font-weight: normal;
+	font-size: 12px
+}
+.wrapper {
+  width: 28.1cm;
+  /*min-height: 18cm;*/
+  /*padding: 10px;*/
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 0px;
+}
+.main-table{
+	margin-top: 10px;
+}
+.header table td{
+	text-align: center;
+}
+.padd0{
+	padding: 0px;
+	
+}
+.mainTd{
+	vertical-align: top
+}
+.mainTd table tr{
+	border-bottom: 1px solid #CCC;
+	/*border-bottom: 1px solid #000;*/
+
+}
+.borderRBL{
+	border-bottom: 2px solid #000;
+	border-left: 1px solid #000;
+	border-right: 2px solid #000!important;
+}
+.borderRL{
+	border-left: 2px solid #000;
+	border-right: 2px solid #000!important;
+}
+.mainTd table tr  td{
+	border-right: 1px solid #ccc
+}
+.border0{
+	border: 0px!important;
+}
+.border3{
+	border-right: 2px solid #000!important
+}
+.title{
+	font-size: 36px;
+}
+.tdleft{
+	text-align: left;
+}
+.tdright{
+	text-align: right;
+}
+.boderBottom{
+	border-bottom: 1px solid #000;
+}
+.font24{
+	font-size: 24px;
+}
+.font18{
+	font-size: 18px;
+}
+.tright{
+	float: right
+}
+.main-table table, .main-table tr, .main-table td, .main-table th{
+	/*border: 1px solid #000*/
+}
+.tdgray{
+	background: #ccc
+}
+.amount{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin-bottom: 10px;
+	padding-top: 5px; 
+}
+.extrapadding{
+	padding: 15px 0 0 0
+}
+.font11{
+	font-size: 11px;
+}
+.textbold{
+	font-weight: bold
+}
+.textcenter{
+	text-align: center;
+}
+.address_table{
+	margin-top: 20px;
+}
+.border0 p{
+padding: 2px 5px;
+}
+.main-table table td table tr:last-child td:first-child{
+	border-bottom: none!important;
+}
+@media print{
+	body, html, .wrapper{
+		margin: 0px;
+		padding: 0px;
+	}
+	@page 
+	{
+		size: landscape;   /* auto is the current printer page size */
+		margin: 8mm;  /* this affects the margin in the printer settings */
+	}
+	.pdfBtn{
+		display: none;
+	}
+	.main-table table{
+		page-break-inside: avoid;
+	}
+	.printReport{
+		display: none;
+	}
+	.wrapper{
+		page-break-after: always;
+	}
+}

@@ -1,0 +1,49 @@
+{
+    "name": "HelpWindow",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "./../../",
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "displayfield-ExtBox1-1325-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1943,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "c44625f8-6553-4675-b540-dffd220b2871"
+        ],
+        "store": [
+            "708b2a69-9e87-4cd2-b0ce-b3cea87ab40f"
+        ],
+        "controller": [],
+        "model": [
+            "ad923f97-62ac-4cd3-adee-e3f670a66b50"
+        ],
+        "resource": [
+            "af1fd31b-86ca-4dc4-ba36-66ae7c599f16",
+            "e7821a12-40bd-481b-8c80-6d2ef811cbc7"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

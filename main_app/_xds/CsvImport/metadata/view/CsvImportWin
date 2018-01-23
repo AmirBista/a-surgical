@@ -1,0 +1,687 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyPadding": 10,
+        "componentCls": "incidentwindow",
+        "container|align": "stretch",
+        "designer|userAlias": "CsvImportWin",
+        "designer|userClassName": "CsvImportWin",
+        "frame": true,
+        "height": 451,
+        "itemId": "CsvImportWin",
+        "layout": "vbox",
+        "title": "CSV Import",
+        "width": 640
+    },
+    "designerId": "181c32a0-6a11-44ee-9670-63cb6143414b",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "border": 0,
+                "container|align": "stretch",
+                "itemId": "btnContainer",
+                "layout": "vbox",
+                "layout|flex": null,
+                "margin": "0 0 5 0"
+            },
+            "name": "MyContainer",
+            "designerId": "776a062a-602a-4c50-8bb0-7a71ccf54e3f",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": null,
+                        "border": 0,
+                        "container|align": "stretch",
+                        "itemId": "csvUploadForm",
+                        "layout": "vbox",
+                        "title": ""
+                    },
+                    "name": "MyForm",
+                    "designerId": "b0688936-c908-4ee8-acfa-039560628878",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": 1,
+                                "margin": "0 0 5 0"
+                            },
+                            "name": "MyContainer1",
+                            "designerId": "936f9cbc-b43f-47ab-9493-6b1429962254",
+                            "cn": [
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "itemId": "comboCnt",
+                                        "layout|flex": 1
+                                    },
+                                    "name": "MyContainer14",
+                                    "designerId": "b4cd8274-f0d2-4113-8058-cd6d5235fdc6"
+                                },
+                                {
+                                    "type": "Ext.form.field.File",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "buttonOnly": true,
+                                        "buttonText": "File Upload",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "itemId": "csvFileUpload",
+                                        "layout|flex": null,
+                                        "name": "csvFile"
+                                    },
+                                    "name": "MyFileUpload",
+                                    "designerId": "96efa15c-42d1-4ff9-93d9-78b17a653f67",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.field.FileButton",
+                                            "reference": {
+                                                "name": "buttonConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "icon": null,
+                                                "iconCls": null,
+                                                "itemId": "csvFileUpload",
+                                                "margin": null,
+                                                "text": "File Upload"
+                                            },
+                                            "name": "MyFileButton",
+                                            "designerId": "4c1cb90e-5acc-4206-b099-908d5c24014f"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "",
+                                        "hidden": true,
+                                        "itemId": "step1",
+                                        "layout|flex": 0,
+                                        "margin": "0 2 0 0",
+                                        "value": "Step 1"
+                                    },
+                                    "name": "MyDisplayField3",
+                                    "designerId": "3dccdcba-11cf-47aa-ae77-746605b67090"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer2",
+                            "designerId": "0d648495-5993-4b1a-b964-aff3e613150d",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "",
+                                        "hidden": null,
+                                        "itemId": "csvFilePath",
+                                        "layout|flex": 1,
+                                        "margin": "0 2 0 0",
+                                        "name": "filename",
+                                        "readOnly": true
+                                    },
+                                    "name": "MyTextField",
+                                    "designerId": "e7a1ecaf-bf5c-445d-a1cd-206e1870a9c0"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "disabled": true,
+                                        "iconCls": "yig-done-s-w",
+                                        "itemId": "btnCsvCheck",
+                                        "layout|flex": null,
+                                        "margin": "0 2 0 0",
+                                        "text": "Check"
+                                    },
+                                    "name": "MyButton",
+                                    "designerId": "228bbd28-60c3-4ca0-8513-14a383e6fe18"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "componentCls": "delete-btn",
+                                        "disabled": true,
+                                        "hidden": true,
+                                        "iconCls": "icons-delete",
+                                        "itemId": "btnCsvDelete",
+                                        "layout|flex": null,
+                                        "text": "Delete"
+                                    },
+                                    "name": "MyButton1",
+                                    "designerId": "1a5379e5-cec3-4a6f-96f6-dfbd6dae9de9"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "container|pack": "center",
+                "layout": "vbox",
+                "layout|flex": 1
+            },
+            "name": "MyContainer3",
+            "designerId": "5d33ff8b-c65c-442c-a132-16ad1fffc68b",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "csvMask-cls",
+                        "container|align": "stretch",
+                        "container|pack": "center",
+                        "height": null,
+                        "hidden": true,
+                        "itemId": "csvMask",
+                        "layout": "vbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "3fe018b5-1df3-4d9c-b7b5-a0be4a77db6a",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "componentCls": "csvMask-image-cnt-cls",
+                                "container|align": "stretch",
+                                "container|pack": "center",
+                                "height": null,
+                                "layout": "hbox",
+                                "layout|flex": null
+                            },
+                            "name": "MyContainer5",
+                            "designerId": "46b2df05-76a9-419f-b7fa-81f994c96339",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 30,
+                                        "id": "csvMaskImg",
+                                        "itemId": "csvMaskImg",
+                                        "src": "images/csv_mask.gif",
+                                        "width": null
+                                    },
+                                    "name": "MyImg",
+                                    "designerId": "9b8393dc-9bac-4ee6-a048-a7a1ad8c38a8"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": null
+                            },
+                            "name": "MyContainer6",
+                            "designerId": "a6806538-7d06-44c7-b36e-1fdce77f3607",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "itemId": "csvMaskLbl",
+                                        "layout|flex": null,
+                                        "text": "Checking CSV"
+                                    },
+                                    "name": "MyLabel",
+                                    "designerId": "8dedcf54-c367-410e-b638-9fdf3403c0e5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "autoScroll": true,
+                        "border": 0,
+                        "container|align": "stretch",
+                        "itemId": "logPanel",
+                        "layout": "vbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyPanel",
+                    "designerId": "947862b2-5323-45c4-8f29-63274f77bd36"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "itemId": "additionalInfoContainer",
+                "layout": "vbox",
+                "layout|flex": null,
+                "margin": "5 0 0 0"
+            },
+            "name": "MyContainer7",
+            "designerId": "da83d6aa-1915-46e4-8097-3dd171260e08",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "layout": "hbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer16",
+                    "designerId": "b11448c7-4666-421c-85f9-e61d3091b9d2",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": 1,
+                                "width": 110
+                            },
+                            "name": "MyContainer8",
+                            "designerId": "204f175a-e78c-48c9-9010-b880b5d5bab8",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Total Records",
+                                        "itemId": "totalCsvRecords",
+                                        "labelWidth": 75,
+                                        "layout|flex": null,
+                                        "value": "0"
+                                    },
+                                    "name": "MyDisplayField",
+                                    "designerId": "d37f09de-b964-44c8-aa86-34b7e7303026"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "vbox",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer9",
+                            "designerId": "df346a86-313e-451e-bf05-6aba1395719a",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Correct Records",
+                                        "itemId": "correctCsvRecords",
+                                        "labelWidth": 75,
+                                        "layout|flex": 1,
+                                        "value": "0"
+                                    },
+                                    "name": "MyDisplayField1",
+                                    "designerId": "3670b971-f1a1-4609-9683-22e5f36150bb"
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "container|pack": "end",
+                                        "layout": "hbox",
+                                        "layout|flex": 1,
+                                        "margin": "0 0 5 0"
+                                    },
+                                    "name": "MyContainer15",
+                                    "designerId": "f76a2c1f-e43f-4b77-8eed-222a1b8c5be9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "hidden": true,
+                                "layout": "vbox",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer13",
+                            "designerId": "e1a4cafa-d3f5-44c4-8b52-2337e323f4bb",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "New",
+                                        "itemId": "newCsvRecords",
+                                        "labelWidth": 80,
+                                        "value": "0"
+                                    },
+                                    "name": "MyDisplayField2",
+                                    "designerId": "814c775e-d1d9-4df1-b256-7a81af39345f"
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "container|pack": "end",
+                                        "layout": "hbox",
+                                        "layout|flex": 1,
+                                        "margin": "0 0 5 0"
+                                    },
+                                    "name": "MyContainer11",
+                                    "designerId": "ecf625c2-12d0-4158-b7ee-7bdd2c382ed3",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "disabled": true,
+                                                "iconCls": "yig-add-s-w",
+                                                "itemId": "btnNewCsvInsert",
+                                                "layout|flex": null,
+                                                "text": "Insert"
+                                            },
+                                            "name": "MyButton2",
+                                            "designerId": "b90b8ac1-87d7-4c2e-b075-5f9295dfd0e5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "vbox",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer10",
+                            "designerId": "13e75814-e436-45fb-96b3-b7951c8a3ea2",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Incorrect Records",
+                                        "itemId": "incorrectCsvRecords",
+                                        "labelWidth": 75,
+                                        "layout|flex": 1,
+                                        "value": "0"
+                                    },
+                                    "name": "MyDisplayField2",
+                                    "designerId": "aeac0b24-ebe4-47e1-885b-94bb370654b6"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "container|pack": "end",
+                        "layout": "hbox",
+                        "layout|flex": 1,
+                        "margin": "0 0 5 0"
+                    },
+                    "name": "MyContainer11",
+                    "designerId": "a2cb5a34-70f8-463e-9f79-339983276927",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "disabled": true,
+                                "iconCls": "yig-download-s-w",
+                                "itemId": "btnErrorCsvDownload",
+                                "layout|flex": null,
+                                "text": "Download"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "227ab0ca-d9cd-43eb-b4d1-38b8dab9834e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "middle",
+                "container|pack": "center",
+                "dock": null,
+                "itemId": "actionBtnContainer",
+                "layout": "hbox",
+                "layout|flex": null
+            },
+            "name": "MyContainer12",
+            "designerId": "8511e8ed-26a9-4052-b5cf-f2226877c6dd",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "disabled": true,
+                        "iconCls": "yig-import-s-w",
+                        "itemId": "btnUpload",
+                        "layout|flex": null,
+                        "text": "Update"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "99450444-c43b-441a-8ae8-9cc8ec773282"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "disabled": true,
+                        "hidden": true,
+                        "iconCls": "yig-edit-s-w",
+                        "itemId": "btnCpUpdate",
+                        "text": "Upload",
+                        "width": null
+                    },
+                    "name": "MyButton3",
+                    "designerId": "77dea3a8-a89b-4588-8b8e-f1e28d7ff8e3"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "yig-cancel-s-w",
+                        "itemId": "btnCancel",
+                        "margin": "0 0 0 5",
+                        "text": "Cancel",
+                        "width": null
+                    },
+                    "name": "MyButton4",
+                    "designerId": "5adff05b-51a4-42a6-ae62-ae084b44530c"
+                }
+            ]
+        }
+    ]
+}

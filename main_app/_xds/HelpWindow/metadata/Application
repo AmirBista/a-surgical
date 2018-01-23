@@ -1,0 +1,22 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "HelpTextModel"
+        ],
+        "name": "YBase",
+        "stores": [
+            "HelpTextStore"
+        ],
+        "views": [
+            "HelpWindow"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

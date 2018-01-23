@@ -1,0 +1,2209 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "container|padding": null,
+        "designer|userAlias": "mainPanel",
+        "designer|userClassName": "MainPanel",
+        "id": "mainPanel",
+        "itemId": "mainPanel",
+        "layout": "vbox",
+        "padding": null
+    },
+    "designerId": "57e108b4-f072-410d-b782-420276272628",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "autoScroll": null,
+                "border": 0,
+                "cls": null,
+                "componentCls": "header-container",
+                "container|align": "stretch",
+                "container|padding": "0 0 0 10",
+                "height": 50,
+                "id": "topContainer",
+                "itemId": "topContainer",
+                "layout": "hbox",
+                "layout|flex": null,
+                "margin": null,
+                "style": null
+            },
+            "name": "MyContainer",
+            "designerId": "975a54fe-8e3f-4dd4-b071-e893df9f00cc",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": "main-logo-box",
+                        "container|align": "stretch",
+                        "container|padding": "5 0 0 0",
+                        "designer|displayName": "main-logobox",
+                        "height": 35,
+                        "html": [
+                            "<a href='#dashboard'><img src=\"images/ybase-logo.png\" style=\"margin-top:6px;\"></a>"
+                        ],
+                        "itemId": "main-logobox",
+                        "layout": "vbox",
+                        "layout|flex": 0,
+                        "margin": "0 10 0 0",
+                        "width": 125
+                    },
+                    "name": "MyContainer2",
+                    "designerId": "7342c545-f4c5-4ccb-9623-f96be7840e7c"
+                },
+                {
+                    "type": "Ext.toolbar.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "name": "MySpacer2",
+                    "designerId": "92a31eae-644d-4461-9f6a-1991a4598307"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "id": "TopButtonContainer",
+                        "itemId": "TopButtonContainer",
+                        "layout": "hbox",
+                        "layout|flex": 0,
+                        "margin": "0 10 0 0"
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "f995748c-7c9c-45bb-9126-cab9b724730f",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "icon-supply-entry",
+                                "itemId": "orderEntryMenuItem",
+                                "layout|flex": 1,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Order Entry"
+                            },
+                            "name": "MyButton25",
+                            "designerId": "c9e0a0d7-c831-40df-9c2c-e76459a5ef11"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "icon-supply-entry",
+                                "itemId": "salesEntryMenuItem",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Sales Entry"
+                            },
+                            "name": "MyButton24",
+                            "designerId": "029e70a9-16ec-41b1-8884-e1271ee15610"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon-supply-entry",
+                                "itemId": "btnEntry",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Entry Panel"
+                            },
+                            "name": "MyButton21",
+                            "designerId": "0f9880c0-9ab8-4d29-9c4b-ad189219abcc",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "name": "MyMenu2",
+                                    "designerId": "44736491-1e73-4462-a6c8-60cdd74d7d3f",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "itemId": "menuOrderEntry",
+                                                "text": "Menu Item"
+                                            },
+                                            "name": "MyMenuItem15",
+                                            "designerId": "91074af8-3de4-4db1-b3c0-9c30f7a3ffd8"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "itemId": "menuSalesEntry",
+                                                "text": "Menu Item"
+                                            },
+                                            "name": "MyMenuItem16",
+                                            "designerId": "b3d94df0-8996-40c9-b6e1-f52b0e1032ca"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "icon-customer",
+                                "itemId": "btnCustomer",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Customer"
+                            },
+                            "name": "MyButton8",
+                            "designerId": "e7f80d52-1d60-401d-9964-894d57d52bdf"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "icon_order_list",
+                                "itemId": "btnOrderMaster",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Sales"
+                            },
+                            "name": "MyButton",
+                            "designerId": "51fa0e52-e102-4e80-837e-eaf233e99465",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu",
+                                    "designerId": "b98c0e56-e791-4b8d-b7c1-3ea2479d5ab7",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-order-s-b",
+                                                "itemId": "orderMasterMenuItem",
+                                                "text": "Order Master"
+                                            },
+                                            "name": "MyMenuItem",
+                                            "designerId": "9a8724cb-462b-469f-b448-4a07b1ea6a0f"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-order-s-b",
+                                                "itemId": "salesMasterMenuItem",
+                                                "text": "salesMaster"
+                                            },
+                                            "name": "MyMenuItem17",
+                                            "designerId": "b94eb127-cc7b-4555-9070-53de06322651"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "hidden": true,
+                                                "iconCls": "yig-order-detail-s-b",
+                                                "itemId": "orderDetailMenuItem",
+                                                "text": "Order Detail"
+                                            },
+                                            "name": "MyMenuItem3",
+                                            "designerId": "dcdb0e5a-b5ff-400d-b806-a6fe3e1f311b"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-service-s-b",
+                                                "itemId": "serivceMasterMenuItem",
+                                                "text": "Service Master"
+                                            },
+                                            "name": "MyMenuItem6",
+                                            "designerId": "1482dd6f-f510-4d39-8aab-5e4d93743adb"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-repair-s-b",
+                                                "itemId": "repairMasterPnlMenuItem",
+                                                "text": "Repair Master"
+                                            },
+                                            "name": "MyMenuItem3",
+                                            "designerId": "c3b6cbef-10f3-4314-b17f-35fea9623479"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "icon_order_list",
+                                "itemId": "btnStore",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Store"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "bb11e613-17e7-438d-8914-55f8cdce2055",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu",
+                                    "designerId": "74b4839f-f076-46e7-939f-c615a497a174",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-product-set-s-b",
+                                                "itemId": "productPnlMenuItem",
+                                                "text": "Product"
+                                            },
+                                            "name": "MyMenuItem",
+                                            "designerId": "ba4039cb-b7c7-4c0a-aae2-974ce0ea1556"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-supply-entry-s-b",
+                                                "itemId": "purchaseEntryPnlMenuItem",
+                                                "text": "New Purchase"
+                                            },
+                                            "name": "MyMenuItem6",
+                                            "designerId": "77cc1e5b-ea81-4672-814b-5c4b2fe90db1"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-invoicelist-s-b",
+                                                "itemId": "batchMasterPnlMenuItem",
+                                                "text": "Batch Master"
+                                            },
+                                            "name": "MyMenuItem3",
+                                            "designerId": "d4835ac2-b6b5-4edd-bf40-1c8061562480"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "hidden": true,
+                                                "iconCls": "yig-order-detail-s-b",
+                                                "itemId": "batchDetailPnlMenuItem",
+                                                "text": "Batch Detail"
+                                            },
+                                            "name": "MyMenuItem1",
+                                            "designerId": "369ed6f4-ec18-493e-a91b-dd86cf3ea17c"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": " yig-supply-list-s-b",
+                                                "itemId": "supplierPnlMenuItem",
+                                                "text": "Supplier"
+                                            },
+                                            "name": "MyMenuItem7",
+                                            "designerId": "b63081b0-adb0-4ff4-88b2-51a775b092b3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "icon-transfer",
+                                "itemId": "btnStoreTransfer",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Store Transfer "
+                            },
+                            "name": "MyButton17",
+                            "designerId": "ab2ae3d3-b2f0-4b58-aba3-b229af5af8c3",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu",
+                                    "designerId": "0dcd862b-7628-4f79-a45c-b42a71e62d10",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-supply-entry-s-b",
+                                                "itemId": "stockTransferEntryPnlMenuItem",
+                                                "text": "New Transfer Entry"
+                                            },
+                                            "name": "MyMenuItem6",
+                                            "designerId": "3d994154-3d40-4916-86b7-22afa3133e2b"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-transaction-s-b",
+                                                "itemId": "stockTransferMasterPnlMenuItem",
+                                                "text": "Transfer Master"
+                                            },
+                                            "name": "MyMenuItem3",
+                                            "designerId": "eec0bf21-c7e0-47f3-9369-53b43d58d510"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "hidden": true,
+                                                "iconCls": "yig-order-detail-s-b",
+                                                "itemId": "stockTransferDetailPnlMenuItem",
+                                                "text": "Transfer Detail"
+                                            },
+                                            "name": "MyMenuItem1",
+                                            "designerId": "fce84659-1666-4f79-977a-52bb2bec42b3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon-support",
+                                "itemId": "btnSupport",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Support"
+                            },
+                            "name": "MyButton20",
+                            "designerId": "7c8137e0-0f71-4a89-b913-45b0d02baa52",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu",
+                                    "designerId": "739dd6f8-ea47-4fe1-b112-64501dd8282c",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-service-s-b",
+                                                "itemId": "serivceMasterMenuItem1",
+                                                "text": "Service Master"
+                                            },
+                                            "name": "MyMenuItem10",
+                                            "designerId": "d0334860-ed38-4a9d-8f1d-8663dbb5627b"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-repair-s-b",
+                                                "itemId": "repairMasterPnlMenuItem1",
+                                                "text": "Repair Master"
+                                            },
+                                            "name": "MyMenuItem12",
+                                            "designerId": "267edc46-6725-4361-893c-f46c7b1d1865"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "hidden": true,
+                                                "iconCls": "yig-order-detail-s-b",
+                                                "itemId": "stockTransferDetailPnlMenuItem",
+                                                "text": "Transfer Detail"
+                                            },
+                                            "name": "MyMenuItem1",
+                                            "designerId": "05379b71-47e7-42d2-b1f1-a3a1836ffacd"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon-report",
+                                "itemId": "btnReport",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Report"
+                            },
+                            "name": "MyButton4",
+                            "designerId": "7820b7f9-d3fb-4ef5-8fbd-7ed13d68d04d"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon_billing",
+                                "itemId": "btnBilling",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "billing"
+                            },
+                            "name": "MyButton16",
+                            "designerId": "e1e38f61-ddb4-4169-9a1f-d4b6dd9b6c8c",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu3",
+                                    "designerId": "c46491a1-83e2-4909-957a-a7cc775fcf5c",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-order-invoice-s-b",
+                                                "itemId": "invoiceMenuItem",
+                                                "text": "productList"
+                                            },
+                                            "name": "MyMenuItem9",
+                                            "designerId": "91029475-e4c4-423f-aec6-799affd81c9b"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-order-payment-s-b",
+                                                "itemId": "paymentMenuItem",
+                                                "text": "productList"
+                                            },
+                                            "name": "MyMenuItem13",
+                                            "designerId": "92f36c9c-f217-43dd-980b-7433658c50ce"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-order-transaction-s-b",
+                                                "itemId": "transactionMenuItem",
+                                                "text": "transaction"
+                                            },
+                                            "name": "MyMenuItem14",
+                                            "designerId": "69bd7b86-7194-4185-ad8f-44f8fb7d964c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon_supplier",
+                                "itemId": "btnSupplier",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Supplier"
+                            },
+                            "name": "MyButton6",
+                            "designerId": "7d2ac09e-0111-4543-9daa-965663e83fc7",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu3",
+                                    "designerId": "142d2bfb-af4f-466a-a9b6-541f2aad5b20",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-supply-entry-s-b",
+                                                "itemId": "supplyEntryMenuItem",
+                                                "text": "Supply Entry"
+                                            },
+                                            "name": "MyMenuItem8",
+                                            "designerId": "679a24a2-cb50-4daa-a9ed-9eb54a96cb1a"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-supply-entry-s-b",
+                                                "itemId": "purchaseEntryMenuItem",
+                                                "text": "Purchase Entry"
+                                            },
+                                            "name": "MyMenuItem11",
+                                            "designerId": "a683a862-6f4a-488e-83f8-fa03555c7d64"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-supply-list-s-b",
+                                                "itemId": "supplyListPanelItem",
+                                                "text": "Supplier List"
+                                            },
+                                            "name": "MyMenuItem9",
+                                            "designerId": "ccf21f49-3018-40d3-b4c4-4d532e3ac23a"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon_purchase_billing",
+                                "itemId": "btnPurchaseBilling",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Purchase Billing"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "96662e5c-2729-4934-a570-2e8d1dcc0211",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu3",
+                                    "designerId": "7f59ee10-ef30-4618-aa75-4f4237966811",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-payable-bill-s-b",
+                                                "itemId": "payableBillMenuItem",
+                                                "text": "Payable Bill"
+                                            },
+                                            "name": "MyMenuItem8",
+                                            "designerId": "c72de434-bd9e-400b-8554-99f7c23ab130"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-purchase-payment-s-b",
+                                                "itemId": "purchasePaymentMenuItem",
+                                                "text": "Purchase Payment"
+                                            },
+                                            "name": "MyMenuItem11",
+                                            "designerId": "12891002-2201-4aa0-a39d-690339bd9bfc"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-purchase-transaction-s-b",
+                                                "itemId": "purchaseTransactionMenuItem",
+                                                "text": "Purchase Transaction"
+                                            },
+                                            "name": "MyMenuItem9",
+                                            "designerId": "6b88e0df-fe3a-4c76-b77b-576a683865a4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon_account",
+                                "itemId": "btnAccount",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Account"
+                            },
+                            "name": "MyButton7",
+                            "designerId": "22637d35-a669-4ff0-a7c1-d81ebc8f4086",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu3",
+                                    "designerId": "b01416df-32d8-43fc-8588-a00d65178047",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-acc-transaction-s-b",
+                                                "itemId": "accTranasctionMenuItem",
+                                                "text": "transaction List"
+                                            },
+                                            "name": "MyMenuItem8",
+                                            "designerId": "f585fd44-4e06-4b03-912f-06c7f9f739d8"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-customner-acc-statement-s-b",
+                                                "itemId": "customerAccStatementMenuItem",
+                                                "text": "Customer Acc statement"
+                                            },
+                                            "name": "MyMenuItem11",
+                                            "designerId": "d9aaf270-fdcb-4905-9a07-883e557b19ae"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon-messsage",
+                                "itemId": "btnMessage",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "payment"
+                            },
+                            "name": "MyButton11",
+                            "designerId": "57bd680a-604c-471d-9618-d731735ac6db"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "yig-setting-m-w",
+                                "itemId": "btnSettings",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "settings"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "175a367f-4381-4c4b-a1aa-a372472c3fb5"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "icon_supplier",
+                                "itemId": "btnPickingList",
+                                "layout|flex": null,
+                                "margin": "0 5 0 0",
+                                "scale": "medium",
+                                "text": "Picking List"
+                            },
+                            "name": "MyButton15",
+                            "designerId": "e9dc5969-b3eb-4642-99ab-4511b042c385",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": null
+                                    },
+                                    "name": "MyMenu3",
+                                    "designerId": "2e10d05b-e8ae-49ef-9668-9131fa211865",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-picking-entry-s-b",
+                                                "itemId": "pickingEntryMenuItem",
+                                                "text": "Picking Entry"
+                                            },
+                                            "name": "MyMenuItem8",
+                                            "designerId": "4c57d70b-8902-40d0-8225-b8697e080aaa"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-picking-order-master-s-b",
+                                                "itemId": "pickingMasterMenuItem",
+                                                "text": "Picking Master"
+                                            },
+                                            "name": "MyMenuItem11",
+                                            "designerId": "32fa3b44-ccd2-4d7b-82ea-c80edc9ca3f7"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-picking-detail-list-s-b",
+                                                "itemId": "pickingDetailMenuItem",
+                                                "text": "Picking Detail"
+                                            },
+                                            "name": "MyMenuItem9",
+                                            "designerId": "a595af74-454f-44a1-9ac5-d9e584b9cf29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "icons-user",
+                                "itemId": "btnMenuAcc",
+                                "layout|flex": null,
+                                "margin": null,
+                                "scale": "medium",
+                                "text": "Profile"
+                            },
+                            "name": "MyButton5",
+                            "designerId": "ed0e74c9-128c-4b6a-8a7d-ad01f3154492",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "showSeparator": false
+                                    },
+                                    "name": "MyMenu1",
+                                    "designerId": "a69e99e5-c820-466f-ba31-5093f5ef219f",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "componentCls": "help-btn",
+                                                "iconCls": "icon_user_profile",
+                                                "itemId": "menuUserProfile",
+                                                "margin": null,
+                                                "padding": null,
+                                                "text": "profile"
+                                            },
+                                            "name": "MyMenuItem5",
+                                            "designerId": "f5cb96b1-7854-4bec-b740-700587ffe935"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "componentCls": "help-btn",
+                                                "hidden": true,
+                                                "iconCls": "icon_switch_user",
+                                                "itemId": "menuSwitchUser",
+                                                "margin": null,
+                                                "padding": null,
+                                                "text": "switchUser"
+                                            },
+                                            "name": "MyMenuItem4",
+                                            "designerId": "5694256f-22f4-4e27-b9c1-bce1874a3443"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "componentCls": "help-btn",
+                                                "iconCls": "yig-logout-s-b",
+                                                "itemId": "menuSignOut",
+                                                "margin": null,
+                                                "padding": null,
+                                                "text": "Sign Out"
+                                            },
+                                            "name": "MyMenuItem2",
+                                            "designerId": "0c86a4f1-7534-4826-ac26-45c6fe9b83e0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "componentCls": "control",
+                "container|align": "stretch",
+                "container|padding": null,
+                "hidden": null,
+                "id": "controlContainer",
+                "itemId": "controlContainer",
+                "layout": "hbox",
+                "layout|flex": 1,
+                "padding": null
+            },
+            "name": "MyContainer9",
+            "designerId": "45ade1cf-0d2c-41b1-883d-4d230f710edb",
+            "cn": [
+                {
+                    "type": "Ext.tab.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "activeTab": 0,
+                        "bodyBorder": true,
+                        "bodyCls": [
+                            "middletab"
+                        ],
+                        "bodyPadding": null,
+                        "closable": null,
+                        "designer|uiInterfaceName": "orange",
+                        "id": "bodyTab",
+                        "itemId": "bodyTab",
+                        "layout|flex": 1,
+                        "padding": null,
+                        "tabPosition": null,
+                        "ui": "orange"
+                    },
+                    "name": "MyTabPanel",
+                    "designerId": "ccb7c0a6-6f8f-4a7a-9111-b8d6c8f108de",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "PanelNo": "200",
+                                "container|align": "stretch",
+                                "designer|createAlias": null,
+                                "id": "DashBoardPanel",
+                                "itemId": "DashBoardPanel",
+                                "layout": "hbox",
+                                "padding": "0 0 5 0",
+                                "title": "My Tab"
+                            },
+                            "name": "MyPanel",
+                            "designerId": "119b11a5-4076-4a3b-97ef-58ba9db9e11f",
+                            "customConfigs": [
+                                {
+                                    "group": "(Custom Properties)",
+                                    "name": "PanelNo",
+                                    "type": "string"
+                                }
+                            ],
+                            "cn": [
+                                {
+                                    "type": "Ext.tab.Tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "iconCls": "yig-dashboard-s-w"
+                                    },
+                                    "name": "TabConfig",
+                                    "designerId": "5200ae5a-490a-4f45-abe1-05fab7f98cde"
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "height": 250,
+                                        "itemId": "leftContainer1",
+                                        "layout": "vbox",
+                                        "layout|flex": 1,
+                                        "margin": "0 5 5 5",
+                                        "padding": null,
+                                        "width": 400
+                                    },
+                                    "name": "MyContainer11",
+                                    "designerId": "299768e4-658e-4503-b407-9e0041d41dce",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "middle",
+                                                "height": 40,
+                                                "itemId": "actionBtnContainer1",
+                                                "layout": "hbox",
+                                                "layout|flex": null,
+                                                "margin": "0 5 0 0 "
+                                            },
+                                            "name": "MyContainer12",
+                                            "designerId": "e11a532f-f9f5-489d-9529-4ebc42af42a0"
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "componentCls": "dashoadNote",
+                                                "layout": "fit",
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MyContainer3",
+                                            "designerId": "fa15bfac-5b23-45e0-a9c1-d8547cc2db56",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.TextArea",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "componentCls": "text-area-note",
+                                                        "fieldLabel": null,
+                                                        "height": null,
+                                                        "id": "DasboardNote",
+                                                        "itemId": "DasboardNote1",
+                                                        "margin": "0 0 0 5",
+                                                        "minHeight": null,
+                                                        "padding": "0 0 5 0"
+                                                    },
+                                                    "name": "MyTextArea",
+                                                    "designerId": "f834b6bc-308a-457c-8b41-8404594badef"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "height": 339,
+                                        "itemId": "rightContainer1",
+                                        "layout": "vbox",
+                                        "layout|flex": null,
+                                        "width": 355
+                                    },
+                                    "name": "MyContainer14",
+                                    "designerId": "0130d952-fab7-4fa8-a007-4b10069f840e",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "container|pack": "end",
+                                                "height": 40,
+                                                "itemId": "btnRightContainer1",
+                                                "layout": "hbox",
+                                                "layout|flex": null,
+                                                "padding": "5 0 5 0"
+                                            },
+                                            "name": "MyContainer15",
+                                            "designerId": "02d26c4b-fa7f-43d5-b2e5-ee453bf33d90",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.container.Container",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "container|pack": "end",
+                                                        "container|padding": null,
+                                                        "layout": "hbox",
+                                                        "layout|flex": null,
+                                                        "margin": "0 5.5 0 0"
+                                                    },
+                                                    "name": "MyContainer17",
+                                                    "designerId": "343fe740-ce2e-464e-97dd-e2d33420e29d",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|uiInterfaceName": "custom-ui",
+                                                                "hidden": true,
+                                                                "iconCls": "yig-edit-s-w",
+                                                                "itemId": "btnMessageEdit",
+                                                                "layout|flex": 1,
+                                                                "margin": "0 5 0 0",
+                                                                "text": "",
+                                                                "ui": "custom-ui"
+                                                            },
+                                                            "name": "MyButton9",
+                                                            "designerId": "897687cb-0e6d-460c-bd9a-99cedcd16798"
+                                                        },
+                                                        {
+                                                            "type": "Ext.button.Button",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "cls": "refresh-btn btnproduct",
+                                                                "hidden": true,
+                                                                "iconCls": "yig-refresh-s-w",
+                                                                "itemId": "btnDashBoardRefresh",
+                                                                "layout|flex": null,
+                                                                "margin": null,
+                                                                "text": "Refresh"
+                                                            },
+                                                            "name": "MyButton10",
+                                                            "designerId": "c6a3179d-a316-4468-a565-3f2f9ea50d20"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.panel.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "autoScroll": true,
+                                                "bodyPadding": 10,
+                                                "height": 659,
+                                                "itemId": "MessagePanel",
+                                                "layout|flex": 1,
+                                                "minHeight": 250,
+                                                "padding": "0 0 5 0",
+                                                "title": "",
+                                                "width": null
+                                            },
+                                            "name": "MyPanel1",
+                                            "designerId": "392b3a65-de17-4af7-9cfd-844a1c53a913"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.resizer.Splitter",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": true,
+                        "itemId": "bodySkuSplit"
+                    },
+                    "name": "MySplitter",
+                    "designerId": "59ccd178-06b1-4e29-8ec0-a7100f042493"
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "animCollapse": false,
+                        "baseCls": null,
+                        "cls": null,
+                        "collapseDirection": "left",
+                        "collapsed": true,
+                        "collapsedCls": "collapsed bulk-right  collapsed_cls",
+                        "collapsible": true,
+                        "componentCls": "sku-panel ",
+                        "hidden": true,
+                        "iconCls": null,
+                        "itemId": "msgCmpPanel",
+                        "layout": "fit",
+                        "layout|flex": null,
+                        "tabBar": [
+                            "{ iconCls : 'sku-cmp-panel-collapse',",
+                            " componentCls: 'sku-cmp-panel'",
+                            "}"
+                        ],
+                        "title": "",
+                        "titleCollapse": true,
+                        "width": 680
+                    },
+                    "name": "MyPanel3",
+                    "configAlternates": {
+                        "tabBar": "object"
+                    },
+                    "designerId": "59981715-bf67-41c1-b787-767cd508877f",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "tabBar",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "animCollapse": false,
+                        "collapseDirection": "left",
+                        "collapseFirst": false,
+                        "collapsed": false,
+                        "collapsedCls": "collapsed bulk-right collapsed_cls",
+                        "componentCls": "bulk-panel",
+                        "container|align": "stretch",
+                        "header": [
+                            "{componentCls:'bulkpanel-hide'}"
+                        ],
+                        "hidden": true,
+                        "iconCls": "bulk-hide",
+                        "itemId": "BlukUpdatePanel",
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "margin": "",
+                        "title": "Bulk Update",
+                        "width": 355
+                    },
+                    "name": "MyPanel2",
+                    "configAlternates": {
+                        "header": "object"
+                    },
+                    "designerId": "7002f98b-ec20-436c-9a25-d4442055cf81",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "dataStore",
+                            "type": "string"
+                        },
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "activePanel",
+                            "type": "string"
+                        },
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "panelId",
+                            "type": "string"
+                        },
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "activeGrid",
+                            "type": "string"
+                        }
+                    ],
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": 1,
+                                "componentCls": "bulk-panel-down",
+                                "container|align": "stretch",
+                                "itemId": "BulkUpdateDownPanel",
+                                "layout": "vbox",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer19",
+                            "designerId": "e8c95bf5-545b-4fcb-9a12-7af6c6d6deba",
+                            "cn": [
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "height": 32,
+                                        "itemId": "BulkUpdateDownTopPnl",
+                                        "layout": "vbox"
+                                    },
+                                    "name": "MyContainer20",
+                                    "designerId": "4275adda-7d27-4224-8630-8cbda9ebbfa3",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "middle",
+                                                "height": 32,
+                                                "itemId": "SelectFieldPnl",
+                                                "layout": "hbox",
+                                                "layout|flex": null
+                                            },
+                                            "name": "MyContainer21",
+                                            "designerId": "a257f182-2a91-4708-8d06-53129c0860fb",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.button.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "height": null,
+                                                        "iconCls": "previous-value",
+                                                        "itemId": "previousComboValueBtn",
+                                                        "layout|flex": null,
+                                                        "margin": "0 2 0 10",
+                                                        "text": "left",
+                                                        "width": 30
+                                                    },
+                                                    "name": "MyButton23",
+                                                    "designerId": "1158923f-1dae-4061-a321-4ab6b565bec8"
+                                                },
+                                                {
+                                                    "type": "Ext.form.field.ComboBox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "displayField": "field_label",
+                                                        "fieldLabel": null,
+                                                        "itemId": "FieldCombo",
+                                                        "labelWidth": 48,
+                                                        "layout|flex": 1,
+                                                        "margin": "10 0 0 0",
+                                                        "queryMode": "local",
+                                                        "store": "FieldListJson",
+                                                        "valueField": "column_name",
+                                                        "width": null
+                                                    },
+                                                    "name": "MyComboBox",
+                                                    "designerId": "fa9ef5d2-6c80-442b-a716-52aa458aa581"
+                                                },
+                                                {
+                                                    "type": "Ext.button.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "height": null,
+                                                        "iconCls": "next-value",
+                                                        "itemId": "nextComboValueBtn",
+                                                        "layout|flex": null,
+                                                        "margin": "0 10 0 2",
+                                                        "text": "right",
+                                                        "width": 30
+                                                    },
+                                                    "name": "MyButton22",
+                                                    "designerId": "b2e29569-822f-446b-9b48-5c76028732b3"
+                                                },
+                                                {
+                                                    "type": "Ext.button.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "hidden": true,
+                                                        "itemId": "GetFieldButton",
+                                                        "layout|flex": null,
+                                                        "margin": "0 10 0 0",
+                                                        "text": "Get"
+                                                    },
+                                                    "name": "MyButton12",
+                                                    "designerId": "df1a29c7-9e33-482a-8896-66cc1e79ab52"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "middle",
+                                        "height": 32,
+                                        "itemId": "SelectFieldPnl1",
+                                        "layout": "hbox",
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyContainer22",
+                                    "designerId": "c329dbfc-0540-4f0a-9f6e-8cf9dd1b5a13",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.RadioGroup",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fieldLabel": null,
+                                                "labelWidth": 60,
+                                                "layout|flex": null,
+                                                "margin": "0 0 0 10",
+                                                "width": 232
+                                            },
+                                            "name": "MyRadioGroup",
+                                            "designerId": "aba64cd2-48fb-4a16-9ad7-1179b6992754",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Radio",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "boxLabel": "Replace Value",
+                                                        "checked": true,
+                                                        "fieldLabel": null,
+                                                        "itemId": "ReplaceValueRadioBox"
+                                                    },
+                                                    "name": "MyRadio",
+                                                    "designerId": "59a90c16-05dd-4f2a-8126-03d6f1f078eb"
+                                                },
+                                                {
+                                                    "type": "Ext.form.field.Radio",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "boxLabel": "Specified Format",
+                                                        "fieldLabel": null,
+                                                        "itemId": "SpecifiedFormatCheckvalue"
+                                                    },
+                                                    "name": "MyRadio1",
+                                                    "designerId": "17337df2-42df-4771-a9a0-3ed84c8867e6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.toolbar.Spacer",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MySpacer1",
+                                            "designerId": "edc9cc29-87d1-423a-82b8-99294f7a2b11"
+                                        },
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "iconCls": "yig-set-s-w",
+                                                "itemId": "SetButton",
+                                                "layout|flex": null,
+                                                "margin": null,
+                                                "text": "Set"
+                                            },
+                                            "name": "MyButton13",
+                                            "designerId": "283c899e-5ecb-4d16-a095-ace76448dda0"
+                                        },
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "disabled": true,
+                                                "iconCls": "yig-revert-s-w",
+                                                "itemId": "undo",
+                                                "layout|flex": null,
+                                                "margin": "0 15 0 0",
+                                                "text": null
+                                            },
+                                            "name": "MyButton14",
+                                            "designerId": "a0b953be-65c3-459b-b38f-630404688d9f"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "middle",
+                                        "height": 30,
+                                        "itemId": "SetPanel",
+                                        "layout": "hbox",
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyContainer23",
+                                    "designerId": "2db54765-8b14-45e6-a3c6-61c4e0d6ba95",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "hidden": true,
+                                                "itemId": "NumberCont",
+                                                "layout": "vbox",
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MyContainer24",
+                                            "designerId": "d9546bee-616d-40e1-974f-fcec7c7eecbd",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Number",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fieldLabel": null,
+                                                        "itemId": "ReplaceValueNumeric",
+                                                        "labelWidth": 60,
+                                                        "margin": "0 80 0 10"
+                                                    },
+                                                    "name": "MyNumberField",
+                                                    "designerId": "6871bcf1-4bd7-40d6-8d7e-5d24b79e0ad3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "hidden": true,
+                                                "itemId": "ComboCont",
+                                                "layout": "vbox",
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MyContainer25",
+                                            "designerId": "980111d1-6aa3-4919-bb04-41db962465e7"
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "hidden": true,
+                                                "itemId": "DateCont",
+                                                "layout": "vbox",
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MyContainer26",
+                                            "designerId": "5cbc7cd4-3bcd-4eda-8026-6ec5bc675cca",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Date",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fieldLabel": null,
+                                                        "itemId": "ReplaceValueDate",
+                                                        "labelWidth": 60,
+                                                        "margin": "0 80 0 10"
+                                                    },
+                                                    "name": "MyDateField",
+                                                    "designerId": "f9a4c9e9-499e-41c6-bcef-b6b4f257def5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "itemId": "TextCont",
+                                                "layout": "vbox",
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MyContainer27",
+                                            "designerId": "08d109ee-6736-4729-85b3-a4ff60f48701",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Text",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fieldLabel": null,
+                                                        "itemId": "ReplaceValueTextBox",
+                                                        "layout|flex": 1,
+                                                        "margin": "0 80 0 10",
+                                                        "width": 235
+                                                    },
+                                                    "name": "MyTextField2",
+                                                    "designerId": "300108f5-5b0d-4d36-be0b-84ff9c752fd2"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "height": 30,
+                                        "hidden": true,
+                                        "itemId": "AdvanceFieldPanel",
+                                        "layout": "vbox",
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyContainer1",
+                                    "designerId": "4deb435c-c78f-4e47-845c-76e345d56fb7",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "hidden": true,
+                                                "itemId": "NumberPanel",
+                                                "layout": "hbox",
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MyContainer24",
+                                            "designerId": "6d30cef7-6523-409a-a0c9-47cae27b0e3d",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Checkbox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "boxLabel": "Box Label",
+                                                        "fieldLabel": "Percentage (%)",
+                                                        "itemId": "PercentagecheckBox",
+                                                        "layout|flex": 1,
+                                                        "margin": "0 0 0 10"
+                                                    },
+                                                    "name": "MyCheckbox",
+                                                    "designerId": "116d40e6-413e-4d27-959d-e2f694526a21"
+                                                },
+                                                {
+                                                    "type": "Ext.form.field.Number",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fieldLabel": "Label",
+                                                        "itemId": "numberText",
+                                                        "layout|flex": 1,
+                                                        "margin": "0 80 0 20"
+                                                    },
+                                                    "name": "MyNumberField1",
+                                                    "designerId": "dfd2b4e8-a1cb-4cb7-affb-aeb522db4173"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "hidden": true,
+                                                "itemId": "DatePanel",
+                                                "layout": "hbox",
+                                                "layout|flex": 1,
+                                                "margin": "0 0 0 30"
+                                            },
+                                            "name": "MyContainer26",
+                                            "designerId": "14c6380f-c97b-4f5d-829a-e317c7ba3458",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Number",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fieldLabel": "Add Days",
+                                                        "itemId": "AddDaysText",
+                                                        "labelWidth": 80,
+                                                        "margin": "0 80 0 10"
+                                                    },
+                                                    "name": "MyNumberField2",
+                                                    "designerId": "28a564d5-635d-46c2-a115-8c05776ce48f"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "middle",
+                                                "height": 26,
+                                                "itemId": "TextPanel",
+                                                "layout": "hbox",
+                                                "layout|flex": 1
+                                            },
+                                            "name": "MyContainer27",
+                                            "designerId": "45316e98-bdd5-43e0-8e75-e73f4d5146db",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Text",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "fieldLabel": null,
+                                                        "itemId": "TextText",
+                                                        "labelWidth": 45,
+                                                        "layout|flex": 1,
+                                                        "layout|margins": "0 0 0 10",
+                                                        "margin": null,
+                                                        "width": 235
+                                                    },
+                                                    "name": "MyTextField2",
+                                                    "designerId": "02d76795-67d3-4a7d-942c-e68e51456c5b"
+                                                },
+                                                {
+                                                    "type": "Ext.form.field.Checkbox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "boxLabel": null,
+                                                        "fieldLabel": "At Front",
+                                                        "itemId": "AtFrontCheckBox",
+                                                        "labelWidth": 40,
+                                                        "layout|flex": null,
+                                                        "margin": "0 30 0 30"
+                                                    },
+                                                    "name": "MyCheckbox1",
+                                                    "designerId": "8b555100-1cd1-46cf-afd0-c8faeb6b998c"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "itemId": "SelectedGridPanel",
+                                        "layout": "vbox",
+                                        "layout|flex": 1,
+                                        "margin": null
+                                    },
+                                    "name": "MyContainer32",
+                                    "designerId": "7ae3d257-5c6a-4b2b-9c45-22a1fe0ea252",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.grid.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "disableSelection": true,
+                                                "itemId": "SelectedFieldGrid",
+                                                "layout|flex": 1,
+                                                "margin": "10 10 10 10",
+                                                "store": "SelectedValueJson",
+                                                "title": null
+                                            },
+                                            "name": "MyGridPanel1",
+                                            "designerId": "b48649b3-6214-4392-a771-896ac8498e8c",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.grid.View",
+                                                    "reference": {
+                                                        "name": "viewConfig",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "name": "MyGridView1",
+                                                    "designerId": "6803a66c-9e77-49bf-a221-e453ae8911a0"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "FieldSelectedValue",
+                                                        "flex": 1,
+                                                        "menuDisabled": true,
+                                                        "resizable": false,
+                                                        "text": "FieldSelectedValue"
+                                                    },
+                                                    "name": "MyColumn2",
+                                                    "designerId": "c05547ab-818b-4072-8ded-32d2f255267a"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Column",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "ReplaceValue",
+                                                        "flex": 1,
+                                                        "menuDisabled": true,
+                                                        "resizable": false,
+                                                        "text": "ReplaceValue"
+                                                    },
+                                                    "name": "MyColumn3",
+                                                    "designerId": "7507f3d5-c9de-4177-b5d8-7bcd53cad192",
+                                                    "cn": [
+                                                        {
+                                                            "type": "Ext.form.field.Text",
+                                                            "reference": {
+                                                                "name": "editor",
+                                                                "type": "object"
+                                                            },
+                                                            "codeClass": null,
+                                                            "name": "MyTextField4",
+                                                            "designerId": "d3265605-7413-404b-8bd6-8de75c7a9e55"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Ext.grid.plugin.CellEditing",
+                                                    "reference": {
+                                                        "name": "plugins",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": "Ext.grid.plugin.CellEditing",
+                                                    "name": "MyCellEditingPlugin1",
+                                                    "designerId": "24195ead-1d4a-43af-95e0-06bfd76ffe44"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

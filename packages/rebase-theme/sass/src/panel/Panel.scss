@@ -1,0 +1,120 @@
+.adv-filter{
+    .#{$prefix}panel-body-default{
+        background: #F9DCB0;
+    }
+}
+
+.left-container,.filter-container{
+    .#{$prefix}panel{
+        .#{$prefix}panel-body{
+            padding: 5px;
+        }
+    }
+}
+
+@mixin extjs-panel-ui-setting(
+    $ui-label,
+    $ui-border-color: $panel-border-color,
+    $ui-border-radius: $panel-border-radius,
+    $ui-border-width: $panel-border-width,
+
+    $ui-padding: 0,
+
+    $ui-header-color: $panel-header-color,
+    $ui-header-font-family: $panel-header-font-family,
+    $ui-header-font-size: $panel-header-font-size,
+    $ui-header-font-weight: $panel-header-font-weight,
+    $ui-header-line-height: $panel-header-line-height,
+    $ui-header-border-color: $panel-header-border-color,
+    $ui-header-border-width: $panel-header-border-width,
+    $ui-header-border-style: $panel-header-border-style,
+    $ui-header-background-color: $panel-header-background-color,
+    $ui-header-background-gradient: $panel-header-background-gradient,
+    $ui-header-inner-border-color: $panel-header-inner-border-color,
+    $ui-header-inner-border-width: $panel-header-inner-border-width,
+    $ui-header-text-padding: $panel-header-text-padding,
+    $ui-header-text-transform: $panel-header-text-transform,
+    $ui-header-padding: $panel-header-padding,
+    $ui-header-icon-width: $panel-header-icon-width,
+    $ui-header-icon-height: $panel-header-icon-height,
+    $ui-header-icon-spacing: $panel-header-icon-spacing,
+    $ui-header-icon-background-position: $panel-header-icon-background-position,
+    $ui-header-glyph-color: $panel-header-glyph-color,
+    $ui-header-glyph-opacity: $panel-header-glyph-opacity,
+
+    $ui-tool-spacing: $panel-tool-spacing,
+    $ui-tool-background-image: $panel-tool-background-image,
+
+    $ui-body-color: $panel-body-color,
+    $ui-body-border-color: $panel-body-border-color,
+    $ui-body-border-width: $panel-body-border-width,
+    $ui-body-border-style: $panel-body-border-style,
+    $ui-body-background-color: $panel-body-background-color,
+    $ui-body-font-size: $panel-body-font-size,
+    $ui-body-font-weight: $panel-body-font-weight,
+
+    $ui-background-stretch-top: $panel-background-stretch-top,
+    $ui-background-stretch-bottom: $panel-background-stretch-bottom,
+    $ui-background-stretch-right: $panel-background-stretch-right,
+    $ui-background-stretch-left: $panel-background-stretch-left,
+
+    // See the docs above
+    $ui-include-border-management-rules: $panel-include-border-management-rules,
+    $ui-wrap-border-color: $panel-wrap-border-color,
+    $ui-wrap-border-width: $panel-wrap-border-width
+){
+    @include extjs-panel-ui(
+        $ui-label,
+        $ui-header-background-color: $ui-header-background-color,
+        $ui-border-color: $ui-border-color,
+        $ui-border-width: $ui-border-width,
+
+        $ui-header-border-color: $ui-header-border-color,
+        $ui-header-font-size:$ui-header-font-size,
+        $ui-header-background-gradient:$ui-header-background-gradient,
+        $ui-header-font-weight:$ui-header-font-weight,
+        $ui-header-color: $ui-header-color,
+        $ui-header-line-height:$ui-header-line-height,
+    	$ui-padding:  $ui-padding,
+    	$ui-body-background-color:$ui-body-background-color,
+        $ui-header-icon-width: $ui-header-icon-width,
+        $ui-header-icon-height: $ui-header-icon-height,
+        $ui-body-border-color: $ui-body-border-color,
+        $ui-body-border-width: $ui-body-border-width,
+        $ui-body-border-style: $ui-body-border-style,
+        $ui-header-padding: $ui-header-padding
+
+    );
+
+}
+@include extjs-panel-ui-setting(
+    $ui-label: 'loginui',
+    $ui-header-background-color: #F5F5F5,
+    $ui-body-background-color: #F5F5F5,
+    $ui-body-border-width: 0
+);
+
+.moveColumn{
+    background: url($image_path+'/dotted.png'+$cache_svn) no-repeat;
+    width: 5px;
+    float: left;
+}
+
+
+.bulk-right {
+    .x-tool-expand-right, .x-tool-collapse-right {
+        background-position: 0 -192px !important;
+    }
+}
+
+.bulk-panel{
+    .x-tool-expand-left, .x-tool-collapse-left {
+        background-position: 0 -176px !important;
+    }
+}
+.x-panel-header-default-horizontal {
+    border-top:1px solid #999;
+}
+.x-header-body {
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "PanelNameModel",
+            "DatagridTemplateModel",
+            "DefaultPanelModel",
+            "DatagridTemplatePanelModel"
+        ],
+        "name": "YBase",
+        "stores": [
+            "PanelNameStore",
+            "DatagridTemplateStore",
+            "DefaultPanelDatagridStore",
+            "DatagridTemplatePanelStore"
+        ],
+        "views": [
+            "DatagridTemplateWindow"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

@@ -1,0 +1,10 @@
+$icons-spacing: 20px;
+$icons-layout: horizontal;
+@import "../icons/*.png";
+@include all-icons-sprites;
+
+.top-menu-mail {
+  @include icons-sprite(dashboard);
+  height: icons-sprite-height(dashboard);
+  width: icons-sprite-width(dashboard);
+}

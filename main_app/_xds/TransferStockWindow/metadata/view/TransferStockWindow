@@ -1,0 +1,209 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "componentCls": "window-maximize",
+        "container|align": "stretch",
+        "designer|userAlias": "transferStockWindow",
+        "designer|userClassName": "TransferStockWindow",
+        "height": 500,
+        "itemId": "ExpiryDateWindow",
+        "layout": "vbox",
+        "modal": true,
+        "title": "Stock Transfer Window",
+        "titleCollapse": false,
+        "width": 800
+    },
+    "name": "MyWindow",
+    "designerId": "db7ab2cf-90fa-4a92-a158-84351b158791",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "vbox",
+                "layout|flex": 1
+            },
+            "name": "MyContainer8",
+            "designerId": "14c47745-c3b7-4a63-b131-30a9b68d6681",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "transferProdMasterGridCnt",
+                        "layout": "fit",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer5",
+                    "designerId": "ca688383-af1b-4477-85a1-aa313880c3cd"
+                },
+                {
+                    "type": "Ext.resizer.Splitter",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MySplitter",
+                    "designerId": "66e1d857-7963-46e8-95bb-018a31b18899"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "transferProdDetailGridCnt",
+                        "layout": "fit",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer",
+                    "designerId": "14ace25f-b467-4767-a142-5c4207e2050e"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "center",
+                        "itemId": "btnContainer",
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "margin": "0 5 0 5",
+                        "minHeight": 30
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "9a9626a3-8d78-4060-9d5b-72da7fa34de3",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "itemId": "",
+                                "layout": "hbox",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer1",
+                            "designerId": "f946f236-e3b3-48f9-b6e0-e2d7f36c32d2",
+                            "cn": [
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "stretch",
+                                        "itemId": "transferMsgCmpCnt",
+                                        "layout": "hbox",
+                                        "layout|flex": 1,
+                                        "minWidth": 300,
+                                        "width": null
+                                    },
+                                    "name": "MyContainer2",
+                                    "designerId": "89a52201-b609-4f3a-9b90-f2189eabce50"
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1
+                                    },
+                                    "name": "MyContainer3",
+                                    "designerId": "8ac9c8d6-73bc-45cf-8f9a-fd215db7500e",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|uiInterfaceName": "savebtn-ui-small",
+                                                "iconCls": "yig-save-s-w",
+                                                "itemId": "btnTransferToEntryGrid",
+                                                "margin": "2 0 2 0",
+                                                "padding": null,
+                                                "text": "Save",
+                                                "ui": "savebtn-ui"
+                                            },
+                                            "name": "MyButton10",
+                                            "designerId": "8111b411-23a8-49f0-ba56-b0a9b6045f9f"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1
+                                    },
+                                    "name": "MyContainer6",
+                                    "designerId": "e2502c23-efb7-4e9d-a07f-7c489426994e"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": "resize-icon",
+                "itemId": "transferStockResizeTool",
+                "margin": "0 4 0 0",
+                "type": "maximize"
+            },
+            "name": "MyTool",
+            "designerId": "2d795dd6-3158-4cb0-b9c6-3195031b5847",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "margin",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userAlias": "expiryDateWindow",
+        "designer|userClassName": "ExpiryDateWindow",
+        "height": 500,
+        "itemId": "ExpiryDateWindow",
+        "layout": "vbox",
+        "modal": true,
+        "title": "langExpiryDate",
+        "width": 800
+    },
+    "name": "MyWindow",
+    "designerId": "db7ab2cf-90fa-4a92-a158-84351b158791",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "vbox",
+                "layout|flex": 1
+            },
+            "name": "MyContainer8",
+            "designerId": "14c47745-c3b7-4a63-b131-30a9b68d6681",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "middle",
+                        "height": 60,
+                        "itemId": "companyInfoForm",
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "title": null
+                    },
+                    "name": "MyForm2",
+                    "designerId": "f262592e-8254-4be3-9e45-b09bb23753ec",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "disabled": true,
+                                "fieldLabel": "companyname",
+                                "itemId": "company_name",
+                                "labelAlign": "top",
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField",
+                            "designerId": "875ed620-b7e3-4016-affa-f189187faeaa"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "disabled": true,
+                                "fieldLabel": "expDaterule",
+                                "itemId": "expiry_date_rule",
+                                "labelAlign": "top",
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField2",
+                            "designerId": "085f0934-f716-4402-9996-f21d791b3dbb"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "disabled": true,
+                                "fieldLabel": "productWxpRule",
+                                "itemId": "product_expiry_rule",
+                                "labelAlign": "top",
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField3",
+                            "designerId": "426d16e1-f36a-4ec7-b03d-f1849bca0ef6"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "disabled": true,
+                                "fieldLabel": "productRule",
+                                "itemId": "product_rule",
+                                "labelAlign": "top",
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField1",
+                            "designerId": "5110d85d-4921-4c8f-a5c4-6393baa9abdb"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "expiryDateGrdiContainer",
+                        "layout": "fit",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer5",
+                    "designerId": "ca688383-af1b-4477-85a1-aa313880c3cd"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "end",
+                        "itemId": "btnContainer",
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "minHeight": 30
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "9a9626a3-8d78-4060-9d5b-72da7fa34de3",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "btnSet",
+                                "margin": "0 5 0 0",
+                                "text": "setLang"
+                            },
+                            "name": "MyButton10",
+                            "designerId": "8111b411-23a8-49f0-ba56-b0a9b6045f9f"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

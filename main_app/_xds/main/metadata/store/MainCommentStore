@@ -1,0 +1,45 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainCommentStore",
+        "model": "MainCommentModel",
+        "storeId": "MainCommentStore"
+    },
+    "name": "MyJsonStore",
+    "designerId": "e2a6d2fd-0ebd-4bc6-9d87-200a91b93a5a",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "bizlayer/orderMaster/getCommentList"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "2fbead6b-e8c9-4f66-8a50-f4bab8ce3815",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "1c5cd38b-c6e5-4c76-8b0e-b00839c846b8"
+                }
+            ]
+        }
+    ]
+}

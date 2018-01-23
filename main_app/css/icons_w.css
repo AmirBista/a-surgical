@@ -1,0 +1,211 @@
+.icon-member,
+.icon-customer,
+.icon-support,
+.icon-transfer,
+.icons-user,
+.icon_supplier,
+.yig-setting-m-w,
+.icon_client,
+.icon_order_payment,
+.icon-messsage,
+.icon_account,
+.icon_order_entry,
+.icon_billing,
+.icon_purchase_billing,
+.icon-report,
+.icon_order_list,
+.icon_order_invoice,
+.icon_picking_list,
+.yig-check-all-ico,
+.yig-member-add-s-w,
+.yig-repair-s-w,
+.yig-uncheck-all-ico,
+.yig-member-s-w,
+.yig-product-s-w,
+.icon_status_s_w,
+.move_right,
+.next-value,
+.previous-value,
+.remove,
+.yig-acc-transaction-s-w,
+.yig-account-transactionlist-s-w,
+.yig-add-s-w,
+.yig-bill-s-w,
+.yig-cancel-s-w,
+.yig-client-product-s-w,
+.yig-client-s-w,
+.yig-clone-s-w,
+.yig-comment-s-w,
+.yig-customer-s-w,
+.yig-dashboard-s-w,
+.yig-edit-s-w,
+.yig-expand-s-w,
+.yig-export-s-w,
+.yig-import-s-w,
+.yig-invoicelist-s-w,
+.yig-manage-s-w,
+.yig-order-s-w,
+.yig-payable-bill-s-w,
+.yig-picking-detail-s-w,
+.yig-picking-entry-s-w,
+.yig-popup-win-cls,
+.yig-print-s-w,
+.yig-proceed-s-w,
+.yig-product-set-s-w,
+.yig-purchase-transaction-s-w,
+.yig-save-s-w,
+.yig-set-s-w,
+.yig-setting-s-w,
+.yig-supplier-invoice-s-w,
+.yig-supplier-s-w,
+.yig-supply-entry-s-w,
+.yig-transaction-s-w,
+.yig-update-s-w,
+.yig-message-s-w,
+.yig-order-invoice-s-w,
+.yig-ordernew-s-w,
+.yig-payment-s-w,
+.yig-purchase-entry-s-w,
+.yig-search-s-w,
+.yig-supplier-entry-s-w,
+.yig-supplier-payment-s-w,
+.yig-update-stock-s-w,
+.invoiceList-s-w,
+.yig-csv-s-w,
+.yig-done-s-w,
+.yig-invoice-s-w,
+.yig-order-transaction-s-w,
+.yig-product-master-s-w,
+.yig-service-s-w,
+.yig-batch-master-s-w,
+.yig-customer-acc-list-s-w,
+.yig-order-details-s-w,
+.yig-order-new-s-w,
+.yig-order-status-s-w,
+.yig-order-verify-s-w,
+.yig-paymentlist-s-w,
+.yig-picking-order-master-s-w,
+.yig-report-s-w,
+.yig-supplier-panel-s-w,
+.yig-supply-list-s-w,
+.yig-transfer-master-s-w,
+.yig-staff-s-w,
+.yig-customner-acc-statement-s-w,
+.yig-download-s-w,
+.yig-order-products-s-w,
+.yig-picking-list-s-w,
+.yig-purchase-payment-s-w,
+.yig-upload-s-w,
+.billGenerate-s-w,
+.generateOrderBill-s-w,
+.yig-order-payment-s-w,
+.yig-estimate-new-s-w,
+.icon-supply-entry
+{ 
+	background-image: url('../images/icons_w.png') !important; 
+	background-color: transparent; 
+	background-repeat: no-repeat; 
+}
+.icon-member { width: 25px; height: 25px; background-position: -10px -360px !important; }
+.icon-customer { width: 24px; height: 24px; background-position: -10px -326px !important; }
+.icon-supply-entry { width: 24px; height: 24px; background-position: -36px -62px !important; }
+.icon-support { width: 24px; height: 24px; background-position: -36px -96px !important; }
+.icon-transfer { width: 24px; height: 24px; background-position: -10px -292px !important; }
+.icons-user { width: 24px; height: 24px; background-position: -36px -130px !important; }
+.icon_supplier { width: 24px; height: 24px; background-position: -10px -258px !important; }
+.yig-setting-m-w { width: 24px; height: 24px; background-position: -45px -363px !important; }
+.icon_client { width: 24px; height: 23px; background-position: -43px -164px !important; }
+.icon_order_payment { width: 23px; height: 24px; background-position: -10px -192px !important; }
+.icon-messsage { width: 24px; height: 22px; background-position: -44px -197px !important; }
+.icon_account { width: 24px; height: 22px; background-position: -10px -226px !important; }
+.icon_order_entry { width: 22px; height: 24px; background-position: -62px -10px !important; }
+.icon_billing { width: 21px; height: 24px; background-position: -70px -329px !important; }
+.icon_purchase_billing { width: 20px; height: 25px; background-position: -78px -216px !important; }
+.icon-report { width: 19px; height: 24px; background-position: -70px -130px !important; }
+.icon_order_list { width: 19px; height: 24px; background-position: -79px -363px !important; }
+.icon_order_invoice { width: 18px; height: 24px; background-position: -70px -96px !important; }
+.icon_picking_list { width: 17px; height: 24px; background-position: -98px -63px !important; }
+.yig-check-all-ico { width: 17px; height: 17px; background-position: -103px -175px !important; }
+.yig-member-add-s-w { width: 17px; height: 17px; background-position: -108px -202px !important; }
+.yig-repair-s-w { width: 17px; height: 17px; background-position: -108px -370px !important; }
+.yig-uncheck-all-ico { width: 17px; height: 17px; background-position: -96px -36px !important; }
+.yig-member-s-w { width: 16px; height: 17px; background-position: -96px -256px !important; }
+.yig-product-s-w { width: 16px; height: 17px; background-position: -108px -229px !important; }
+.icon_status_s_w { width: 16px; height: 16px; background-position: -94px -10px !important; }
+.move_right { width: 16px; height: 16px; background-position: -44px -307px !important; }
+.next-value { width: 16px; height: 16px; background-position: -10px -166px !important; }
+.previous-value { width: 16px; height: 16px; background-position: -70px -44px !important; }
+.remove { width: 16px; height: 16px; background-position: -98px -97px !important; }
+.yig-acc-transaction-s-w { width: 16px; height: 16px; background-position: -10px -140px !important; }
+.yig-account-transactionlist-s-w { width: 16px; height: 16px; background-position: -44px -281px !important; }
+.yig-add-s-w { width: 16px; height: 16px; background-position: -70px -70px !important; }
+.yig-bill-s-w { width: 16px; height: 16px; background-position: -96px -283px !important; }
+.yig-cancel-s-w { width: 16px; height: 16px; background-position: -36px -36px !important; }
+.yig-client-product-s-w { width: 16px; height: 16px; background-position: -10px -114px !important; }
+.yig-client-s-w { width: 16px; height: 16px; background-position: -70px -303px !important; }
+.yig-clone-s-w { width: 16px; height: 16px; background-position: -101px -318px !important; }
+.yig-comment-s-w { width: 16px; height: 16px; background-position: -44px -255px !important; }
+.yig-customer-s-w { width: 16px; height: 16px; background-position: -10px -88px !important; }
+.yig-dashboard-s-w { width: 16px; height: 16px; background-position: -70px -277px !important; }
+.yig-edit-s-w { width: 16px; height: 16px; background-position: -122px -266px !important; }
+.yig-expand-s-w { width: 16px; height: 16px; background-position: -127px -318px !important; }
+.yig-export-s-w { width: 16px; height: 16px; background-position: -122px -292px !important; }
+.yig-import-s-w { width: 16px; height: 16px; background-position: -120px -10px !important; }
+.yig-invoicelist-s-w { width: 16px; height: 16px; background-position: -123px -36px !important; }
+.yig-manage-s-w { width: 16px; height: 16px; background-position: -103px -149px !important; }
+.yig-order-s-w { width: 16px; height: 16px; background-position: -124px -114px !important; }
+.yig-payable-bill-s-w { width: 16px; height: 16px; background-position: -129px -140px !important; }
+.yig-picking-detail-s-w { width: 16px; height: 16px; background-position: -134px -240px !important; }
+.yig-picking-entry-s-w { width: 16px; height: 16px; background-position: -135px -214px !important; }
+.yig-popup-win-cls { width: 16px; height: 16px; background-position: -135px -370px !important; }
+.yig-print-s-w { width: 16px; height: 16px; background-position: -125px -88px !important; }
+.yig-proceed-s-w { width: 16px; height: 16px; background-position: -44px -229px !important; }
+.yig-product-set-s-w { width: 16px; height: 16px; background-position: -10px -62px !important; }
+.yig-purchase-transaction-s-w { width: 16px; height: 16px; background-position: -77px -164px !important; }
+.yig-save-s-w { width: 16px; height: 16px; background-position: -134px -344px !important; }
+.yig-set-s-w { width: 16px; height: 16px; background-position: -108px -344px !important; }
+.yig-setting-s-w { width: 16px; height: 16px; background-position: -32px -10px !important; }
+.yig-supplier-invoice-s-w { width: 16px; height: 16px; background-position: -10px -36px !important; }
+.yig-supplier-s-w { width: 16px; height: 16px; background-position: -130px -166px !important; }
+.yig-supply-entry-s-w { width: 16px; height: 16px; background-position: -70px -251px !important; }
+.yig-transaction-s-w { width: 16px; height: 16px; background-position: -125px -62px !important; }
+.yig-update-s-w { width: 16px; height: 16px; background-position: -146px -10px !important; }
+.yig-message-s-w { width: 16px; height: 15px; background-position: -148px -293px !important; }
+.yig-order-invoice-s-w { width: 15px; height: 16px; background-position: -149px -36px !important; }
+.yig-ordernew-s-w { width: 15px; height: 16px; background-position: -148px -267px !important; }
+.yig-payment-s-w { width: 15px; height: 16px; background-position: -150px -114px !important; }
+.yig-purchase-entry-s-w { width: 15px; height: 16px; background-position: -151px -88px !important; }
+.yig-search-s-w { width: 15px; height: 16px; background-position: -151px -62px !important; }
+.yig-supplier-entry-s-w { width: 16px; height: 15px; background-position: -153px -318px !important; }
+.yig-supplier-payment-s-w { width: 16px; height: 15px; background-position: -155px -140px !important; }
+.yig-update-stock-s-w { width: 15px; height: 16px; background-position: -156px -165px !important; }
+.invoiceList-s-w { width: 14px; height: 16px; background-position: -160px -241px !important; }
+.yig-csv-s-w { width: 14px; height: 16px; background-position: -160px -343px !important; }
+.yig-done-s-w { width: 16px; height: 14px; background-position: -161px -217px !important; }
+.yig-invoice-s-w { width: 14px; height: 16px; background-position: -161px -369px !important; }
+.yig-order-transaction-s-w { width: 16px; height: 14px; background-position: -172px -10px !important; }
+.yig-product-master-s-w { width: 14px; height: 16px; background-position: -174px -34px !important; }
+.yig-service-s-w { width: 16px; height: 14px; background-position: -173px -267px !important; }
+.yig-batch-master-s-w { width: 13px; height: 16px; background-position: -176px -112px !important; }
+.yig-customer-acc-list-s-w { width: 13px; height: 16px; background-position: -176px -86px !important; }
+.yig-order-details-s-w { width: 13px; height: 16px; background-position: -176px -60px !important; }
+.yig-order-new-s-w { width: 13px; height: 16px; background-position: -174px -291px !important; }
+.yig-order-status-s-w { width: 13px; height: 16px; background-position: -179px -317px !important; }
+.yig-order-verify-s-w { width: 13px; height: 16px; background-position: -181px -161px !important; }
+.yig-paymentlist-s-w { width: 16px; height: 13px; background-position: -181px -138px !important; }
+.yig-picking-order-master-s-w { width: 16px; height: 13px; background-position: -184px -241px !important; }
+.yig-report-s-w { width: 13px; height: 16px; background-position: -187px -210px !important; }
+.yig-supplier-panel-s-w { width: 13px; height: 16px; background-position: -184px -343px !important; }
+.yig-supply-list-s-w { width: 16px; height: 13px; background-position: -185px -369px !important; }
+.yig-transfer-master-s-w { width: 13px; height: 16px; background-position: -99px -123px !important; }
+.yig-staff-s-w { width: 15px; height: 13px; background-position: -183px -187px !important; }
+.yig-customner-acc-statement-s-w { width: 12px; height: 16px; background-position: -44px -333px !important; }
+.yig-download-s-w { width: 12px; height: 16px; background-position: -10px -10px !important; }
+.yig-order-products-s-w { width: 12px; height: 16px; background-position: -161px -191px !important; }
+.yig-picking-list-s-w { width: 12px; height: 16px; background-position: -78px -190px !important; }
+.yig-purchase-payment-s-w { width: 16px; height: 12px; background-position: -135px -192px !important; }
+.yig-upload-s-w { width: 12px; height: 16px; background-position: -197px -291px !important; }
+.billGenerate-s-w { width: 11px; height: 17px; background-position: -198px -32px !important; }
+.generateOrderBill-s-w { width: 11px; height: 17px; background-position: -199px -85px !important; }
+.yig-order-payment-s-w { width: 15px; height: 12px; background-position: -198px -10px !important; }
+.yig-estimate-new-s-w { width: 11px; height: 16px; background-position: -199px -59px !important; }

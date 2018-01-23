@@ -1,0 +1,427 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|initialView": true,
+        "designer|userAlias": "helpWindow",
+        "designer|userClassName": "HelpWindow",
+        "height": 500,
+        "id": "HelpWindow",
+        "itemId": "HelpWindow",
+        "layout": "vbox",
+        "maxHeight": 1000,
+        "modal": true,
+        "title": "helpWindow",
+        "width": 700
+    },
+    "designerId": "c44625f8-6553-4675-b540-dffd220b2871",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "container|pack": "end",
+                "height": 40,
+                "hidden": true,
+                "itemId": "topButtonContainer",
+                "layout": "hbox",
+                "layout|flex": null
+            },
+            "name": "MyContainer3",
+            "designerId": "e04128d4-d400-41e2-8fc7-1f69f015c24e",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "layout": "hbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "86802734-3084-4073-bb71-27c86f12cd0a",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "yig-add-s-w",
+                                "itemId": "btnHelpTextAdd",
+                                "layout|flex": null,
+                                "margin": "0 0 0 5",
+                                "text": "Add"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "80404543-855c-4749-996d-fcad9031f03d"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "end",
+                        "height": 40,
+                        "layout": "hbox",
+                        "layout|flex": 1,
+                        "width": 309
+                    },
+                    "name": "MyContainer1",
+                    "designerId": "4868ef76-458f-488d-a3c0-480b310acfea"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "itemId": "gridContainer",
+                "layout": "hbox",
+                "layout|flex": 1,
+                "margin": "5 5 0 5"
+            },
+            "name": "MyContainer",
+            "designerId": "0f8cd0a9-b349-4574-8d7e-69f5d507c151",
+            "cn": [
+                {
+                    "type": "Ext.grid.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "helpGrid",
+                        "layout|flex": null,
+                        "margin": null,
+                        "store": "HelpTextStore",
+                        "title": null,
+                        "width": 250
+                    },
+                    "name": "MyGridPanel",
+                    "designerId": "539cbdea-93bb-4907-9166-0b6633f3e781",
+                    "cn": [
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "help_code",
+                                "flex": null,
+                                "itemId": "help_code_col",
+                                "menuDisabled": true,
+                                "text": "help_code",
+                                "width": 100
+                            },
+                            "name": "MyColumn2",
+                            "designerId": "a71134e0-c63a-4169-83aa-a9d4337510a5",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "editor",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "name": "MyTextField1",
+                                    "designerId": "9256a3e3-7537-4360-acf3-1d1c49f02e6c"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "help_name",
+                                "flex": 1,
+                                "itemId": "help_name_col",
+                                "menuDisabled": true,
+                                "text": "helpName"
+                            },
+                            "name": "MyColumn",
+                            "designerId": "c5d8d9a3-50c6-47ac-bb7c-459374585c41",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "editor",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "name": "MyTextField",
+                                    "designerId": "1cf7c02a-1bd0-4cbb-b3af-aca30dff8846"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "itemId": "deleteHelpCol",
+                                "menuDisabled": true,
+                                "text": "delCol",
+                                "width": 50
+                            },
+                            "name": "MyColumn1",
+                            "designerId": "41fac3b2-aaf5-4d0c-a4fc-e5fecf04c132"
+                        },
+                        {
+                            "type": "Ext.grid.View",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "MyGridView",
+                            "designerId": "9fdc2504-77ab-4363-8f98-b63c378e9295"
+                        },
+                        {
+                            "type": "Ext.grid.plugin.CellEditing",
+                            "reference": {
+                                "name": "plugins",
+                                "type": "array"
+                            },
+                            "codeClass": "Ext.grid.plugin.CellEditing",
+                            "userConfig": {
+                                "pluginId": "plgGridListCellEditing"
+                            },
+                            "name": "MyCellEditingPlugin",
+                            "designerId": "5b243206-43c9-4b08-9402-8bf4711e1947"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.resizer.Splitter",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MySplitter",
+                    "designerId": "03bfec3f-622a-4564-afa8-76fddce05d44"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "layout": "vbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer7",
+                    "designerId": "ec5b2888-30a0-4efc-bd37-4c7a679e9e6c",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.HtmlEditor",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "enableColors": false,
+                                "enableSourceEdit": false,
+                                "fieldLabel": null,
+                                "height": 150,
+                                "hidden": true,
+                                "itemId": "helpTextEditor",
+                                "layout|flex": 1
+                            },
+                            "name": "MyHtmlEditor",
+                            "designerId": "165b40b7-9aad-48ea-b4f8-c2a63f13eb4a"
+                        },
+                        {
+                            "type": "Ext.form.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoScroll": true,
+                                "bodyPadding": 5,
+                                "componentCls": "message-list",
+                                "hidden": true,
+                                "itemId": "helpTextForm",
+                                "layout": "fit",
+                                "layout|flex": 1,
+                                "manageHeight": false,
+                                "title": null
+                            },
+                            "name": "MyForm",
+                            "designerId": "9752a3a5-4e7d-42f6-9446-6f9cee45a5c9"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "container|pack": "end",
+                "layout": "hbox",
+                "layout|flex": null
+            },
+            "name": "MyContainer5",
+            "designerId": "65ed047d-b68a-45ec-b0ff-0fb333e63735",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "layout": "hbox",
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer6",
+                    "designerId": "153db683-8a0a-48eb-bbaf-44137e139abb",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "yig-save-s-w ",
+                                "itemId": "btnHelpNameSave",
+                                "margin": "0 0 0 5",
+                                "text": "save"
+                            },
+                            "name": "MyButton4",
+                            "designerId": "d4174680-8270-45b9-a95a-67fe90d3167d"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "end",
+                        "height": 40,
+                        "itemId": "bottomBUttonContainer",
+                        "layout": "hbox",
+                        "layout|flex": null
+                    },
+                    "name": "MyContainer2",
+                    "designerId": "d4f7a500-1561-4a25-86da-5288a5228c89",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "yig-save-s-w ",
+                                "itemId": "btnHelpTextSave",
+                                "layout|flex": 1,
+                                "margin": "0 5 0 0",
+                                "text": "save"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "bb3fddb9-10f4-403e-b142-248320d1b410"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "iconCls": "yig-edit-s-w",
+                                "itemId": "btnHelpTextEdit",
+                                "layout|flex": 1,
+                                "margin": "0 5 0 0",
+                                "text": "edit"
+                            },
+                            "name": "MyButton",
+                            "designerId": "b7d990c6-6271-4d32-90ea-db6f3159b171"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": "yig-cancel-s-w",
+                                "itemId": "btnCancel",
+                                "margin": "0 5 0 0",
+                                "text": "cancel"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "65d41bdf-def6-41de-9989-41014abd9f84"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

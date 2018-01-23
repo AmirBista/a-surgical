@@ -1,0 +1,162 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "designer|userAlias": "CsvImportWin",
+        "designer|userClassName": "CsvImportWin",
+        "height": 140,
+        "itemId": "CsvImportWin",
+        "layout": "vbox",
+        "style": [
+            "{'background':'#ffffff'}"
+        ],
+        "title": "CSV Import",
+        "titleAlign": null,
+        "width": 480
+    },
+    "designerId": "541d766d-6baf-4f54-a0c6-5ba1275a724a",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 20,
+                "layout|flex": 0,
+                "layout|margins": "8"
+            },
+            "name": "MyContainer8",
+            "designerId": "685b4ddb-ca6c-4dfd-a482-1d9e26dba70a",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Display",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "itemId": "subHeading",
+                        "margin": null,
+                        "value": "Browse xlsx file"
+                    },
+                    "name": "MyDisplayField",
+                    "designerId": "809eb70c-fd43-42a8-98e1-f5fe272ea51d"
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "middle",
+                "container|pack": "center",
+                "itemId": "CsvImpForm",
+                "layout": "hbox",
+                "layout|flex": 0
+            },
+            "name": "MyForm",
+            "designerId": "cb8b1b94-bfba-4253-9bc0-03c063136ae4",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "updContainer",
+                        "layout|flex": 0,
+                        "margin": 5
+                    },
+                    "name": "MyContainer9",
+                    "designerId": "a2c6aa99-1183-4cdd-a3e2-7a2f1868ac3e",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.File",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "buttonMargin": 4,
+                                "fieldLabel": "",
+                                "itemId": "csvFile",
+                                "labelWidth": null,
+                                "margin": "1 0 0 0",
+                                "name": "csvFile",
+                                "validateBlank": true,
+                                "width": 250
+                            },
+                            "name": "MyFileUpload",
+                            "designerId": "e8f2be32-acfa-4296-ba41-7b57ba1a3c9f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "updControls",
+                        "layout|flex": null,
+                        "margin": "0 5",
+                        "padding": null
+                    },
+                    "name": "MyContainer10",
+                    "designerId": "f9988d51-52a3-436a-8d1f-66da67ec5788",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "btnUpload",
+                                "margin": "0 2 0 0",
+                                "text": "Upload"
+                            },
+                            "name": "MyButton9",
+                            "designerId": "51e9219b-77a5-45e9-9b5a-d12adad99479"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "btnCancel",
+                                "margin": null,
+                                "text": "Cancel"
+                            },
+                            "name": "MyButton10",
+                            "designerId": "f1b42099-b2c7-4724-ab7a-f9faac4241a7"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

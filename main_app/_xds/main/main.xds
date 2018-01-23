@@ -1,0 +1,67 @@
+{
+    "name": "main",
+    "settings": {
+        "cmd": {
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
+        },
+        "urlPrefix": "http://localhost/main/",
+        "spacesToIndent": 4,
+        "exportPath": "./../../",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "exportXDSFiles": false,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "displayfield-ExtBox1-1287-inputEl": "Not Installed",
+        "projectHasEnabledWebServer": false,
+        "lockUrlPrefix": false,
+        "installStatus": "Not Installed",
+        "displayfield-ExtBox1-1123-inputEl": "a new version of the framework is available"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1851,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext41",
+    "viewOrderMap": {
+        "view": [
+            "57e108b4-f072-410d-b782-420276272628",
+            "87fed99c-2559-4281-a1bf-4ac9c6484603"
+        ],
+        "store": [
+            "e2a6d2fd-0ebd-4bc6-9d87-200a91b93a5a",
+            "62fc466d-fcc1-46bf-9f6a-378ff287c1db",
+            "7499f3b5-0d69-4fde-89e0-effc88ed223d"
+        ],
+        "controller": [],
+        "model": [
+            "1ce22981-af34-472e-b5e5-7053fd1ceec2",
+            "4b8dc27d-0f92-4f91-848d-1b80f87ba97c",
+            "ebf887f6-f7e0-4107-a5e6-7c046f4823d3"
+        ],
+        "resource": [
+            "725d69dc-a1ff-4485-992d-bd81dd03d6ed"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

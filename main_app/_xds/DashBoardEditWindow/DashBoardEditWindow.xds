@@ -1,0 +1,45 @@
+{
+    "name": "DashBoardEditWindow",
+    "settings": {
+        "cmd": {},
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "",
+        "exportPath": "./../../",
+        "buildShouldOverwriteIndex": true,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "projectHasEnabledWebServer": false,
+        "lockUrlPrefix": false,
+        "generateArchitectVersion": true,
+        "installStatus": "Not Installed",
+        "displayfield-ExtBox1-1123-inputEl": "a new version of the framework is available"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1851,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "b8d6a596-11df-4498-bb15-23c19b3eba29"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "f907c446-1af6-4045-ad0f-5bb0a52eaa1b"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

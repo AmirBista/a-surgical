@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 0;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size: 13px;
+	 font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo,Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+/*.print_report{
+	width: 21cm;
+    min-height: 29.7cm;
+}*/
+p{
+	font-size: 35px;
+	padding: 3px 0
+}
+.summary_wrapper{
+	padding:0x;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	/*height: 28.7cm;*/
+	margin: 30px auto 0;
+	width: 19cm;
+	padding: 2cm`
+
+}
+.last_print_date{
+	text-align: left;
+	width: 50%;
+	float: left;
+}
+.last_print_date p{
+	font-size: 26px;
+	margin: 5px 0;
+}
+.fright{
+	float: right;
+}
+.fleft{
+	float: left;
+}
+.summary_first{
+	padding: 50px 15%; 
+	width: 70%;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+}
+.summary_first p{
+	font-size: 35px;
+}
+.summary_no{
+	text-align: center;
+	padding: 70px 0;
+	border-bottom: 1px solid #000;
+	width: 100%;
+	display: inline-block;
+}
+.summary_no p{
+	font-size: 150px;
+	
+}
+.summary_no p span{
+	font-size: 65px;
+}
+.summary_table{
+	padding: 80px 0;
+	width: 100%;
+	display: inline-block;
+}
+.summary_box{
+	width: 100%;
+	display: inline-block;
+}
+.summary_box table{
+	border: none;
+	margin: 0px;
+}
+.summary_box table td{
+	border: none;
+}
+.summary_address{
+	width: 300px;
+	float: right;
+	text-align: right;
+}
+.summary_address p{
+	font-size: 18px;
+}
+.summary_box p{
+	font-size: 18px;
+}
+.bill_no{
+	border-bottom:1px solid #000 
+}
+.bill_no span{
+	float: right;
+}
+.japnese_date{
+	text-align: center;
+	padding: 50px 0;
+	font-size: 35px;
+	width: 100%;
+	float: left;
+}
+.japnese_date p{
+	
+}
+.summary_box ul{
+	width: 100%;
+	display: inline-block;
+}
+.summary_box li{
+	width: 45%;
+	float: left;
+}
+.summary_box li:nth-child(odd) {
+	margin-right: 5%;
+}
+@media print {
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	.summary_wrapper{
+		page-break-after: always;
+	}
+}

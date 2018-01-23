@@ -1,0 +1,310 @@
+.incidentwindow{
+	.subjectcls,.complaincls{
+		.textlabel{
+			background: #DDDDDD;
+			color: #000;
+			padding: 10px 5px;
+			font-weight: bold
+		}
+	}
+	.subjectcls{
+		.#{$prefix}form-text{
+			border: none;
+		}
+	}
+	.title-container{
+		background: #DDDDDD;
+		label{
+			font-weight: bold;
+		}
+	}
+	.commentInfoHolder{
+		margin-top: 5px
+	}
+}
+.border-container{
+	label.#{$prefix}form-item-label{
+		background: #DDDDDD;
+		color: #000;
+		padding: 5px;
+		margin-top: 0px;
+		font-weight: bold;
+	}
+}
+
+.uploadedFileItemHolder{
+	ul{
+		li{
+			padding: 2px 5px;
+			margin: 2px 0;
+			border: 1px solid #ccc;
+			width: 100%;
+			float: left;
+		}
+		.filePathSpan{
+			float: left;
+		}
+		.odd{
+			background: #EEF8DC; 
+		}
+		.even{
+			background: #fff;
+		}
+	}
+}
+.#{$prefix}ie6 .uploadedFileItemHolder ul li {
+	width: auto;
+}
+
+.#{$prefix}ie6,.#{$prefix}ie7{
+		.uploadedFileItemHolder ul li {
+		width: auto;
+	}
+}
+.#{$prefix}ie6{
+	.file_box{ 
+		text-align: center;
+		img{
+			width:auto !important;
+			width:60px;
+
+			height:auto !important;
+			width:60px;
+		}
+	}
+}
+.attachbtncnt{
+	border-top: 1px solid #ccc;
+}
+.#{$prefix}dataview-item{
+	padding:5px;
+	float: left;
+	width:100%;
+	border-top:1px solid #ccc;
+	.uploadedFile{
+		float: left;
+	}
+	.actionSpan{
+		float: right;
+		.icons-delete{
+			cursor: pointer;
+		}
+	}
+}
+
+.actionSpan{
+	float: right;
+		.download_file{
+			float: right;
+			cursor: pointer;
+			background: url($image_path+'icons/downloadg.png'+$cache_svn) no-repeat;
+			width: 80px;
+			height: 16px;
+			float: left;
+			text-indent:-99999px;
+		}
+		.delete_file{
+			float: right;
+			cursor: pointer;
+			background: url($image_path+'icons/delete_file.png'+$cache_svn) no-repeat;
+			width: 16px;
+			height: 16px;
+			float: left;
+			text-indent:-99999px;
+			margin-left: 5px;
+		}
+
+		.view_file{
+			float: right;
+			cursor: pointer;
+			background: url($image_path+'icons/view1.png'+$cache_svn) no-repeat;
+			width: 30px;
+			height: 16px;
+			float: left;
+			margin-right: 5px;
+
+		}
+
+
+}
+
+//.#{$prefix}tool-img {margin: 0 -2px}
+.x-window .x-tool{
+	margin-left: -2px !important;
+	width: 16px!important
+
+}
+.uploadedFile{
+	ul{
+		li{
+		width: 100%;
+		float: left;
+		padding: 2px 0;
+		background: #EEF8DC;
+		border-bottom: 1px solid #ccc;
+		}
+	}
+	.file_box{
+		height:20px;
+		width: 20px;
+		position: relative;
+		margin:0 5px;
+		float:left;
+		border: 1px solid #ccc;
+		img{
+				max-height: 100%;
+				max-width: 100%;
+				position: absolute;
+				left:0px;
+				right: 0px;
+				bottom: 0px;
+				top: 0px;
+				margin: auto;
+				}
+	}
+	.imgLi .file_box{
+		height:60px;
+		width: 60px;
+		position: relative;
+		margin:0 5px;
+		float:left;
+		border: 1px solid #ccc;
+			img{
+				max-height: 100%;
+				max-width: 100%;
+				position: absolute;
+				left:0px;
+				right: 0px;
+				bottom: 0px;
+				top: 0px;
+				margin: auto;
+				}
+	}
+	.imgLi .filePathSpan{
+		float: left;
+		margin: 20px 0;
+	}
+	.imgLi .actionSpan{
+		margin: 20px 0;
+	}
+}
+
+.textarea-container{
+	background: #E6E6E6;
+}
+.sectiontitle-container label.x-component{
+	margin-top: 5px;
+	padding-left: 3px;
+}
+.popup_wrapper{
+	width:300px; 
+	height: 300px;
+	position: relative;
+	border: 1px solid #669933;
+}
+.delImg{
+	width: 18px;
+	height: 18px;
+	background: url($image_path+'icons/delete_file.png'+$cache_svn) no-repeat center #999;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+	text-indent: -99999px;
+}
+.x-tool-img.x-tool-close{
+	background: url($image_path+'icons/close.gif'+$cache_svn) no-repeat;
+}
+
+.x-ie6 .imgLi .file_box,.x-ie7 .imgLi .file_box{
+	text-align: center;
+	overflow: hidden;
+}
+.x-ie6 .imgLi .file_box img ,.x-ie7 .imgLi .file_box img{
+	position: relative!important;
+	width: auto!important;
+	width: 100%;
+	max-width: 100%;
+	height: auto!important;
+	height: 100%;
+	max-height: 100%;
+}
+.x-html-editor-wrap{
+	.x-btn-default-toolbar-small{
+		background: #F5F5F5
+	}
+}
+
+.user-info-link, .user-info-link3{
+	cursor: pointer;
+	color: #1D7AE2;
+	background: url($image_path+'link70.png'+$cache_svn) no-repeat;
+	width: 28px;
+	height: 16px;
+	text-indent: -99999px;
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.user-info-link2{
+	cursor: pointer;
+	color: #1D7AE2;
+	background: url($image_path+'updatelink70.png'+$cache_svn) no-repeat;
+	width: 28px;
+	height: 16px;
+	text-indent: -99999px;
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.x-grid-cell-inner .icons-delete{
+	background: url($image_path+'icons/delete_record.png'+$cache_svn) no-repeat;
+	width: 42px;
+	height : 16px;
+	float: left;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.incidentwindow .x-form-item-label{
+	position: relative;
+}
+.#{$prefix}ie7 .filePathSpan, .#{$prefix}ie6 .filePathSpan{
+	float: left;
+}
+
+.multi-user-title{
+	margin: 10px 0;
+	color: red;
+	font-size: 18px;
+}
+
+.multi-user-table{
+	border-collapse: collapse;
+	border-color: #ccc;
+	th,td{
+		padding: 5px 10px;
+		border-color: #ccc;
+	}
+	th{
+		background-color: #669933;
+		color: #fff;
+		font-size: 14px;
+	}
+}
+.multi-user-msg{
+	margin: 15px 0 0 0;
+	font-size: 14px;
+}
+.switch_user_window {
+	.x-window-body  {
+		background-color: #F0F0F0;
+	}
+
+	.userGrp-div {
+		padding: 5px 3px;
+		background-color: #fff;
+		border-bottom: 1px solid #E6E6E6;
+	}
+}

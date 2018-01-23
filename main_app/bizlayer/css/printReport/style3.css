@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #000
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p{
+	font-size:12px;
+	padding: 2px;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.address_box p{
+	font-size: 14px!important;
+}
+.address_box{
+	text-align: right;
+}
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	border:#ccc 1px solid;
+	margin:20px 0 0 0;
+	border-bottom: 1px solid #00;
+}
+.wrapper{
+	width: 297mm;
+	margin: 0px auto
+}
+table.header-table, table.header-table td {
+	border: none;
+}
+table.header-table td p{
+	font-size: 18px
+}
+table.header-table td h2{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	/*padding-left: 150px;*/
+}
+.top-div,.bottomdiv{
+	float: left;
+	margin: 2px 0;
+	width: 100%;
+}
+.rate_qty{
+	margin-left: 20px
+}
+.text-padding{
+	margin-left: 49px
+}
+table th {
+	padding:5px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+	background: #ccffff;
+	border:1px solid #ccc;
+	font-weight: bold;
+	font-size:14px;
+}
+table tr{
+	text-align: center;
+	padding-left:20px;
+}
+.date_bold{
+	font-weight: bold;
+	font-size: 14px
+}
+table tr td {
+	padding:2px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	text-align:left;
+	vertical-align: top;
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+
+table tr:last-child td{
+	border-bottom:0;
+}
+table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.rtext{
+	float: right;
+}
+table tr:last-child td:last-child{
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+tr td.even{
+	background:#ccffff;
+}
+.fleft{
+	float: left;
+	margin-right: 5%;
+	/*width: 40%;*/
+	text-align: left;
+}
+.fright{
+	float: right;
+	/*width: 55%;*/
+	text-align: right;
+}
+
+.dcompany{
+	width: 100%;
+	float: left;
+	/*margin-bottom: 2px*/
+}
+.dcompany span, .incharge span{
+	font-size: 18px; 
+}
+/*table th span{
+	padding-left:14px;
+}*/
+.common{
+	padding-top:4px;
+	width: 297mm;
+	margin: 0px auto;
+}
+.common_header{
+	border:1px solid #000;
+	padding:2px 10px;
+	overflow: hidden;
+}
+.namer_list{
+	color: #000;
+	float:left;
+	width: 43%;
+	padding-top:6px;
+}
+.namer_list p{
+	color: #000;
+}
+.namer_list p span{
+
+}
+.record{
+	float: left;
+	width: 43%;
+	padding-top:6px;
+}
+.record p{
+}
+.record p span{
+
+}
+.print_record{
+	float: right;
+	border: 1px solid #336600;
+	padding: 3px 6px;
+	background: #72b045;
+	border-radius: 4px;
+}
+.print_record a{
+	color: #fff;
+}
+
+@media print {
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	 @page 
+        {
+            size: auto;   /* auto is the current printer page size */
+            margin: 4mm;  /* this affects the margin in the printer settings */
+            size: landscape;
+        }
+	.wrapper{
+		/*page-break-after:left;*/
+		padding: 0px;
+		margin: 0px
+	}
+	#header, #footer { 
+		display: none !important;
+	}
+	.common{
+		display: none;
+	}
+	.common_header {
+		display: none;
+	}
+	.header-address {
+		height: 370px;
+		display: block;
+	}
+	.print_report{
+		padding: 0px;
+		margin: 0px
+
+	}
+	table{
+		margin-top: 0px
+	}
+	.page-break{
+	page-break-after:always;
+	}
+}

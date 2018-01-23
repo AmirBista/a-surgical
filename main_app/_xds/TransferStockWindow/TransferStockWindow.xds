@@ -1,0 +1,46 @@
+{
+    "name": "TransferStockWindow",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "./../../",
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "displayfield-ExtBox1-1576-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1287-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1943,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "db7ab2cf-90fa-4a92-a158-84351b158791"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "10d28ba3-7ea3-4c94-a186-8f443672a7d1",
+            "5b155553-52fa-4dce-abdb-a699dc497a19"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

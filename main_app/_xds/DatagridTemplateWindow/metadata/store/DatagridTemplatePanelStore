@@ -1,0 +1,44 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DatagridTemplatePanelStore",
+        "model": "DatagridTemplatePanelModel",
+        "storeId": "DatagridTemplatePanelStore"
+    },
+    "designerId": "34b9efa7-a893-4a58-b92a-cd866b9c1cc5",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "bizlayer/datagridTemplate/getTemplatePanelFields"
+            },
+            "name": "MyAjaxProxy1",
+            "designerId": "024e8fbb-fdbd-4009-bb7a-7b8ba12f8905",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader1",
+                    "designerId": "5ce7da9b-8c81-4e7b-9847-acf4199dc8b2"
+                }
+            ]
+        }
+    ]
+}

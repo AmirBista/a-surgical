@@ -1,0 +1,50 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CommentDataStore",
+        "model": "CommentDataModel",
+        "pageSize": null,
+        "storeId": "CommentDataStore"
+    },
+    "name": "MyJsonStore",
+    "designerId": "ed00c597-f381-4486-a59f-480d47a1cdad",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "api": [
+                    "{read: 'bizlayer/comment/getCommentList',",
+                    "create: 'bizlayer/comment/getCommentList'}"
+                ],
+                "url": "bizlayer/comment/getCommentList"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "727e3bf6-eaf3-4bfc-bfd8-6554f42c4bd9",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "7bef4fe2-7e96-4cc6-a54a-a5cbd6be37c5"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+/*alertify*/
+#alertify {
+  top: 42%!important;
+  left: 54%!important;
+  min-width: 388px!important;
+  width: auto!important;
+}
+.alertify-dialog {
+  padding: 10px 21px 20px 21px!important;
+}
+.alertify.save p.alertify-message {
+  background: #ffffff url(../images/right_btn.png) no-repeat !important;
+  height: 25px;
+  padding-left: 44px;
+  padding-top: 4px;
+}
+.alertify.failed p.alertify-message {
+  background: #ffffff url(../images/cancle.png) no-repeat !important;
+  height: 25px;
+  padding-left: 15px;
+  padding-top: 4px;
+}
+.alertify-cover {
+  opacity: 0.5!important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
+  filter: alpha(opacity=50) !important;
+  -khtml-opacity: 0.5!important;
+  -moz-opacity: 0.5!important;
+  background: #000!important;
+}
+.frontend.manuals p.alertify-message {
+  text-align: center;
+  line-height: 32px;
+}
+.frontend.manuals.alertify-dialog {
+  padding: 10px 21px 20px 21px!important;
+}
+.alertify-button {
+  font-size: 12px!important;
+}

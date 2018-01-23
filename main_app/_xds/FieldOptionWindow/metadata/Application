@@ -1,0 +1,22 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "FieldOptionDataModel"
+        ],
+        "name": "YBase",
+        "stores": [
+            "FieldOptionDataStore"
+        ],
+        "views": [
+            "FieldOptionWindow"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

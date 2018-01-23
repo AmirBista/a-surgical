@@ -1,0 +1,55 @@
+{
+    "name": "DatagridTemplateWindow",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "./../../",
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "displayfield-ExtBox1-1325-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1851,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "c44625f8-6553-4675-b540-dffd220b2871"
+        ],
+        "store": [
+            "10ee54a4-f261-4760-ac36-7c9232d5ba2e",
+            "93d15914-4759-4979-8a95-3e3d093068cb",
+            "ae731d09-1e2d-472c-8f48-c8253e8cd288",
+            "34b9efa7-a893-4a58-b92a-cd866b9c1cc5"
+        ],
+        "controller": [],
+        "model": [
+            "fa5f3f23-b34f-415b-abbd-b94ac811a48b",
+            "29e01ed1-71d9-4001-b92c-caf45cd054f3",
+            "34ec430a-d72a-48b4-b67b-698c068dca80",
+            "cca38faf-b86f-46e5-9436-70b2ae5b037e"
+        ],
+        "resource": [
+            "af1fd31b-86ca-4dc4-ba36-66ae7c599f16",
+            "e7821a12-40bd-481b-8c80-6d2ef811cbc7"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

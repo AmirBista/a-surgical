@@ -1,0 +1,40 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PanelNameModel"
+    },
+    "designerId": "fa5f3f23-b34f-415b-abbd-b94ac811a48b",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "datagrid_id"
+            },
+            "name": "MyField7",
+            "designerId": "cba0b007-7903-4f0b-bcf9-0a7da0517ae6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "datagrid_name"
+            },
+            "name": "MyField8",
+            "designerId": "ed798402-32bd-4a4a-9ae1-a24f7e2f3608"
+        }
+    ]
+}

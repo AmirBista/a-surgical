@@ -1,0 +1,19 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "StoreLIstModel"
+        ],
+        "name": "YBase",
+        "stores": [
+            "StoreListStore"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

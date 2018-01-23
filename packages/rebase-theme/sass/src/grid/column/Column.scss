@@ -1,0 +1,132 @@
+// .#{$prefix}panel{
+// 	.#{$prefix}grid-row-over{
+// 		.#{$prefix}grid-cell-inner{ // hover text color and td background color
+// 			color: #000;
+// 			background:#B3DEFF;
+// 		}
+// 	}
+// 	.#{$prefix}grid-row-selected{
+// 		.#{$prefix}grid-td{
+// 			background:#B3DEFF; //#D8F3C9
+// 		}
+// 	}
+// 	.draftCls .x-grid-td{
+// 		background: #2BA5FF ;
+// 	}
+// 	.unread-row{
+// 		.#{$prefix}grid-cell-inner{
+// 			color: $unreadtext;
+// 		}
+// 	}
+// 	.#{$prefix}grid-cell-inner{
+// 		cursor: pointer;
+// 	}
+// }
+.default-sortable-col .#{$prefix}column-header-text{
+	background: transparent!important;
+}
+.sortable-col .#{$prefix}column-header-text{
+	background: url($image_path+'sort.gif'+$cache_svn) no-repeat right;
+	padding-right:20px;
+}
+.sortable-col.#{$prefix}column-header-sort-ASC .#{$prefix}column-header-text{
+	background: url($image_path+'up.gif'+$cache_svn) no-repeat right;
+}
+.sortable-col.#{$prefix}column-header-sort-DESC .#{$prefix}column-header-text{
+	background: url($image_path+'down.gif'+$cache_svn) no-repeat right;
+}
+.sortable-col.#{$prefix}column-header-checkbox .#{$prefix}column-header-text{
+	background:none;
+}
+.#{$prefix}hmenu-sort-asc .#{$prefix}menu-item-icon{
+	background: url($image_path+'up.gif'+$cache_svn) no-repeat right;
+}
+.#{$prefix}hmenu-sort-desc .#{$prefix}menu-item-icon{
+	background: url($image_path+'down.gif'+$cache_svn) no-repeat right;
+}
+
+.successCsv{
+	color: #00a65a;
+}
+.errorCsv{
+	color: #f56954;
+}
+.viewFile{
+	background: url($image_path+'pdf_view.png'+$cache_svn) no-repeat right;
+	width: 54px;
+	float: left;
+	height: 16px;
+	text-indent: -9999px
+}
+.print_pdf{
+	background: url($image_path+'printer.png'+$cache_svn) no-repeat right;
+	width: 54px;
+	float: left;
+	height: 16px;
+	margin-left: 5px;
+	cursor: pointer;
+	text-indent: -9999px
+}
+.meetingList{
+	.x-form-focus{
+		background: #B3DEFF;
+		border-color: #B3DEFF;
+	}
+}
+
+.select{
+	background: url($image_path+'/icons/move_right70.png'+$cache_svn) no-repeat;
+	height: 16px;
+	width: 25px;
+	float: left;
+	cursor: pointer
+}
+
+.select_left{
+	background: url($image_path+'/icons/move_left70.png'+$cache_svn) no-repeat;
+	height: 16px;
+	width: 25px;
+	float: left;
+	cursor: pointer
+}
+.undelete-icon{
+	background: url($image_path+'/icons/delete_disable.png'+$cache_svn) no-repeat;
+	height: 17px;
+	width: 29px;
+	float: left;
+
+}
+.delete-icon{
+	background: url($image_path+'/icons/setting-delete70.png'+$cache_svn) no-repeat;
+	height: 17px;
+	width: 51px;
+	float: left;
+
+}
+.Edit_Data{
+	background: url($image_path+'/icons/setting_edit70.png'+$cache_svn) no-repeat;
+	height: 17px;
+	width: 50px;
+	float: left;
+	cursor: pointer
+}
+
+.userMeetingGrid .#{$prefix}grid-cell-inner{
+		cursor: default!important;
+	}
+
+// 	.#{$prefix}grid-row-alt .x-grid-td{
+// 	background-color: #FFF7F2;
+// }
+
+.#{$prefix}grid-row-alt .x-grid-td{
+    background:#FFF8F6;
+}
+.#{$prefix}grid-row-over .x-grid-td{
+    // background: #fce7cc;
+    color: #000;
+}
+.#{$prefix}grid-row-selected .x-grid-td{
+   // background: #fce7cc;
+  }
+

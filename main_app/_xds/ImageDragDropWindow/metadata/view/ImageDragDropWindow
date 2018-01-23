@@ -1,0 +1,77 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "closeAction": "hide",
+        "cls": "dragdrop-window",
+        "componentCls": "dragdrop-window",
+        "designer|userAlias": "imageDragDropWindow",
+        "designer|userClassName": "ImageDragDropWindow",
+        "frameHeader": null,
+        "header": false,
+        "height": 350,
+        "id": "imageDragDropWindow",
+        "itemId": "imageDragDropWindow",
+        "modal": true,
+        "preventHeader": null,
+        "resizable": [
+            "false"
+        ],
+        "title": null,
+        "width": 450
+    },
+    "name": "MyWindow",
+    "designerId": "42413f79-b991-48aa-876d-d96e3f7bb572",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "preventHeader",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": "file-dropzone",
+                "componentCls": "file-dropzone",
+                "container|align": "stretch",
+                "frame": null,
+                "height": 338,
+                "itemId": "dropElementContainer",
+                "layout": "vbox"
+            },
+            "name": "MyContainer8",
+            "designerId": "13090ced-0f4d-486f-9df3-f69747233481",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "componentCls": " multifileContainer",
+                        "container|align": "bottom",
+                        "container|pack": "center",
+                        "itemId": "multifileContainer",
+                        "layout": "hbox",
+                        "layout|flex": null
+                    },
+                    "name": "MyContainer10",
+                    "designerId": "f817b2ab-c786-4b5e-96c4-87d92300877c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CommentDataModel",
+        "idProperty": null
+    },
+    "name": "MyModel",
+    "designerId": "79ce8231-d1f1-4137-8651-4bfe1aa7d8f6",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "comment_id"
+            },
+            "name": "MyField",
+            "designerId": "8c9790bd-5ca3-47bd-be7d-5e77c0c2f8c7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ref_table"
+            },
+            "name": "MyField1",
+            "designerId": "df3dc92d-1f4f-40f9-bf47-8c55c58a1b25"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ref_record_id"
+            },
+            "name": "MyField2",
+            "designerId": "5afba621-95c3-4f36-8a87-1942a7a6e84c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "username"
+            },
+            "name": "MyField3",
+            "designerId": "7e0f2b30-7a3e-46e7-9896-1dd120b93eb4"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "comment"
+            },
+            "name": "MyField4",
+            "designerId": "7ff39fce-ac8c-4469-bfd0-02dde6f475a6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "firstlastname"
+            },
+            "name": "MyField5",
+            "designerId": "b834f5d3-991c-4557-bee4-efcb63a9ba4d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "comment_date"
+            },
+            "name": "MyField6",
+            "designerId": "441ce07a-ae8b-471a-9db1-a3465bc11bd4"
+        }
+    ]
+}

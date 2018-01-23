@@ -1,0 +1,99 @@
+.x-tab-active .yig-member-s-w,
+.x-tab-active .yig-repair-s-w,
+.x-tab-active .icon_status_s_w,
+.x-tab-active .yig-acc-transaction-s-w,
+.x-tab-active .yig-account-transactionlist-s-w,
+.x-tab-active .yig-customer-s-w,
+.x-tab-active .yig-dashboard-s-w,
+.x-tab-active .yig-invoicelist-s-w,
+.x-tab-active .yig-order-s-w,
+.x-tab-active .yig-payable-bill-s-w,
+.x-tab-active .yig-picking-detail-s-w,
+.x-tab-active .yig-product-set-s-w,
+.x-tab-active .yig-purchase-transaction-s-w,
+.x-tab-active .yig-setting-s-w,
+.x-tab-active .yig-supplier-invoice-s-w,
+.x-tab-active .yig-supplier-s-w,
+.x-tab-active .yig-supply-entry-s-w,
+.x-tab-active .yig-transaction-s-w,
+.x-tab-active .yig-message-s-w,
+.x-tab-active .yig-order-invoice-s-w,
+.x-tab-active .yig-ordernew-s-w,
+.x-tab-active .yig-payment-s-w,
+.x-tab-active .yig-purchase-entry-s-w,
+.x-tab-active .yig-supplier-entry-s-w,
+.x-tab-active .yig-supplier-payment-s-w,
+.x-tab-active .yig-invoice-s-w,
+.x-tab-active .yig-order-transaction-s-w,
+.x-tab-active .yig-product-master-s-w,
+.x-tab-active .yig-service-s-w,
+.x-tab-active .yig-auction-member-s-w,
+.x-tab-active .yig-batch-master-s-w,
+.x-tab-active .yig-customer-acc-list-s-w,
+.x-tab-active .yig-order-details-s-w,
+.x-tab-active .yig-order-new-s-w,
+.x-tab-active .yig-order-status-s-w,
+.x-tab-active .yig-paymentlist-s-w,
+.x-tab-active .yig-picking-order-master-s-w,
+.x-tab-active .yig-report-s-w,
+.x-tab-active .yig-supplier-panel-s-w,
+.x-tab-active .yig-supply-list-s-w,
+.x-tab-active .yig-transfer-master-s-w,
+.x-tab-active .yig-customner-acc-statement-s-w,
+.x-tab-active .yig-order-products-s-w,
+.x-tab-active .yig-picking-list-s-w,
+.x-tab-active .yig-purchase-payment-s-w,
+.x-tab-active .yig-order-payment-s-w,
+.x-tab-active .yig-estimate-new-s-w
+{ 
+	background-image: url('../images/icons_g.png') !important; 
+	background-color: transparent; 
+	background-repeat: no-repeat; 
+}
+.x-tab-active .yig-member-s-w { width: 17px; height: 17px; background-position: -10px -245px !important; }
+.x-tab-active .yig-repair-s-w { width: 17px; height: 17px; background-position: -10px -218px !important; }
+.x-tab-active .icon_status_s_w { width: 16px; height: 16px; background-position: -10px -192px !important; }
+.x-tab-active .yig-acc-transaction-s-w { width: 16px; height: 16px; background-position: -35px -10px !important; }
+.x-tab-active .yig-account-transactionlist-s-w { width: 16px; height: 16px; background-position: -36px -295px !important; }
+.x-tab-active .yig-customer-s-w { width: 16px; height: 16px; background-position: -37px -269px !important; }
+.x-tab-active .yig-dashboard-s-w { width: 16px; height: 16px; background-position: -36px -36px !important; }
+.x-tab-active .yig-invoicelist-s-w { width: 16px; height: 16px; background-position: -10px -166px !important; }
+.x-tab-active .yig-order-s-w { width: 16px; height: 16px; background-position: -36px -62px !important; }
+.x-tab-active .yig-payable-bill-s-w { width: 16px; height: 16px; background-position: -10px -140px !important; }
+.x-tab-active .yig-picking-detail-s-w { width: 16px; height: 16px; background-position: -36px -88px !important; }
+.x-tab-active .yig-product-set-s-w { width: 16px; height: 16px; background-position: -10px -114px !important; }
+.x-tab-active .yig-purchase-transaction-s-w { width: 16px; height: 16px; background-position: -36px -114px !important; }
+.x-tab-active .yig-setting-s-w { width: 16px; height: 16px; background-position: -10px -88px !important; }
+.x-tab-active .yig-supplier-invoice-s-w { width: 16px; height: 16px; background-position: -36px -140px !important; }
+.x-tab-active .yig-supplier-s-w { width: 16px; height: 16px; background-position: -10px -62px !important; }
+.x-tab-active .yig-supply-entry-s-w { width: 16px; height: 16px; background-position: -36px -166px !important; }
+.x-tab-active .yig-transaction-s-w { width: 16px; height: 16px; background-position: -10px -36px !important; }
+.x-tab-active .yig-message-s-w { width: 16px; height: 15px; background-position: -36px -192px !important; }
+.x-tab-active .yig-order-invoice-s-w { width: 15px; height: 16px; background-position: -10px -10px !important; }
+.x-tab-active .yig-ordernew-s-w { width: 15px; height: 16px; background-position: -61px -10px !important; }
+.x-tab-active .yig-payment-s-w { width: 15px; height: 16px; background-position: -60px -236px !important; }
+.x-tab-active .yig-purchase-entry-s-w { width: 15px; height: 16px; background-position: -62px -210px !important; }
+.x-tab-active .yig-supplier-entry-s-w { width: 16px; height: 15px; background-position: -62px -185px !important; }
+.x-tab-active .yig-supplier-payment-s-w { width: 16px; height: 15px; background-position: -62px -160px !important; }
+.x-tab-active .yig-invoice-s-w { width: 14px; height: 16px; background-position: -62px -112px !important; }
+.x-tab-active .yig-order-transaction-s-w { width: 16px; height: 14px; background-position: -62px -88px !important; }
+.x-tab-active .yig-product-master-s-w { width: 14px; height: 16px; background-position: -62px -62px !important; }
+.x-tab-active .yig-service-s-w { width: 16px; height: 14px; background-position: -10px -272px !important; }
+.x-tab-active .yig-auction-member-s-w { width: 13px; height: 16px; background-position: -62px -295px !important; }
+.x-tab-active .yig-batch-master-s-w { width: 13px; height: 16px; background-position: -63px -262px !important; }
+.x-tab-active .yig-customer-acc-list-s-w { width: 13px; height: 16px; background-position: -62px -36px !important; }
+.x-tab-active .yig-order-details-s-w { width: 13px; height: 16px; background-position: -37px -243px !important; }
+.x-tab-active .yig-order-new-s-w { width: 13px; height: 16px; background-position: -85px -36px !important; }
+.x-tab-active .yig-order-status-s-w { width: 13px; height: 16px; background-position: -86px -10px !important; }
+.x-tab-active .yig-paymentlist-s-w { width: 16px; height: 13px; background-position: -86px -62px !important; }
+.x-tab-active .yig-picking-order-master-s-w { width: 16px; height: 13px; background-position: -86px -112px !important; }
+.x-tab-active .yig-report-s-w { width: 13px; height: 16px; background-position: -88px -85px !important; }
+.x-tab-active .yig-supplier-panel-s-w { width: 13px; height: 16px; background-position: -86px -239px !important; }
+.x-tab-active .yig-supply-list-s-w { width: 16px; height: 13px; background-position: -86px -287px !important; }
+.x-tab-active .yig-transfer-master-s-w { width: 13px; height: 16px; background-position: -87px -213px !important; }
+.x-tab-active .yig-customner-acc-statement-s-w { width: 12px; height: 16px; background-position: -88px -187px !important; }
+.x-tab-active .yig-order-products-s-w { width: 12px; height: 16px; background-position: -88px -161px !important; }
+.x-tab-active .yig-picking-list-s-w { width: 12px; height: 16px; background-position: -88px -135px !important; }
+.x-tab-active .yig-purchase-payment-s-w { width: 16px; height: 12px; background-position: -86px -265px !important; }
+.x-tab-active .yig-order-payment-s-w { width: 15px; height: 12px; background-position: -62px -138px !important; }
+.x-tab-active .yig-estimate-new-s-w { width: 11px; height: 16px; background-position: -37px -217px !important; }

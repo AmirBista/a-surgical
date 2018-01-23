@@ -1,0 +1,135 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "commentPanel",
+        "designer|userClassName": "CommentPanel",
+        "height": 500,
+        "itemId": "commentPanel",
+        "layout": "fit",
+        "title": null,
+        "width": null
+    },
+    "designerId": "c44625f8-6553-4675-b540-dffd220b2871",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "itemId": "mainCnt",
+                "layout": "vbox",
+                "margin": null
+            },
+            "name": "MyContainer6",
+            "designerId": "d443e0dd-9126-4b56-b0bc-67304d73d6e8",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "commentCnt",
+                        "layout": "fit",
+                        "layout|flex": 1,
+                        "margin": null
+                    },
+                    "name": "MyContainer",
+                    "designerId": "6cf47d6a-e43b-41c3-a3c8-a913e443e631"
+                },
+                {
+                    "type": "Ext.resizer.Splitter",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MySplitter",
+                    "designerId": "03b8edff-e1dd-4763-9597-60f30577b443"
+                },
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "componentCls": "text-area-comment",
+                        "height": 80,
+                        "itemId": "commentFormPanel",
+                        "layout": "fit",
+                        "layout|flex": null,
+                        "title": ""
+                    },
+                    "name": "MyForm",
+                    "designerId": "15848b18-9e25-45e7-9c53-4c03651ca0db",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Hidden",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "itemId": "ref_record_id",
+                                "name": "ref_record_id"
+                            },
+                            "name": "MyHiddenField",
+                            "designerId": "ddf83b8c-bc5e-4047-80e0-d08be44d3979"
+                        },
+                        {
+                            "type": "Ext.form.field.Hidden",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "itemId": "table_id",
+                                "name": "table_id"
+                            },
+                            "name": "MyHiddenField1",
+                            "designerId": "f4ee887d-c5da-401c-88db-e13ce4fc5ffc"
+                        },
+                        {
+                            "type": "Ext.form.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "allowBlank": false,
+                                "allowOnlyWhitespace": false,
+                                "enableKeyEvents": true,
+                                "enterIsSpecial": true,
+                                "fieldLabel": "",
+                                "itemId": "commentTextarea",
+                                "name": "comment"
+                            },
+                            "name": "MyTextArea",
+                            "designerId": "2cc57e8e-442e-4805-8b68-47c961aa7178"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

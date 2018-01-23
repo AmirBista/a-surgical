@@ -1,0 +1,25 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "ProductSetModel",
+            "ProductMappedModel"
+        ],
+        "name": "YBase",
+        "stores": [
+            "ProductSetStore",
+            "ProductMappedStore"
+        ],
+        "views": [
+            "ProductSet",
+            "CsvImportWin"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

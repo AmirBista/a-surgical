@@ -1,0 +1,153 @@
+.yig-help-m-b,
+.print-type-checked-radio,
+.print-type-checked,
+.print-type-not-checked-radio,
+.print-type-not-checked,
+.yig-repair-s-b,
+.btn_row_del,
+.btn_search_remove,
+.cbo-setting-btn-ico,
+.close_icon,
+.column-unlocked,
+.icons-add-supplierorder,
+.icon_edit,
+.icon_filemanage,
+.icon_status,
+.icon_transaction,
+.yig-acc-transaction-s-b,
+.yig-grid-reload-b-s,
+.yig-invoicelist-s-b,
+.yig-order-s-b,
+.yig-payable-bill-s-b,
+.yig-picking-entry-s-b,
+.yig-picking-order-master-s-b,
+.yig-product-delivery-entry-s-b,
+.yig-product-picking-entry-s-b,
+.yig-purchase-transaction-s-b,
+.yig-refresh-s-b,
+.yig-search-save-s-b,
+.yig-selected-s-b,
+.yig-set-product-list-s-b,
+.yig-supplier-invoice-s-b,
+.yig-supply-entry-s-b,
+.yig-transaction-s-b,
+.icon_reply,
+.nst-default,
+.yig-order-invoice-s-b,
+.yig-order-product-stock-entry-s-b,
+.yig-purchase-entry-s-b,
+.yig-revert-s-w,
+.yig-search-s-b,
+.yig-selectall-s-b,
+.yig-selected-print-s-b,
+.yig-supplier-entry-s-b,
+.yig-supplier-payment-s-b,
+.ismappedsquare,
+.mi-moveDown-icon,
+.mi-moveUp-icon,
+.yig-logout-s-b,
+.yig-order-transaction-s-b,
+.yig-product-detail-s-b,
+.yig-product-master-s-b,
+.yig-selectall-print-s-b,
+.yig-service-s-b,
+.column-locked,
+.icon_user_profile,
+.icon_delete,
+.yig-order-detail-s-b,
+.yig-order-new-s-b,
+.yig-order-status-s-b,
+.yig-picking-detail-list-s-b,
+.yig-product-list-s-b,
+.yig-supply-list-s-b,
+.icon_download,
+.yig-company-wise-product-list-s-b,
+.yig-customner-acc-statement-s-b,
+.yig-order-products-s-b,
+.yig-order-s-b1,
+.yig-picking-list-s-b,
+.yig-purchase-payment-s-b,
+.yig-order-payment-s-b,
+.icon_view,
+.yig-estimate-new-s-b,
+.mi-action-move-btn,
+.yig-product-set-s-b
+{ 
+	background-image: url('../images/icons_b.png') !important; 
+	background-color: transparent; 
+	background-repeat: no-repeat; 
+}
+.yig-help-m-b { width: 28px; height: 28px; background-position: -10px -325px !important; }
+.print-type-checked-radio { width: 17px; height: 17px; background-position: -10px -142px !important; }
+.print-type-checked { width: 17px; height: 17px; background-position: -36px -62px !important; }
+.print-type-not-checked-radio { width: 17px; height: 17px; background-position: -36px -245px !important; }
+.print-type-not-checked { width: 17px; height: 17px; background-position: -10px -115px !important; }
+.yig-repair-s-b { width: 17px; height: 17px; background-position: -10px -363px !important; }
+.btn_row_del { width: 16px; height: 16px; background-position: -63px -137px !important; }
+.btn_search_remove { width: 16px; height: 16px; background-position: -63px -111px !important; }
+.cbo-setting-btn-ico { width: 16px; height: 16px; background-position: -10px -221px !important; }
+.close_icon { width: 16px; height: 16px; background-position: -48px -349px !important; }
+.column-unlocked { width: 16px; height: 16px; background-position: -36px -272px !important; }
+.icons-add-supplierorder { width: 16px; height: 16px; background-position: -10px -86px !important; }
+.icon_edit { width: 16px; height: 16px; background-position: -37px -375px !important; }
+.icon_filemanage { width: 16px; height: 16px; background-position: -10px -169px !important; }
+.icon_status { width: 16px; height: 16px; background-position: -10px -60px !important; }
+.icon_transaction { width: 16px; height: 16px; background-position: -10px -195px !important; }
+.yig-acc-transaction-s-b { width: 16px; height: 16px; background-position: -36px -219px !important; }
+.yig-grid-reload-b-s { width: 16px; height: 16px; background-position: -10px -247px !important; }
+.yig-invoicelist-s-b { width: 16px; height: 16px; background-position: -63px -163px !important; }
+.yig-order-s-b { width: 16px; height: 16px; background-position: -36px -193px !important; }
+.yig-payable-bill-s-b { width: 16px; height: 16px; background-position: -10px -273px !important; }
+.yig-picking-entry-s-b { width: 16px; height: 16px; background-position: -62px -193px !important; }
+.yig-picking-order-master-s-b { width: 16px; height: 16px; background-position: -37px -167px !important; }
+.yig-product-delivery-entry-s-b { width: 16px; height: 16px; background-position: -10px -299px !important; }
+.yig-product-picking-entry-s-b { width: 16px; height: 16px; background-position: -63px -85px !important; }
+.yig-product-set-s-b { width: 16px; height: 16px; background-position: -37px -141px !important; }
+.yig-purchase-transaction-s-b { width: 16px; height: 16px; background-position: -36px -298px !important; }
+.yig-refresh-s-b { width: 16px; height: 16px; background-position: -63px -59px !important; }
+.yig-search-save-s-b { width: 16px; height: 16px; background-position: -37px -115px !important; }
+.yig-selected-s-b { width: 16px; height: 16px; background-position: -36px -401px !important; }
+.yig-set-product-list-s-b { width: 16px; height: 16px; background-position: -36px -36px !important; }
+.yig-supplier-invoice-s-b { width: 16px; height: 16px; background-position: -36px -89px !important; }
+.yig-supply-entry-s-b { width: 16px; height: 16px; background-position: -10px -390px !important; }
+.yig-transaction-s-b { width: 16px; height: 16px; background-position: -86px -271px !important; }
+.icon_reply { width: 16px; height: 15px; background-position: -63px -375px !important; }
+.nst-default { width: 16px; height: 15px; background-position: -74px -349px !important; }
+.yig-order-invoice-s-b { width: 15px; height: 16px; background-position: -87px -245px !important; }
+.yig-order-product-stock-entry-s-b { width: 15px; height: 16px; background-position: -87px -219px !important; }
+.yig-purchase-entry-s-b { width: 15px; height: 16px; background-position: -88px -189px !important; }
+.yig-revert-s-w { width: 16px; height: 15px; background-position: -89px -162px !important; }
+.yig-search-s-b { width: 15px; height: 16px; background-position: -89px -136px !important; }
+.yig-selectall-s-b { width: 16px; height: 15px; background-position: -89px -111px !important; }
+.yig-selected-print-s-b { width: 16px; height: 15px; background-position: -74px -324px !important; }
+.yig-supplier-entry-s-b { width: 16px; height: 15px; background-position: -86px -297px !important; }
+.yig-supplier-payment-s-b { width: 16px; height: 15px; background-position: -48px -324px !important; }
+.ismappedsquare { width: 15px; height: 15px; background-position: -62px -401px !important; }
+.mi-moveDown-icon { width: 16px; height: 14px; background-position: -89px -87px !important; }
+.mi-moveUp-icon { width: 16px; height: 14px; background-position: -87px -400px !important; }
+.yig-logout-s-b { width: 14px; height: 16px; background-position: -62px -298px !important; }
+.yig-order-transaction-s-b { width: 16px; height: 14px; background-position: -89px -63px !important; }
+.yig-product-detail-s-b { width: 14px; height: 16px; background-position: -62px -272px !important; }
+.yig-product-master-s-b { width: 14px; height: 16px; background-position: -89px -374px !important; }
+.yig-selectall-print-s-b { width: 14px; height: 16px; background-position: -63px -244px !important; }
+.yig-service-s-b { width: 16px; height: 14px; background-position: -10px -36px !important; }
+.column-locked { width: 13px; height: 17px; background-position: -89px -36px !important; }
+.icon_user_profile { width: 14px; height: 15px; background-position: -62px -219px !important; }
+.icon_delete { width: 13px; height: 16px; background-position: -33px -10px !important; }
+.yig-order-detail-s-b { width: 13px; height: 16px; background-position: -100px -348px !important; }
+.yig-order-new-s-b { width: 13px; height: 16px; background-position: -100px -322px !important; }
+.yig-order-status-s-b { width: 13px; height: 16px; background-position: -10px -10px !important; }
+.yig-picking-detail-list-s-b { width: 13px; height: 16px; background-position: -78px -10px !important; }
+.yig-product-list-s-b { width: 13px; height: 16px; background-position: -101px -10px !important; }
+.yig-supply-list-s-b { width: 16px; height: 13px; background-position: -62px -36px !important; }
+.icon_download { width: 12px; height: 16px; background-position: -56px -10px !important; }
+.yig-company-wise-product-list-s-b { width: 12px; height: 16px; background-position: -112px -36px !important; }
+.yig-customner-acc-statement-s-b { width: 12px; height: 16px; background-position: -112px -293px !important; }
+.yig-order-products-s-b { width: 12px; height: 16px; background-position: -112px -267px !important; }
+.yig-order-s-b1 { width: 12px; height: 16px; background-position: -112px -241px !important; }
+.yig-picking-list-s-b { width: 12px; height: 16px; background-position: -112px -215px !important; }
+.yig-purchase-payment-s-b { width: 16px; height: 12px; background-position: -113px -187px !important; }
+.yig-order-payment-s-b { width: 15px; height: 12px; background-position: -114px -136px !important; }
+.icon_view { width: 16px; height: 11px; background-position: -113px -374px !important; }
+.yig-estimate-new-s-b { width: 11px; height: 16px; background-position: -115px -62px !important; }
+.mi-action-move-btn { width: 5px; height: 16px; background-position: -124px -10px !important; }

@@ -1,0 +1,359 @@
+@mixin extjs-button-ui-custom(
+    $ui,
+    $border-radius: $button-small-border-radius,
+    $border-width: $button-small-border-width,
+
+    $border-color: $button-default-border-color,
+    $border-color-over: $button-default-border-color-over,
+    $border-color-focus: $button-default-border-color-focus,
+    $border-color-pressed: $button-default-border-color-pressed,
+    $border-color-disabled: $button-default-border-color-disabled,
+
+    $padding: $button-small-padding,
+    $text-padding: $button-small-text-padding,
+
+    $background-color: $button-default-background-color,
+    $background-color-over: $button-default-background-color-over,
+    $background-color-focus: $button-default-background-color-focus,
+    $background-color-pressed: $button-default-background-color-pressed,
+    $background-color-disabled: $button-default-background-color-disabled,
+
+    $background-gradient: $button-default-background-gradient,
+    $background-gradient-over: $button-default-background-gradient-over,
+    $background-gradient-focus: $button-default-background-gradient-focus,
+    $background-gradient-pressed: $button-default-background-gradient-pressed,
+    $background-gradient-disabled: $button-default-background-gradient-disabled,
+
+    $color: $button-default-color,
+    $color-over: $button-default-color-over,
+    $color-focus: $button-default-color-focus,
+    $color-pressed: $button-default-color-pressed,
+    $color-disabled: $button-default-color-disabled,
+
+    $font-size: $button-small-font-size,
+    $font-size-over: $button-small-font-size-over,
+    $font-size-focus: $button-small-font-size-focus,
+    $font-size-pressed: $button-small-font-size-pressed,
+    $font-size-disabled: $button-small-font-size-disabled,
+
+    $font-weight: $button-small-font-weight,
+    $font-weight-over: $button-small-font-weight-over,
+    $font-weight-focus: $button-small-font-weight-focus,
+    $font-weight-pressed: $button-small-font-weight-pressed,
+    $font-weight-disabled: $button-small-font-weight-disabled,
+
+    $font-family: $button-small-font-family,
+    $font-family-over: $button-small-font-family-over,
+    $font-family-focus: $button-small-font-family-focus,
+    $font-family-pressed: $button-small-font-family-pressed,
+    $font-family-disabled: $button-small-font-family-disabled,
+
+    $icon-size: $button-small-icon-size,
+    $glyph-color: $button-default-glyph-color,
+    $glyph-opacity: $button-default-glyph-opacity,
+    $arrow-width: $button-small-arrow-width,
+    $arrow-height: $button-small-arrow-height,
+    $split-width: $button-small-split-width,
+    $split-height: $button-small-split-height,
+    $opacity-disabled: $button-toolbar-inner-opacity-disabled,
+    $inner-opacity-disabled: $button-inner-opacity-disabled,
+    $include-ui-menu-arrows: false,
+    $include-ui-split-arrows: false
+){
+    @include extjs-button-ui(
+        $ui,
+        $border-radius: $border-radius,
+        $border-width: $border-width,
+
+        $border-color: $border-color,
+        $border-color-over: $border-color-over,
+        $border-color-focus: $border-color-focus,
+        $border-color-pressed: $border-color-pressed,
+        $border-color-disabled: $border-color-disabled,
+
+        $padding: $padding,
+        $text-padding: $text-padding,
+
+        $background-color: $background-color,
+        $background-color-over:$background-color-over,
+        $background-color-pressed: $background-color-pressed,
+        $background-color-disabled: $background-color-disabled,
+
+        $background-gradient: $background-gradient,
+        $background-gradient-over: $background-gradient-over,
+        $background-gradient-focus: $background-gradient-focus,
+        $background-gradient-pressed: $background-gradient-pressed,
+        $background-gradient-disabled: $background-gradient-disabled,
+
+        $color: $color,
+        $color-over: $color-over,
+        $color-focus: $color-focus,
+        $color-pressed: $color-pressed,
+        $color-disabled: $color-disabled,
+
+        $font-size: $button-small-font-size,
+        $font-size-over: $font-size-over,
+        $font-size-focus: $font-size-focus,
+        $font-size-pressed: $font-size-pressed,
+        $font-size-disabled: $font-size-disabled,
+
+        $font-weight: $font-weight,
+        $font-weight-over: $font-weight-over,
+        $font-weight-focus: $font-weight-focus,
+        $font-weight-pressed: $font-weight-pressed,
+        $font-weight-disabled: $font-weight-disabled,
+
+        $font-family: $font-family,
+        $font-family-over: $font-family-over,
+        $font-family-focus: $font-family-focus,
+        $font-family-pressed: $font-family-pressed,
+        $font-family-disabled: $font-family-disabled,
+
+        $icon-size: $icon-size,
+        $glyph-color: $glyph-color,
+        $glyph-opacity: $glyph-opacity,
+        $arrow-width: $arrow-width,
+        $arrow-height: $arrow-height,
+        $split-width: $split-width,
+        $split-height: $split-height,
+        $opacity-disabled: $opacity-disabled,
+        $inner-opacity-disabled: $inner-opacity-disabled,
+        $include-ui-menu-arrows: $include-ui-menu-arrows,
+        $include-ui-split-arrows: $include-ui-split-arrows
+    );
+
+}
+@include extjs-button-ui-custom(
+    $ui: 'actionbtn-ui-small',
+    $background-color: #E9E9E9,
+    $border-color : silver,
+    $color : #333,
+    $background-color-over : #d9d9d9,
+    $color-over :#333,
+    $border-color-over : rgb(145, 145, 145),
+    $border-color-focus: rgb(145, 145, 145),
+    $border-color-pressed: rgb(145, 145, 145),
+    $background-color-pressed: #d9d9d9,
+    $color-focus: #000,
+    $color-pressed: #000
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'semi-action-small',
+    $background-color: #DDB753,
+    $background-color-over: #efc67d,
+    $border-color : #DDB753,
+    $border-color-over : #efc67d,
+    $border-color-focus: #efc67d,
+    $border-color-pressed: #DDB753,
+    $background-color-pressed: #DDB753,
+    $opacity-disabled: .5,
+    $border-color-disabled: #476CAF
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'menu-button-small',
+    $background-color: transparent,
+    $background-color-over: #F6E8E1,
+    $border-color: transparent,
+    $border-color-over: transparent,
+    $color : #000,
+    $color-over : #000,
+    $color-focus : #000
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'newbtn-ui-small',
+    $background-color: #29879D,
+    $border-color : #29879D,
+    $color : #fff,
+    $background-color-over : lighten(#29879D, 10%),
+    $color-over :#fff,
+    $border-color-over : lighten(#29879D, 10%),
+    $border-color-focus: lighten(#29879D, 10%),
+    $border-color-pressed: #29879D,
+    $background-color-pressed: #29879D,
+    $color-focus: #fff,
+    $color-pressed: #fff
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'savebtn-ui-small',
+    $background-color: #06914B,
+    $border-color : #06914B,
+    $color : #fff,
+    $background-color-over : lighten(#06914B, 10%),
+    $color-over :#fff,
+    $border-color-over : lighten(#06914B, 10%),
+    $border-color-focus: lighten(#06914B, 10%),
+    $border-color-pressed: #06914B,
+    $background-color-pressed: #06914B,
+    $color-focus: #fff,
+    $color-pressed: #fff
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'delbtn-ui-small',
+    $background-color: #E3111A,
+    $border-color : #E3111A,
+    $color : #fff,
+    $background-color-over : lighten(#E3111A, 10%),
+    $color-over :#fff,
+    $border-color-over : lighten(#E3111A, 10%),
+    $border-color-focus: lighten(#E3111A, 10%),
+    $border-color-pressed: #E3111A,
+    $background-color-pressed: #E3111A,
+    $color-focus: #fff,
+    $color-pressed: #fff
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'custom-ui-small',
+    $background-color: #CC8F0D,
+    $border-color : #CC8F0D,
+    $color : #fff,
+    $background-color-over : lighten(#CC8F0D, 10%),
+    $color-over :#fff,
+    $border-color-over : lighten(#CC8F0D, 10%),
+    $border-color-focus: lighten(#CC8F0D, 10%),
+    $border-color-pressed: #CC8F0D,
+    $background-color-pressed: #CC8F0D,
+    $color-focus: #fff,
+    $color-pressed: #fff
+);
+@include extjs-button-ui-custom(
+    $ui: 'gray-btn-ui-small',
+    $background-color: #767676,
+    $border-color : #767676,
+    $color : #fff,
+    $background-color-over : #a1a1a1,
+    $color-over :#fff,
+    $border-color-over : #a1a1a1,
+    $border-color-focus: #a1a1a1,
+    $border-color-pressed: #767676,
+    $background-color-pressed: #767676,
+    $color-focus: #fff,
+    $color-pressed: #fff
+);
+/* @include extjs-button-ui-custom(
+    $ui: 'menutopui-small',
+    $background-color: #979998
+);
+@include extjs-button-ui-custom(
+    $ui: 'searchbtnui-small',
+    $background-color: #979998
+);
+@include extjs-button-ui-custom(
+    $ui: 'gridbuttonui-small',
+    $background-color: #79777A
+);
+@include extjs-button-ui-custom(
+    $ui: 'loginbtnui-small',
+    $background-color: #669933
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'editbtnui-small',
+    $background-color: #00C0EF
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'savebtnui-small',
+    $background-color: #00A65A
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'deletebtnui-small',
+    $background-color: #f56954
+);
+@include extjs-button-ui-custom(
+    $ui: 'addredui-small',
+    $background-color: #B42842
+);
+@include extjs-button-ui-custom(
+    $ui: 'smallbuttonui',
+    $background-color: #79777A,
+    $padding: 2px 5px
+
+);
+@include extjs-button-ui-custom(
+    $ui: 'abc-small',
+    $background-color: #79777A,
+    $padding: 2px 5px
+
+);
+
+@include extjs-button-ui-custom(
+    $ui: 'closeui-small',
+    $background-color: transparent,
+    $background-color-over: transparent,
+    $border-width: 0,
+    $border-color: transparent,
+    $background-color-pressed: transparent,
+    $background-color-focus: transparent
+); */
+// css for active button
+
+
+.#{$prefix}btn-gridbuttonui-small .#{$prefix}btn-arrow{
+    background: url(../../../../images/icons/arrow.gif?_dc154) no-repeat right!important;
+}
+
+.#{$prefix}btn-actionbtn-ui-small .#{$prefix}btn-arrow{
+    background: url(../../../../images/icons/arrow-black.png?_dc154) no-repeat right!important;
+}
+.#{$prefix}btn-actionbtn-ui-small .#{$prefix}btn-split-right{
+    background: url(../../../../images/icons/arrow-black.png?_dc154) no-repeat right!important;
+}
+.#{$prefix}btn-semi-action-small .#{$prefix}btn-arrow{
+    background: url(../../../../images/icons/arrow.gif?_dc154) no-repeat right!important;
+}
+
+.active-btn{
+    background-color : #8B9096 ;
+    border : 1px solid #8B9096 ;
+     td{
+        background-color: #fff;
+    }
+}
+// .active-btn .x-btn-arrow-right{
+//         background: url(../../../../images/default-medium-arrow-or.png) no-repeat right;
+// }
+
+
+.active-btn .x-btn-inner{
+     color : #fff !important;
+}
+
+.yig-print-ico{
+    width:16px;
+    height:16px;
+    background: url(../../../../images/yig-print-ico.png) no-repeat;
+}
+//.active-btn .yig-report-m-w,.active-btn .yig-csv-m-w,.active-btn .yig-dashboard-m-w,.active-btn .yig-sync-m-w,.active-btn .yig-order-m-w,.active-btn .yig-list-m-w{
+  //  background: url(../../../../images/yig-o-m.png);
+//}
+
+.selected-template-menu{
+    background-color:#fdf5e3;
+}
+
+.template-menu a{
+    background-image:url(../../../../images/dots.png);
+    background-position: 5px center ;
+    background-repeat: no-repeat;
+}
+
+.private-template a{
+   background-image:url(../../../../images/lock.png) !important;
+    background-position: 5px center ;
+    background-repeat: no-repeat;
+}
+
+.public-template a{
+   background-image:url(../../../../images/unlock.png) !important;
+    background-position: 5px center ;
+    background-repeat: no-repeat;
+
+}
+

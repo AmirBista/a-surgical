@@ -1,0 +1,45 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "FieldListJson",
+        "model": "FieldList",
+        "storeId": "FieldListJson"
+    },
+    "name": "MyJsonStore",
+    "designerId": "62fc466d-fcc1-46bf-9f6a-378ff287c1db",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "bizlayer/search/getFieldForCombo"
+            },
+            "name": "MyAjaxProxy1",
+            "designerId": "1dbe1d48-3412-4202-8651-c10f7c660e3c",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader1",
+                    "designerId": "101e73d0-2e02-413a-9481-7db17f5c9ab2"
+                }
+            ]
+        }
+    ]
+}

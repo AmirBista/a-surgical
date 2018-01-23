@@ -1,0 +1,52 @@
+{
+    "name": "SettingsPanel",
+    "settings": {
+        "cmd": {
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
+        },
+        "urlPrefix": "http://localhost/wBase/setting-master",
+        "spacesToIndent": 4,
+        "exportPath": "./../../",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "displayfield-ExtBox1-1338-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1538-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1638-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1688-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1738-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1287-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1851,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "ext41",
+    "viewOrderMap": {
+        "view": [
+            "a829ae28-5e1b-4ec2-ac50-32183fd75df4"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "ac1c6b05-2ce3-4219-8ccd-99942db3750a"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

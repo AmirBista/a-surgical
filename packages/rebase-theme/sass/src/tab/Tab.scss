@@ -1,0 +1,79 @@
+.#{$prefix}tab-active .yig-dashboard-s-w, .#{$prefix}tab-active .yig-order-s-w, .#{$prefix}tab-active .yig-report-s-w, .#{$prefix}tab-active .yig-sync-s-w, .#{$prefix}tab-active .yig-list-s-w, .#{$prefix}tab-active .yig-csv-s-w,.#{$prefix}tab-active .yig-search-list-s-w,.#{$prefix}tab-active .yig-setting-s-w, .#{$prefix}tab-active .yig-ordernew-s-w{
+        background: url('../../../../images/yig-o-s.png') no-repeat;
+    }
+
+@include extjs-tab-panel-ui(
+  $ui: $ui-tab2,
+  $ui-bar-background-color: #586374
+
+);
+
+@include extjs-tab-panel-ui(
+  $ui: $ui-tab3,
+  $ui-bar-background-color: #DDEAD2
+);
+
+@include extjs-tab-ui(
+$ui: $ui-tab2,
+$ui-background-color: #bababa,
+$ui-background-color-over: #bababa,
+$ui-color-active : #83511a,
+$ui-border-color-active: #f5f8f8,
+$ui-closable-icon-top: 9px,
+$ui-closable-icon-right: 5px
+);
+
+@include extjs-tab-ui(
+$ui: $ui-tab3,
+$ui-background-color: #C7E6AF,
+$ui-background-color-over: #DDEAD2,
+$ui-color: #000,
+$ui-color-active : #83511a,
+$ui-color-over : #83511a,
+$ui-border-color-active: #72A44B,
+$ui-background-color-active: #FFF
+);
+
+
+.#{$prefix}tab-active .#{$prefix}tab-close-btn{
+    background-image: url('../../../../images/tab-default-close.png') !important;
+}
+
+.#{$prefix}tab-active .#{$prefix}tab-close-btn-over{
+	//background-color: #F3B8B8 !important;
+    background-position: -12px 0 !important;
+}
+//.#{$prefix}tab .#{$prefix}tab-close-btn-over{
+	//background-color: #F3B8B8 !important;
+//}
+.#{$prefix}tab-default-pressed .#{$prefix}tab-close-btn{
+    background-position: -24px 0 !important;
+}
+.x-tab-bar-orange .x-tabbar-scroll-right{
+	background-image: url(images/tab-bar/default-scroll-right.png);
+}
+
+.x-tab-bar-orange .x-tabbar-scroll-left {
+	background-image: url(images/tab-bar/default-scroll-left.png);
+}
+
+.x-tab-orange .x-tab-close-btn{
+	background-image: url("../../../../images/tab-default-close.png") !important;
+}
+
+.x-tab-bar-blue .x-tabbar-scroll-right{
+	background-image: url(images/tab-bar/default-scroll-right.png);
+}
+
+.x-tab-bar-blue .x-tabbar-scroll-left {
+	background-image: url(images/tab-bar/default-scroll-left.png);
+}
+
+.x-tab-blue .x-tab-close-btn{
+	background-image: url("../../../../images/tab-default-close.png") !important;
+}
+
+
+
+
+
